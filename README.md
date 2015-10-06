@@ -19,6 +19,6 @@ TODO
 
 ## License
 
-TODO
+![Attribution-NonCommercial 3.0 Unported](./figures/creative-commons.png)
 
 **[⬆ back to top](#table-of-contents)**
