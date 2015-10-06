@@ -12,7 +12,15 @@ TODO
 
 ### Code Quality
 
-TODO
+TODO: Add Description
+
+**Focus**: Software quality, principles, simplicity, consistency, elegance, 
+legibility and scalability.
+
+**Examples**: Code reviews, linters, etc.
+
+[Repository](https://git.sophilabs.io/sophilabs/guidelines) -
+[Site](https://guidelines.sophilabs.io)
 
 
 **[⬆ back to top](#table-of-contents)**
