@@ -19,6 +19,6 @@ TODO
 
 ## License
 
-![Attribution-NonCommercial 3.0 Unported](./figures/creative-commons.png)
+![Attribution-NonCommercial 3.0 Unported](https://licensebuttons.net/l/by-nc/3.0/88x31.png)
 
 **[⬆ back to top](#table-of-contents)**
