@@ -38,12 +38,13 @@ Ensure that the development process encourages:
 * Satisfaction: Everyone happy
 * Integration: Involving everybody (specially clients) in every part of the project
 
-[Index](https://git.sophilabs.io/sophilabs/guidelines/master/methodologies.md)
+[Go to Index](https://git.sophilabs.io/sophilabs/playbook/blob/draft/methodologies/index.md)
 
 
 ## Repositories
 
-[Repository](https://git.sophilabs.io/sophilabs/guidelines) -
+[Repository](https://git.sophilabs.io/sophilabs/guidelines)
+
 [Site](https://guidelines.sophilabs.io)
 
 **[⬆ back to top](#table-of-contents)**
