@@ -4,24 +4,47 @@
 
 1. [Investment Day](#investment-day)
 
-# Investment Day
+# Playbook
 
-## Teams
+## Squads
 
 TODO
 
 ### Code Quality
 
-TODO: Add Description
+TODO: Add Description and examples
 
-**Focus**: Software quality, principles, simplicity, consistency, elegance, 
-legibility and scalability.
+**Objectives**
 
-**Examples**: Code reviews, linters, etc.
+* Software quality
+* principles
+* simplicity
+* consistency
+* elegance
+* legibility
+* scalability
+
+### Methodologies
+
+TODO: Add Description and examples
+
+**Objectives**
+
+Ensure that the development process encourages:
+
+* Adaptability: The ability of the team to quickly adapt to changes
+* Productivity: The rate of output per sophilaber is above the average
+* Transparency: True accessibility to all resources
+* Satisfaction: Everyone happy
+* Integration: Involving everybody (specially clients) in every part of the project
+
+[Index](https://git.sophilabs.io/sophilabs/guidelines/master/methodologies.md)
+
+
+## Repositories
 
 [Repository](https://git.sophilabs.io/sophilabs/guidelines) -
 [Site](https://guidelines.sophilabs.io)
-
 
 **[⬆ back to top](#table-of-contents)**
 
