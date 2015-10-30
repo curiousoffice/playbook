@@ -40,6 +40,17 @@ Ensure that the development process encourages:
 
 [Go to Index](https://git.sophilabs.io/sophilabs/playbook/blob/draft/methodologies/index.md)
 
+## Recruitment
+
+TODO: Add description
+
+**Objectives**
+
+* Hire great talents with experience or potential.
+* Offer talents to Sophilabs as soon as they are required.
+* Genrate an excellent reputation and culture so people will aspire to work at Sophilabs.
+
+[Go to Index](https://git.sophilabs.io/sophilabs/playbook/blob/draft/recruitment/index.md)
 
 ## Repositories
 
