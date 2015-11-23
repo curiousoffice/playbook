@@ -31,8 +31,8 @@ Every squad follows the same workflow (M.A.P.E.D.):
 
 1. **Measure** teams and projects on different areas
 2. **Analyze** measurements in order to detect the underlying issues and areas of improvements
-3. **Propose** changes and design an acton plan considering every project
-4. **Ensure** the action plan is executed and help solving stoppers if found
+3. **Propose** changes and design an acton plan considering different scenarios
+4. **Ensure** the action plan is executed and help solving stoppers
 5. **Document** lessons learned and how the plan affected the measurements
 5. Go to 1.
 
