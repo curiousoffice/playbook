@@ -8,7 +8,7 @@
 
 # Objectives
 
-The goal of the Methodologies squad is to ensure that the development processes used on different projects meet the following principles.
+The goal of the Methodologies squad is to ensure that the software development processes used on different projects meet the following principles.
 
 ### Adaptability
 The team is able to quickly adapt to unexpected changes.
@@ -23,7 +23,7 @@ The team is traceable and all documents and resources are accessible.
 Team, client and stake holders are happy.
 
 ### Integration
-Everybody is involved in the project.
+Team and client are involved in the project.
 
 # Workflow
 
@@ -38,29 +38,28 @@ Every squad follows the same workflow (M.A.P.E.D.):
 
 # Metrics
 
-Metrics are going to be measured taking one month of work
-These are the metrics designed by the squad, classified by principle
+Metrics are going to be measured taking one month of work. These are the metrics designed by the squad, classified by principle.
 
 ## Adaptability
-* \# different technologies the team knows
+* \# different web and mobile technologies the team used
 * \# requirement specification meetings with Product Owner/Customer
-* \# releases to production
+* \# releases to production / total hours invested by the team
 
 ## Productivity
 * estimated time / invested time
-* \# change requests on features released less than a week ago
+* 1 / \# change requests on features released less than a week ago
 
 ## Transparency
-
-* \# tickets with estimated time > X
-* \# status meetings
-* \# tickets ‘paused’ because of a priority change
+* \# tickets with size > 8 (enormous)
 * \# tickets not tracked in the tool
+* total invested hours / invested hours on project without a ticket
 
 ## Integration
-* Are roles documented?
-* Are communication channels correctly defined?
+* \# status meetings
 * \# retrospective meetings
+* 1 / \# communication issues TBD
+* Are roles documented? TBD
+* Are communication channels correctly defined? TBD
 
 ## Satisfaction
 * Survey with the following questions:
