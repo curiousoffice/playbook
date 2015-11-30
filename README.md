@@ -6,13 +6,51 @@
 
 # Playbook
 
+We realized that we needed to divide our forces in order to build a great company.
+
+One of our core principles is *always aim high*, and to be consequent we need to have demanding objectives:
+* Hire the best people
+* Work for the best companies
+* Craft the best software
+* Build products people love
+
+We created specialized workgroups that strive to achieve those goals by defining universal guidelines and ensuring they are always applied.
+
 ## Squads
 
-TODO
+The current squads *-classified by objective-* are:
 
-### Code Quality
+* Hire the best people
+ * Recruitment squad
+* Work for the best companies
+ * Sales squad
+* Craft the best software
+ * Architecture squad
+ * Code Analysis squad
+ * Methodologies squad
+ * Product Design / UX squad
+ * Testing squad
+ * Security squad
+* Build products people love
+ * Research & Innovation squad
+ * Product squads
 
-TODO: Add Description and examples
+In addition, we need to support sophilabs infrastructure and operations:
+* Infrastructure squad
+* Sophia squad
+
+### Architecture squad
+
+TODO: Add Description
+
+**Objectives**
+* Objective 1
+
+[Read more about Architecture & Scalability](https://git.sophilabs.io/sophilabs/playbook/blob/draft/architecture/index.md)
+
+### Code Analysis squad
+
+TODO: Add Description
 
 **Objectives**
 
@@ -24,9 +62,11 @@ TODO: Add Description and examples
 * legibility
 * scalability
 
-### Methodologies
+[Read more about Code Analysis](https://git.sophilabs.io/sophilabs/playbook/blob/draft/code-analysis/index.md)
 
-TODO: Add Description and examples
+### Methodologies squad
+
+TODO: Add Description
 
 **Objectives**
 
@@ -38,9 +78,9 @@ Ensure that the development process encourages:
 * Satisfaction: Everyone happy
 * Integration: Involving everybody (specially clients) in every part of the project
 
-[Go to Index](https://git.sophilabs.io/sophilabs/playbook/blob/draft/methodologies/index.md)
+[Read more about Methodologies](https://git.sophilabs.io/sophilabs/playbook/blob/draft/methodologies/index.md)
 
-## Recruitment
+## Recruitment squad
 
 TODO: Add description
 
@@ -48,9 +88,9 @@ TODO: Add description
 
 * Hire great talents with experience or potential.
 * Offer talents to Sophilabs as soon as they are required.
-* Genrate an excellent reputation and culture so people will aspire to work at Sophilabs.
+* Generate an excellent reputation and culture so people will aspire to work at Sophilabs.
 
-[Go to Index](https://git.sophilabs.io/sophilabs/playbook/blob/draft/recruitment/index.md)
+[Read more about Recruitment](https://git.sophilabs.io/sophilabs/playbook/blob/draft/recruitment/index.md)
 
 ## Repositories
 
