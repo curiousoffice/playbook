@@ -33,7 +33,6 @@ The current squads -classified by objective- are:
  * Security squad
 * Build something that people love
  * Research & Innovation squad
- * Product squads
 
 In addition, we need to support sophilabs infrastructure and operations:
 * Infrastructure squad
