@@ -12,13 +12,13 @@ One of our core principles is *always aim high*, and to be consequent we need to
 * Hire the best people
 * Work for the best companies
 * Craft the best software
-* Build products people love
+* Build something that people love
 
 We created specialized workgroups that strive to achieve those goals by defining universal guidelines and ensuring they are always applied.
 
 ## Squads
 
-The current squads *-classified by objective-* are:
+The current squads -classified by objective- are:
 
 * Hire the best people
  * Recruitment squad
@@ -31,13 +31,12 @@ The current squads *-classified by objective-* are:
  * Product Design / UX squad
  * Testing squad
  * Security squad
-* Build products people love
+* Build something that people love
  * Research & Innovation squad
  * Product squads
 
 In addition, we need to support sophilabs infrastructure and operations:
 * Infrastructure squad
-* Sophia squad
 
 ### Architecture squad
 
