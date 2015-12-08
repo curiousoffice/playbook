@@ -41,28 +41,28 @@ Every squad follows the same workflow (M.A.P.E.D.):
 Metrics are going to be measured taking one month of work. These are the metrics designed by the squad, classified by principle.
 
 ## Adaptability
-* \# different web and mobile technologies the team used
+* \# web and mobile technologies the team used other than the ones required in the project they’re working on
 * \# requirement specification meetings with Product Owner/Customer
-* \# releases to production / total hours invested by the team
+* \# releases to staging / total hours invested by the team
 
 ## Productivity
 * estimated time / invested time
-* 1 / \# change requests on features released less than a week ago
+* 1 / \# change requests on features released to staging less than a week ago
 
 ## Transparency
-* \# tickets with size > 8 (enormous)
-* \# tickets not tracked in the tool
+* \# tickets with size > 8 (enormous) / # total tickets
+* \# tickets not tracked in the tool / # total tickets
 * total invested hours / invested hours on project without a ticket
+* Documentation repositories correctly defined for: What, Organization, Meetings?
 
 ## Integration
 * \# status meetings
 * \# retrospective meetings
-* 1 / \# communication issues TBD
-* Are roles documented? TBD
-* Are communication channels correctly defined? TBD
+* # roles and responsibilities documented / # team size
+* Communication channels correctly defined for: What, Organization, Status, Urgent?
 
 ## Satisfaction
-* Survey with the following questions:
+* Survey with the following questions (TBD):
  * Adaptability
  * Productivity
  * Transparency
