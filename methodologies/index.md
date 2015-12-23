@@ -3,41 +3,29 @@
 # Table of Contents
 
 1. [Objectives](#objectives)
-2. [Workflow](#workflow)
-3. [Metrics](#metrics)
+2. [Metrics](#metrics)
 
 # Objectives
 
-The goal of the Methodologies squad is to ensure that the software development processes used on different projects meet the following principles.
+Ensure that the software development processes used on different projects meet the following principles.
 
-### Adaptability
+## Adaptability
 The team is able to quickly adapt to unexpected changes.
 
-### Productivity
+## Productivity
 The rate of output of the team is above the average.
 
-### Visibility
+## Visibility
 The team is traceable and all documents and resources are accessible. The team proactively documents and informs to put everyone in the same page.
 
-### Satisfaction
+## Satisfaction
 Team, client and stake holders are happy.
 
-### Integration
+## Integration
 Team and client are involved in the project.
 
-### Automation
+## Automation
 All the repetitive processes and tasks that add overhead are automated.
-
-# Workflow
-
-Every squad follows the same workflow (M.A.P.E.D.):
-
-1. **Measure** teams and projects on different areas
-2. **Analyze** measurements in order to detect the underlying issues and areas of improvements
-3. **Propose** changes and design an acton plan considering different scenarios
-4. **Ensure** the action plan is executed and help solving stoppers
-5. **Document** lessons learned and how the plan affected the measurements
-5. Go to 1.
 
 # Metrics
 
