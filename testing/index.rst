@@ -39,12 +39,10 @@ Metrics
 =======
 
 These are the metrics designed by the squad, classified by principle.
+
 Metrics marked with ▲ increase, the ones marked with ▼ decrease.
 
-Main metric
------------
-
-Each principle needs to be represented by a summarized value, to do so a primary
+Each principle needs to be represented by a single value, to do so a primary
 metric is defined and identified by a ℗
 
 Reliability
