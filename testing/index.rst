@@ -57,7 +57,7 @@ Reliability
 Robustness
 ----------
 
--  **▼ # server side uncatched exceptions ℗**
+-  **▼ # server side uncaught exceptions ℗**
 -  ▼ # tickets tagged with “testing robustness” created on code
    review sessions
 -  ▼ # tickets tagged with “robustness issue” on a testing session
