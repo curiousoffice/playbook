@@ -1,13 +1,23 @@
-Sophilabs' Playbook
--------------------
+Hello Sophilaber
+----------------
 
-Table of Contents
-=================
+This is the team’s playbook, your playbook.
 
-1. `Investment Day <#investment-day>`__
+You will find here how you and your teammates should run our software consulting
+company, and the tools and practices that should guide us to create quality
+software products.
 
-Playbook
-========
+This document is in a continuous development process and you are a key player
+to make it evolve. Please contribute to it using `this private repo
+<https://git.sophilabs.io/sophilabs/playbook>`_.
+
+Principles
+----------
+
+bla bla...
+
+Squads
+------
 
 We realized that we needed to divide our forces in order to build a
 great company.
@@ -19,9 +29,6 @@ people love
 
 We created specialized workgroups that strive to achieve those goals by
 defining universal guidelines and ensuring they are always applied.
-
-Squads
-------
 
 The current squads -classified by objective- are:
 
@@ -43,11 +50,20 @@ The current squads -classified by objective- are:
 In addition, we need to support sophilabs infrastructure and operations:
 \* Infrastructure squad
 
-Code Analysis squad
-~~~~~~~~~~~~~~~~~~~
+Workflow
+========
 
-Objectives
-^^^^^^^^^^
+Every squad follows the same workflow (M.A.P.E.D.): ̨
+
+1. **M**easure teams and projects on different areas
+2. **A**nalyze measurements in order to detect the underlying issues and areas of improvements
+3. **P**ropose changes and design an acton plan considering different scenarios
+4. **E**nsure the action plan is executed and help solving stoppers
+5. **D**ocument lessons learned and how the plan affected the measurements
+6. Go to 1.
+
+Code Analysis Squad
+===================
 
 -  Software quality
 -  principles
@@ -57,108 +73,206 @@ Objectives
 -  legibility
 -  scalability
 
-`Read more about Code
-Analysis <https://git.sophilabs.io/sophilabs/playbook/blob/draft/code-analysis/index.md>`__
-
-Deployment squad
-~~~~~~~~~~~~~~~~
+Deployment Squad
+================
 
 Objectives
-^^^^^^^^^^
+~~~~~~~~~~
 
 -  Objective 1
 
-`Read more about
-Deployment <https://git.sophilabs.io/sophilabs/playbook/blob/draft/deployment/index.md>`__
-
-Methodologies squad
-~~~~~~~~~~~~~~~~~~~
+Methodologies Squad
+===================
 
 Objectives
-^^^^^^^^^^
+~~~~~~~~~~
 
 Ensure that the software development processes used on different
-projects meet the following principles:
+projects meet the following principles.
 
--  Adaptability: The team is able to quickly adapt to unexpected
-   changes.
--  Productivity: The rate of output of the team is above the average.
--  Visibility: The team is traceable and all documents and resources are
-   accessible.
--  Satisfaction: Team, client and stake holders are happy.
--  Integration: Team and client are involved in the project.
--  Automation: All the repetitive processes and tasks that add overhead
-   are automated.
+Adaptability
+^^^^^^^^^^^^
 
-`Read more about
-Methodologies <https://git.sophilabs.io/sophilabs/playbook/blob/draft/methodologies/index.md>`__
+The team is able to quickly adapt to unexpected changes.
 
-Recruitment squad
-~~~~~~~~~~~~~~~~~
+Productivity
+^^^^^^^^^^^^
+
+The rate of output of the team is above the average.
+
+Visibility
+^^^^^^^^^^
+
+The team is traceable and all documents and resources are accessible.
+The team proactively documents and informs to put everyone in the same
+page.
+
+Satisfaction
+^^^^^^^^^^^^
+
+Team, client and stake holders are happy.
+
+Integration
+^^^^^^^^^^^
+
+Team and client are involved in the project.
+
+Automation
+^^^^^^^^^^
+
+All the repetitive processes and tasks that add overhead are automated.
+
+Metrics
+~~~~~~~
+
+Metrics are going to be measured taking one month of work. These are the
+metrics designed by the squad, classified by principle.
+
+Adaptability
+^^^^^^^^^^^^
+
+-  # web and mobile technologies the team used other than the ones required in the project they’re working on
+-  # requirement specification meetings with Product Owner/Customer
+-  # releases to staging / total hours invested by the team
+
+Productivity
+^^^^^^^^^^^^
+
+-  estimated time / invested time
+-  1 / # change requests on features released to staging less than a week ago
+
+Visibility
+^^^^^^^^^^
+
+-  # tickets with size > 8 (enormous) / # total tickets
+-  # tickets not tracked in the tool / # total tickets
+-  total invested hours / invested hours on project without a ticket
+-  Documentation repositories correctly defined for: What, Organization and Meetings
+
+Integration
+^^^^^^^^^^^
+
+-  # status meetings
+-  # retrospective meetings
+-  roles and responsibilities documented / # team size
+-  Communication channels correctly defined for: What, Organization, Status and Urgent
+
+Satisfaction
+^^^^^^^^^^^^
+
+-  Survey with the following questions (TBD):
+-  Adaptability
+-  Productivity
+-  Visibility
+-  Integration
+-  Organization
+
+Automation
+^^^^^^^^^^
+
+-  invested time on deployment and workflow management tasks / total hours invested by the team
+-  invested time on development repetitive tasks / total hours invested by the team
+
+Recruitment Squad
+=================
 
 Objectives
-^^^^^^^^^^
+~~~~~~~~~~
 
 -  Hire great talents with experience or potential.
 -  Offer talents to Sophilabs as soon as they are required.
--  Generate an excellent reputation and culture so people will aspire to
+-  Genrate an excellent reputation and culture so people will aspire to
    work at Sophilabs.
 
-`Read more about
-Recruitment <https://git.sophilabs.io/sophilabs/playbook/blob/draft/recruitment/index.md>`__
+Scope
+~~~~~
 
-Sales squad
-~~~~~~~~~~~
+-  This group will be responsible for the hiring process and the three
+   months trial period.
+-  Attend to inquiries from the Sales and Operations offices.
+-  Ask for tasks to the Meeting and Operation offices.
+
+Sales Squad
+===========
 
 Objectives
-^^^^^^^^^^
+~~~~~~~~~~
 
 -  Objective 1
 
-`Read more about
-Sales <https://git.sophilabs.io/sophilabs/playbook/blob/draft/sales/index.md>`__
-
-Testing squad
-~~~~~~~~~~~~~
+Testing Squad
+=============
 
 Objectives
-^^^^^^^^^^
+~~~~~~~~~~
 
 Encourage that the software built by sophilabs has the necessary
 mechanisms to boost the following principles in an execution
-environment:
+environment.
 
--  Reliability: The application should behave as expected.
--  Robustness: The application should be able to continue operating
-   despite abnormalities.
--  Correctness: The application is compliant with the requirements
-   specification.
+Reliability
+^^^^^^^^^^^
 
-`Read more about
-Testing <https://git.sophilabs.io/sophilabs/playbook/blob/draft/testing/index.md>`__
+The application should behave as expected.
 
-Workflow
---------
+Robustness
+^^^^^^^^^^
 
-Every squad follows the same workflow (M.A.P.E.D.): ̨ 1. **Measure**
-teams and projects on different areas 2. **Analyze** measurements in
-order to detect the underlying issues and areas of improvements 3.
-**Propose** changes and design an acton plan considering different
-scenarios 4. **Ensure** the action plan is executed and help solving
-stoppers 5. **Document** lessons learned and how the plan affected the
-measurements 5. Go to 1.
+The application should be able to continue operating despite
+abnormalities.
+
+Correctness
+^^^^^^^^^^^
+
+The application is compliant with the requirements specification.
+
+Glossary of terms
+~~~~~~~~~~~~~~~~~
+
+TBD
+
+Metrics
+~~~~~~~
+
+These are the metrics designed by the squad, classified by principle.
+
+Metrics marked with ▲ increase, the ones marked with ▼ decrease.
+
+Each principle needs to be represented by a single value, to do so a primary
+metric is defined and identified by a ℗
+
+Reliability
+^^^^^^^^^^^
+
+-  **▲ # lines of code tested / # lines of code ℗**
+-  ▲ # unit tests asserts / # lines of code
+-  ▲ # integration tests asserts / # lines of code
+-  ▲ # validation tests asserts / # lines of code
+-  ▼ # tickets tagged with “reliability issue” on a testing session
+
+Robustness
+^^^^^^^^^^
+
+-  **▼ # server side uncaught exceptions ℗**
+-  ▼ # tickets tagged with “testing robustness” created on code review sessions
+-  ▼ # tickets tagged with “robustness issue” on a testing session
+
+Correctness
+^^^^^^^^^^^
+
+-  **▲ # acceptance tests asserts / acceptance criteria conditions ℗**
+-  ▼ # tickets tagged with “correctness issue” on a testing session
 
 Repositories
 ------------
 
 Guidelines
-~~~~~~~~~~
+==========
 
 `Git Repository <https://git.sophilabs.io/sophilabs/guidelines>`__
 
 `Site <https://guidelines.sophilabs.io>`__
 
-**`⬆ back to top <#table-of-contents>`__**
 
 License
 =======
