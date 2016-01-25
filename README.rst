@@ -51,7 +51,8 @@ The current squads -classified by objective- are:
  -  Research & Innovation squad
 
 In addition, we need to support sophilabs infrastructure and operations:
-\* Infrastructure squad
+
+- Infrastructure squad
 
 Workflow
 ========
