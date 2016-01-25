@@ -56,7 +56,7 @@ In addition, we need to support sophilabs infrastructure and operations:
 Workflow
 ========
 
-Every squad follows the same workflow (M.A.P.E.D.): ̨
+Every squad follows the same workflow (M.A.P.E.D.):
 
 1. **M**easure teams and projects on different areas
 2. **A**nalyze measurements in order to detect the underlying issues and areas of improvements
