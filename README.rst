@@ -126,6 +126,16 @@ Automation
 
 All the repetitive processes and tasks that add overhead are automated.
 
+Motivation
+^^^^^^^^^^
+
+Team members do want to work in the project.
+
+Simplicity
+^^^^^^^^^^
+
+Doing only what is needed at every time.
+
 Metrics
 ~~~~~~~
 
