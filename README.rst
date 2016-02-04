@@ -287,9 +287,9 @@ Repositories
 Guidelines
 ==========
 
-`Git Repository <https://git.sophilabs.io/sophilabs/guidelines>`__
+`Git Repository <https://git.sophilabs.io/sophilabs/guidelines>`_
 
-`Site <https://guidelines.sophilabs.io>`__
+`Site <https://guidelines.sophilabs.io>`_
 
 
 License
