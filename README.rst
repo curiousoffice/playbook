@@ -8,7 +8,7 @@ company, and the tools and practices that should guide us to create quality
 software products.
 
 This document is in a continuous development process and you are a key player
-to make it evolve. Please contribute to it using `this private repo
+to make it evolve. Please contribute to it using `this repo
 <https://git.sophilabs.io/sophilabs/playbook>`_.
 
 Principles
@@ -54,8 +54,11 @@ In addition, we need to support sophilabs infrastructure and operations:
 
 - Infrastructure squad
 
+How it works
+============
+
 Workflow
-========
+~~~~~~~~
 
 Every squad follows the same workflow (M.A.P.E.D.):
 
@@ -65,6 +68,44 @@ Every squad follows the same workflow (M.A.P.E.D.):
 4. **E**nsure the action plan is executed and help solving stoppers
 5. **D**ocument lessons learned and how the plan affected the measurements
 6. Go to 1.
+
+Metrics
+~~~~~~~
+
+The squads define their own objectives and principles.
+In order to measure performance on different projects,
+metrics are needed. We use automated tools to measure quantifiable metrics and
+quizzes that we distribute periodically to teams and customers to measure
+opinionated metrics.
+
+Facing
+^^^^^^
+
+There are negative metrics (higher is worst) and positive metrics (higher
+is better).
+The ones marked with ▲ are positive, the others marked with ▼ are negative.
+
+Types
+^^^^^
+
+Some squads define multiple metrics for the same principle/objective. For those
+scenarios, primary and secondary metrics are defined, primary metrics are shown
+in the dashboard, while secondary metrics are shown in the detailed view of
+each project.
+
+Primary metrics are identified in this document in bold text.
+
+Dashboard
+~~~~~~~~~
+
+Customers can see the status of their projects by visiting
+`dashboard.sophilabs.io <https://dashboard.sophilabs.io>`_
+
+There are also TVs distributed all around our offices that show the status of each
+metric for every project.
+
+This adds true visibility and make everybody feel the responsibility of
+improving things.
 
 Code Analysis Squad
 ===================
@@ -140,11 +181,6 @@ Metrics
 ~~~~~~~
 
 These are the metrics designed by the squad, classified by principle.
-
-Metrics marked with ▲ increase, the ones marked with ▼ decrease.
-
-Each principle needs to be represented by a single value, to do so a primary
-metric is defined and identified in bold
 
 Adaptability
 ^^^^^^^^^^^^
@@ -252,12 +288,7 @@ TBD
 Metrics
 ~~~~~~~
 
-These are the metrics designed by the squad, classified by principle.
-
-Metrics marked with ▲ increase, the ones marked with ▼ decrease.
-
-Each principle needs to be represented by a single value, to do so a primary
-metric is defined and identified in bold.
+These are the metrics designed by the squad classified by principle.
 
 Reliability
 ^^^^^^^^^^^
@@ -281,19 +312,12 @@ Correctness
 -  **▲ # acceptance tests asserts / acceptance criteria conditions**
 -  ▼ # tickets tagged with “correctness issue” on a testing session
 
-Repositories
-------------
-
-Guidelines
-==========
-
-`Git Repository <https://git.sophilabs.io/sophilabs/guidelines>`_
-
-`Site <https://guidelines.sophilabs.io>`_
-
-
 License
 =======
+
+The original idea comes from `Thoughtbot's playbook
+<https://playbook.thoughtbot.com>`_, we took the great work they did and adapted
+it to our philosophy.
 
 .. image:: https://licensebuttons.net/l/by-nc/3.0/88x31.png
    :target: ./LICENSE.rst
