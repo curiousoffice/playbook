@@ -14,7 +14,7 @@ to make it evolve. Please contribute to it using `this private repo
 Principles
 ----------
 
-bla bla...
+bla bla bla...
 
 Squads
 ------
