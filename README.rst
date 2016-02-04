@@ -295,7 +295,7 @@ Guidelines
 License
 =======
 
-|Attribution-NonCommercial 3.0 Unported|
-
-.. |Attribution-NonCommercial 3.0 Unported| image:: https://licensebuttons.net/l/by-nc/3.0/88x31.png
+.. image:: https://licensebuttons.net/l/by-nc/3.0/88x31.png
    :target: ./LICENSE.rst
+
+Creative Commons Attribution-NonCommercial
