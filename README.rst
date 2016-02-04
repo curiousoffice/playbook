@@ -297,7 +297,5 @@ License
 
 |Attribution-NonCommercial 3.0 Unported|
 
-**`⬆ back to top <#table-of-contents>`__**
-
 .. |Attribution-NonCommercial 3.0 Unported| image:: https://licensebuttons.net/l/by-nc/3.0/88x31.png
-   :target: ./LICENSE.md
+   :target: ./LICENSE.rst
