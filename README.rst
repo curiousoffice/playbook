@@ -23,9 +23,12 @@ We realized that we needed to divide our forces in order to build a
 great company.
 
 One of our core principles is *always aim high*, and to be consequent we
-need to have demanding objectives: \* Hire the best people \* Work for
-the best companies \* Craft the best software \* Build something that
-people love
+need to have demanding objectives:
+
+* Hire the best people
+* Work for the best companies
+* Craft the best software
+* Build something that people love
 
 We created specialized workgroups that strive to achieve those goals by
 defining universal guidelines and ensuring they are always applied.
@@ -33,27 +36,28 @@ defining universal guidelines and ensuring they are always applied.
 The current squads -classified by objective- are:
 
 -  Hire the best people
--  Recruitment squad
+ -  Recruitment squad
 -  Work for the best companies
--  Sales squad
+ -  Sales squad
 -  Craft the best software
--  Code Analysis squad
--  Deployment squad
--  Methodologies squad
--  Product Design / UX squad
--  Testing squad
--  Security squad
--  Software Design squad
+ -  Code Analysis squad
+ -  Deployment squad
+ -  Methodologies squad
+ -  Product Design / UX squad
+ -  Testing squad
+ -  Security squad
+ -  Software Design squad
 -  Build something that people love
--  Research & Innovation squad
+ -  Research & Innovation squad
 
 In addition, we need to support sophilabs infrastructure and operations:
-\* Infrastructure squad
+
+- Infrastructure squad
 
 Workflow
 ========
 
-Every squad follows the same workflow (M.A.P.E.D.): ̨
+Every squad follows the same workflow (M.A.P.E.D.):
 
 1. **M**easure teams and projects on different areas
 2. **A**nalyze measurements in order to detect the underlying issues and areas of improvements
@@ -122,56 +126,70 @@ Automation
 
 All the repetitive processes and tasks that add overhead are automated.
 
+Motivation
+^^^^^^^^^^
+
+Team members do want to work in the project.
+
+Simplicity
+^^^^^^^^^^
+
+Doing only what is needed at every time.
+
 Metrics
 ~~~~~~~
 
-Metrics are going to be measured taking one month of work. These are the
-metrics designed by the squad, classified by principle.
+These are the metrics designed by the squad, classified by principle.
+
+Metrics marked with ▲ increase, the ones marked with ▼ decrease.
+
+Each principle needs to be represented by a single value, to do so a primary
+metric is defined and identified in bold
 
 Adaptability
 ^^^^^^^^^^^^
 
--  # web and mobile technologies the team used other than the ones required in the project they’re working on
--  # requirement specification meetings with Product Owner/Customer
--  # releases to staging / total hours invested by the team
+- ▲ **# releases to staging**
+- ▲ # tickets related to process changes closed
+- ▲ # retrospective meetings
 
 Productivity
 ^^^^^^^^^^^^
 
--  estimated time / invested time
--  1 / # change requests on features released to staging less than a week ago
+- ▲ **# estimated time / invested time**
+- ▼ # change requests on features released to staging less than a week ago
+
 
 Visibility
 ^^^^^^^^^^
 
--  # tickets with size > 8 (enormous) / # total tickets
--  # tickets not tracked in the tool / # total tickets
--  total invested hours / invested hours on project without a ticket
--  Documentation repositories correctly defined for: What, Organization and Meetings
+- ▲ **total invested hours / invested hours on the project without a ticket**
+- ▼ # tickets assigned with size > 8 (enormous) / # total tickets
 
 Integration
 ^^^^^^^^^^^
 
--  # status meetings
--  # retrospective meetings
--  roles and responsibilities documented / # team size
--  Communication channels correctly defined for: What, Organization, Status and Urgent
+- ▲ **# status meetings**
+- ▲ # roles and responsibilities documented / # team size
+- ▲ # communication channels defined and documented for: What, Organization, Status and Urgent
 
 Satisfaction
 ^^^^^^^^^^^^
 
--  Survey with the following questions (TBD):
--  Adaptability
--  Productivity
--  Visibility
--  Integration
--  Organization
+- ▲ **Average of all metrics measured**
+- ▲ Adaptability satisfaction
+- ▲ Productivity satisfaction
+- ▲ Visibility satisfaction
+- ▲ Integration satisfaction
+- ▲ Automation satisfaction
+
 
 Automation
 ^^^^^^^^^^
 
--  invested time on deployment and workflow management tasks / total hours invested by the team
--  invested time on development repetitive tasks / total hours invested by the team
+- ▲ **invested time on automation tasks / total hours invested by the team**
+- ▼ invested time on development repetitive tasks / total hours invested by the team
+
 
 Recruitment Squad
 =================
@@ -239,12 +257,12 @@ These are the metrics designed by the squad, classified by principle.
 Metrics marked with ▲ increase, the ones marked with ▼ decrease.
 
 Each principle needs to be represented by a single value, to do so a primary
-metric is defined and identified by a ℗
+metric is defined and identified in bold.
 
 Reliability
 ^^^^^^^^^^^
 
--  **▲ # lines of code tested / # lines of code ℗**
+-  **▲ # lines of code tested / # lines of code**
 -  ▲ # unit tests asserts / # lines of code
 -  ▲ # integration tests asserts / # lines of code
 -  ▲ # validation tests asserts / # lines of code
@@ -253,14 +271,14 @@ Reliability
 Robustness
 ^^^^^^^^^^
 
--  **▼ # server side uncaught exceptions ℗**
+-  **▼ # server side uncaught exceptions**
 -  ▼ # tickets tagged with “testing robustness” created on code review sessions
 -  ▼ # tickets tagged with “robustness issue” on a testing session
 
 Correctness
 ^^^^^^^^^^^
 
--  **▲ # acceptance tests asserts / acceptance criteria conditions ℗**
+-  **▲ # acceptance tests asserts / acceptance criteria conditions**
 -  ▼ # tickets tagged with “correctness issue” on a testing session
 
 Repositories
