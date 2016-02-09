@@ -64,7 +64,7 @@ Every squad follows the same workflow (M.A.P.E.D.):
 
 1. **M**easure teams and projects on different areas
 2. **A**nalyze measurements in order to detect the underlying issues and areas of improvements
-3. **P**ropose changes and design an acton plan considering different scenarios
+3. **P**ropose changes and design an action plan considering different scenarios
 4. **E**nsure the action plan is executed and help solving stoppers
 5. **D**ocument lessons learned and how the plan affected the measurements
 6. Go to 1.
@@ -138,12 +138,12 @@ projects meet the following principles.
 Adaptability
 ^^^^^^^^^^^^
 
-The team is able to quickly adapt to unexpected changes.
+The team's ability to quickly adapt to unexpected changes.
 
 Productivity
 ^^^^^^^^^^^^
 
-The rate of output of the team is above the average.
+The output rate of the team is above the average.
 
 Visibility
 ^^^^^^^^^^
@@ -175,7 +175,7 @@ Team members do want to work in the project.
 Simplicity
 ^^^^^^^^^^
 
-Doing only what is needed at every time.
+Doing only what is needed every time.
 
 Metrics
 ~~~~~~~
@@ -260,7 +260,7 @@ Testing Squad
 Objectives
 ~~~~~~~~~~
 
-Encourage that the software built by sophilabs has the necessary
+Encourage that software built by sophilabs has the necessary
 mechanisms to boost the following principles in an execution
 environment.
 
