@@ -313,7 +313,7 @@ Correctness
 -  ▼ # tickets tagged with “correctness issue” on a testing session
 
 License
-=======
+-------
 
 The original idea comes from `Thoughtbot's playbook
 <https://playbook.thoughtbot.com>`_, we took the great work they did and adapted
