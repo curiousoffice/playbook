@@ -14,7 +14,21 @@ to make it evolve. Please contribute to it using `this repo
 Principles
 ----------
 
-bla bla bla...
+We've learned from our experience that working with people that share the
+correct set of principles is the foundation for creating highly productive
+teams.
+
+**Aim high** and encourage everyone else to outstand above the average.
+
+**Look into the details**, a great product is the sum of perfectly well thought
+details.
+
+**Practice impersonation** helping pursuing other people’s goals as if they
+were yours.
+
+**Be Honest**, never sacrifice honesty for politeness.
+
+**Love your craft** and strive to transcend through your creations.
 
 Squads
 ------
