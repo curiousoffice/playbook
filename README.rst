@@ -1,5 +1,5 @@
 Hello Sophilaber
-----------------
+================
 
 This is the team’s playbook, your playbook.
 
@@ -12,7 +12,7 @@ to make it evolve. Please contribute to it using `this repo
 <https://git.sophilabs.io/sophilabs/playbook>`_.
 
 Principles
-----------
+==========
 
 We've learned from our experience that working with people that share the
 correct set of principles is the foundation for creating highly productive
@@ -30,8 +30,28 @@ were yours.
 
 **Love your craft** and strive to transcend through your creations.
 
+Culture
+=======
+
+TBD
+
+Time
+====
+
+TBD
+
+Laptop
+======
+
+TBD
+
+Technology
+==========
+
+TBD
+
 Squads
-------
+======
 
 We realized that we needed to divide our forces in order to build a
 great company.
@@ -69,7 +89,7 @@ In addition, we need to support sophilabs infrastructure and operations:
 - Infrastructure squad
 
 How it works
-============
+------------
 
 Workflow
 ~~~~~~~~
@@ -122,26 +142,17 @@ This adds true visibility and make everybody feel the responsibility of
 improving things.
 
 Code Analysis Squad
-===================
+-------------------
 
--  Software quality
--  principles
--  simplicity
--  consistency
--  elegance
--  legibility
--  scalability
+TBD
 
 Deployment Squad
-================
+----------------
 
-Objectives
-~~~~~~~~~~
-
--  Objective 1
+TBD
 
 Methodologies Squad
-===================
+-------------------
 
 Objectives
 ~~~~~~~~~~
@@ -209,7 +220,6 @@ Productivity
 - ▲ **# estimated time / invested time**
 - ▼ # change requests on features released to staging less than a week ago
 
-
 Visibility
 ^^^^^^^^^^
 
@@ -233,16 +243,14 @@ Satisfaction
 - ▲ Integration satisfaction
 - ▲ Automation satisfaction
 
-
 Automation
 ^^^^^^^^^^
 
 - ▲ **invested time on automation tasks / total hours invested by the team**
 - ▼ invested time on development repetitive tasks / total hours invested by the team
 
-
 Recruitment Squad
-=================
+-----------------
 
 Objectives
 ~~~~~~~~~~
@@ -261,15 +269,12 @@ Scope
 -  Ask for tasks to the Meeting and Operation offices.
 
 Sales Squad
-===========
+-----------
 
-Objectives
-~~~~~~~~~~
-
--  Objective 1
+TBD
 
 Testing Squad
-=============
+-------------
 
 Objectives
 ~~~~~~~~~~
@@ -326,8 +331,79 @@ Correctness
 -  **▲ # acceptance tests asserts / acceptance criteria conditions**
 -  ▼ # tickets tagged with “correctness issue” on a testing session
 
+Method
+======
+
+TBD by Methodologies Squad
+
+Product Design
+==============
+
+TBD by R&I Squad
+
+User Experience
+===============
+
+TBD by UX Squad
+
+Software Design
+===============
+
+TBD by Software Design Squad
+
+Development
+===========
+
+TBD by Code Analysis Squad
+
+Testing
+=======
+
+TBD by Testing Squad
+
+Deployment
+==========
+
+TBD by Deployment Squad
+
+Monitoring
+==========
+
+TBD by Deployment Squad
+
+Product Growth
+==============
+
+TBD by R&I Squad
+
+Sales
+=====
+
+TBD by Sales Squad
+
+Hiring
+======
+
+TBD by Recruitment Squad
+
+Operations
+==========
+
+TBD
+
+Community
+=========
+
+TBD by Community Squad
+
+Goodbye
+=======
+
+We are a group of people who love crafting hight quality software for next-generation products.
+Thank you for being a part of it.
+
 License
--------
+=======
 
 The original idea comes from `Thoughtbot's playbook
 <https://playbook.thoughtbot.com>`_, we took the great work they did and adapted
