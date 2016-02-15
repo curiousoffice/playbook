@@ -346,6 +346,12 @@ User Experience
 
 TBD by UX Squad
 
+Interaction Design
+------------------
+
+Visual Design
+-------------
+
 Software Design
 ===============
 
