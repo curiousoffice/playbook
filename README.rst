@@ -96,11 +96,11 @@ Workflow
 
 Every squad follows the same workflow (M.A.P.E.D.):
 
-1. **M**easure teams and projects on different areas
-2. **A**nalyze measurements in order to detect the underlying issues and areas of improvements
-3. **P**ropose changes and design an action plan considering different scenarios
-4. **E**nsure the action plan is executed and help solving stoppers
-5. **D**ocument lessons learned and how the plan affected the measurements
+1. **M** easure teams and projects on different areas
+2. **A** nalyze measurements in order to detect the underlying issues and areas of improvements
+3. **P** ropose changes and design an action plan considering different scenarios
+4. **E** nsure the action plan is executed and help solving stoppers
+5. **D** ocument lessons learned and how the plan affected the measurements
 6. Go to 1.
 
 Metrics
@@ -345,6 +345,12 @@ User Experience
 ===============
 
 TBD by UX Squad
+
+Interaction Design
+------------------
+
+Visual Design
+-------------
 
 Software Design
 ===============
