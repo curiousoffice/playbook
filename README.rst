@@ -153,7 +153,7 @@ Principles
 - **Legibility** : The ability to understand the code at a statement level.
 - **Scalability** : The activity of writing performant code at a statement-level.
 - **Reusability** : The ability of a given piece of code to be reused in other
-                 projects without modification.
+  projects without modification.
 
 Objectives
 ~~~~~~~~~~
