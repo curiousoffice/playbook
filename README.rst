@@ -144,7 +144,41 @@ improving things.
 Code Analysis Squad
 -------------------
 
-TBD
+Metrics
+~~~~~~~
+
+Applicability of conventions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- # linter errors per 1000 lines of code
+
+Code complexity
+
+- avg # of conditionals per method/function
+- avg # of LoC per method/function
+- avg # of methods per class
+- avg # of arguments per function/method
+- avg # of nesting levels
+- avg # ancestors of a class
+- avg # of conditionals (branches)
+- avg # of local variables
+
+Modularity
+
+- avg # of LoC per module
+- avg # of LoC per file
+
+Legibility (Documentation in the code)
+
+- % of methods with docstring/annotations
+- % of classes with docstring/annotations
+- % of properties with docstring/annotations
+
+Simplicity
+
+- # of modules
+
+Pending: commit messages, code reviews, etc.
 
 Deployment Squad
 ----------------
