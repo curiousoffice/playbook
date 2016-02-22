@@ -53,32 +53,37 @@ TBD
 Methodology
 ===========
 
-Principles
-----------
+The Agile way
+-------------
 
-Our highest priority is to satisfy the customer through early and continuous
-delivery of valuable software.
-We welcome changing requirements, even late in development. Agile processes
-harness change for the customer's competitive advantage.
+We adhere to the `Agile Manifesto principles
+<http://agilemanifesto.org/principles.html>`_, declaring that our highest
+priority is to satisfy the customer through early and continuous delivery of
+valuable software.
+We welcome changing requirements, even late in development as we understand that
+agile processes must harness change for the customer's competitive advantage.
 
-Deliver working software frequently, from a week to a couple of weeks, with a
-preference to the shorter timescale.
-Business people and developers must work together daily throughout the project.
-
-We pursuit a motivating environment and culture, trust each other to get the job
-done.
-Working software is the primary measure of progress.
+We say that working software is the primary measure of progress, and to be
+consequent we deliver working software frequently, from a week to a couple of
+weeks, with a preference to the shorter timescale.
 
 Agile processes promote sustainable development. The sponsors, developers, and
-users should be able to maintain a constant pace indefinitely.
+users should be able to maintain a constant pace indefinitely and must work
+together daily throughout the project.
 
-Continuous attention to technical excellence and good design enhances agility.
-Simplicity--the art of maximizing the amount of work not done--is essential.
+At regular intervals, we reflect on how to become more effective, then
+tune and adjust our behavior accordingly. We look for a motivating environment
+and culture, where everybody trusts each other to receive constructive feedback
+and get the job done.
 
-The best architectures, requirements, and designs emerge from self-organizing
-teams.
-At regular intervals, the team reflects on how to become more effective, then
-tunes and adjusts its behavior accordingly.
+We strongly believe that continuous attention to details and technical
+excellence enhances agility. And Simplicity --the art of maximizing the amount
+of work not done-- is essential, at every level.
+
+In our experience we have seen that the best architectures, requirements, and
+designs emerge from self-organizing teams that truly understands these
+principles, if you believe there are better ways to build good software we would
+love to hear from you.
 
 Product Design
 ==============
