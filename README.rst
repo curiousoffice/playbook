@@ -96,11 +96,11 @@ Workflow
 
 Every squad follows the same workflow (M.A.P.E.D.):
 
-1. **M**easure teams and projects on different areas
-2. **A**nalyze measurements in order to detect the underlying issues and areas of improvements
-3. **P**ropose changes and design an action plan considering different scenarios
-4. **E**nsure the action plan is executed and help solving stoppers
-5. **D**ocument lessons learned and how the plan affected the measurements
+1. **M** easure teams and projects on different areas
+2. **A** nalyze measurements in order to detect the underlying issues and areas of improvements
+3. **P** ropose changes and design an action plan considering different scenarios
+4. **E** nsure the action plan is executed and help solving stoppers
+5. **D** ocument lessons learned and how the plan affected the measurements
 6. Go to 1.
 
 Metrics
@@ -135,8 +135,8 @@ Dashboard
 Customers can see the status of their projects by visiting
 `dashboard.sophilabs.io <https://dashboard.sophilabs.io>`_
 
-There are also TVs distributed all around our offices that show the status of each
-metric for every project.
+There are also TVs distributed all around our offices that show the status of
+each metric for every project.
 
 This adds true visibility and make everybody feel the responsibility of
 improving things.
@@ -144,7 +144,65 @@ improving things.
 Code Analysis Squad
 -------------------
 
-TBD
+Principles
+~~~~~~~~~~
+- **Simplicity** : Minimize the effort required to understand a given source
+  code.
+- **Consistency** : Apply the same practices along the project and across
+  similar projects.
+- **Legibility** : The ability to understand the code at a statement level.
+- **Scalability** : The activity of writing performant code at a statement-level.
+- **Reusability** : The ability of a given piece of code to be reused in other
+  projects without modification.
+
+Objectives
+~~~~~~~~~~
+- Produce knowledge about code quality that can be applied to existing and new
+  projects. This knowledge must be documented and only cover programming
+  languages being used in Sophilabs. Examples include: guidelines, linting
+  rules, workflows, conventions, etc. These documents won’t only refer to code,
+  but also to how to ensure code quality (e.g. code reviews).
+- Develop a plan or methodology to measure the effectiveness of the generated
+  knowledge.
+- Develop or improve tools that automate and control the quality of the code
+  (linters, conventions, etc). This tools and documents must be Open Source.
+- Adjust guidelines, workflows and other procedures to the needs of each project.
+
+
+Metrics
+~~~~~~~
+
+Applicability of conventions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- # linter errors per 1000 lines of code
+
+Code complexity
+^^^^^^^^^^^^^^^
+- avg # of conditionals per method/function
+- avg # of LoC per method/function
+- avg # of methods per class
+- avg # of arguments per function/method
+- avg # of nesting levels
+- avg # ancestors of a class
+- avg # of conditionals (branches)
+- avg # of local variables
+
+Modularity
+^^^^^^^^^^
+- avg # of LoC per module
+- avg # of LoC per file
+
+Legibility (Documentation in the code)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- % of methods with docstring/annotations
+- % of classes with docstring/annotations
+- % of properties with docstring/annotations
+
+Simplicity
+^^^^^^^^^^
+- # of modules
+
+Pending: commit messages, code reviews, etc.
 
 Deployment Squad
 ----------------
