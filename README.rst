@@ -50,6 +50,82 @@ Technology
 
 TBD
 
+Methodology
+===========
+
+Principles
+----------
+
+Our highest priority is to satisfy the customer through early and continuous
+delivery of valuable software.
+We welcome changing requirements, even late in development. Agile processes
+harness change for the customer's competitive advantage.
+
+Deliver working software frequently, from a week to a couple of weeks, with a
+preference to the shorter timescale.
+Business people and developers must work together daily throughout the project.
+
+We pursuit a motivating environment and culture, trust each other to get the job
+done.
+Working software is the primary measure of progress.
+
+Agile processes promote sustainable development. The sponsors, developers, and
+users should be able to maintain a constant pace indefinitely.
+
+Continuous attention to technical excellence and good design enhances agility.
+Simplicity--the art of maximizing the amount of work not done--is essential.
+
+The best architectures, requirements, and designs emerge from self-organizing
+teams.
+At regular intervals, the team reflects on how to become more effective, then
+tunes and adjusts its behavior accordingly.
+
+Product Design
+==============
+
+TBD by R&I Squad
+
+User Experience
+===============
+
+TBD by UX Squad
+
+Interaction Design
+------------------
+
+Visual Design
+-------------
+
+Software Design
+===============
+
+TBD by Software Design Squad
+
+Development
+===========
+
+TBD by Code Analysis Squad
+
+Testing
+=======
+
+TBD by Testing Squad
+
+Deployment
+==========
+
+TBD by Deployment Squad
+
+Monitoring
+==========
+
+TBD by Deployment Squad
+
+Product Growth
+==============
+
+TBD by R&I Squad
+
 Squads
 ======
 
@@ -388,57 +464,6 @@ Correctness
 
 -  **▲ # acceptance tests asserts / acceptance criteria conditions**
 -  ▼ # tickets tagged with “correctness issue” on a testing session
-
-Method
-======
-
-TBD by Methodologies Squad
-
-Product Design
-==============
-
-TBD by R&I Squad
-
-User Experience
-===============
-
-TBD by UX Squad
-
-Interaction Design
-------------------
-
-Visual Design
--------------
-
-Software Design
-===============
-
-TBD by Software Design Squad
-
-Development
-===========
-
-TBD by Code Analysis Squad
-
-Testing
-=======
-
-TBD by Testing Squad
-
-Deployment
-==========
-
-TBD by Deployment Squad
-
-Monitoring
-==========
-
-TBD by Deployment Squad
-
-Product Growth
-==============
-
-TBD by R&I Squad
 
 Sales
 =====
