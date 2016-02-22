@@ -218,7 +218,7 @@ Productivity
 ^^^^^^^^^^^^
 
 - ▲ **# estimated time / invested time**
-- ▼ # change requests on features released to staging less than a week ago
+- ▼ # change requests on features released to rc/production less than a week ago
 
 Visibility
 ^^^^^^^^^^
