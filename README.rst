@@ -383,6 +383,11 @@ Automation
 - ▲ **invested time on automation tasks / total hours invested by the team**
 - ▼ invested time on development repetitive tasks / total hours invested by the team
 
+Simplicity
+^^^^^^^^^^
+
+- ▼ pages/states with a standard deviation on number of visits below 10%
+
 Recruitment Squad
 -----------------
 
