@@ -297,7 +297,7 @@ Objectives
 ~~~~~~~~~~
 
 Ensure that the software development processes used on different
-projects meet the following principles.
+projects encourage the following principles.
 
 Adaptability
 ^^^^^^^^^^^^
