@@ -391,12 +391,12 @@ Automation
 Simplicity
 ^^^^^^^^^^
 
-- ▼ pages/states with a standard deviation on number of visits below 10%
+- ▼ **pages/states with a standard deviation on number of visits below 10%**
 
 Predictability
 ^^^^^^^^^^^^^^
 
-- ▲ **# estimated time / invested time**
+- ▲ ** estimated time / invested time**
 
 Recruitment Squad
 -----------------
