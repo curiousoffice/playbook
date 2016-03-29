@@ -336,6 +336,12 @@ Simplicity
 
 Doing only what is needed every time.
 
+Predictability
+^^^^^^^^^^^^^^
+
+Estimated tasks were completed on time.
+
+
 Metrics
 ~~~~~~~
 
@@ -351,8 +357,7 @@ Adaptability
 Productivity
 ^^^^^^^^^^^^
 
-- ▲ **# estimated time / invested time**
-- ▼ # change requests on features released to rc/production less than a week ago
+We can't measure productivity
 
 Visibility
 ^^^^^^^^^^
@@ -387,6 +392,11 @@ Simplicity
 ^^^^^^^^^^
 
 - ▼ pages/states with a standard deviation on number of visits below 10%
+
+Predictability
+^^^^^^^^^^^^^^
+
+- ▲ **# estimated time / invested time**
 
 Recruitment Squad
 -----------------
