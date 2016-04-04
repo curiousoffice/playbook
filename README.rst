@@ -357,7 +357,9 @@ Adaptability
 Productivity
 ^^^^^^^^^^^^
 
-We can't measure productivity
+We can't measure productivity. But the Code Analysis squad can give a picture
+about how many lines are added / deleted during a period of time by analyzing
+git statistics.
 
 Visibility
 ^^^^^^^^^^
@@ -396,7 +398,7 @@ Simplicity
 Predictability
 ^^^^^^^^^^^^^^
 
-- ▲ ** estimated time / invested time**
+- ▲ **estimated time / invested time**
 
 Recruitment Squad
 -----------------
