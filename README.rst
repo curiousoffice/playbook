@@ -406,7 +406,7 @@ Objectives
 
 -  Hire great talents with experience or potential.
 -  Offer talents to Sophilabs as soon as they are required.
--  Genrate an excellent reputation and culture so people will aspire to
+-  Generate an excellent reputation and culture so people will aspire to
    work at Sophilabs.
 
 Scope
@@ -479,6 +479,20 @@ Correctness
 
 -  **▲ # acceptance tests asserts / acceptance criteria conditions**
 -  ▼ # tickets tagged with “correctness issue” on a testing session
+
+Communications
+==============
+
+It is important to maintain a professional and polished tone with clients
+at all times.
+
+E-mail signature
+~~~~~~~~~~~~~~~~
+
+Please use the following HTML snippet, adapt it and paste it into the
+signature field on the Gmail settings page.
+
+`Sophilabs Signature <https://git.sophilabs.io/sophilabs/playbook/blob/master/communication/email-signature.html/>`_
 
 Sales
 =====
