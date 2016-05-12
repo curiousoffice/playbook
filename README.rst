@@ -1431,11 +1431,6 @@ Simplicity
 
 Pending: commit messages, code reviews, etc.
 
-Deployment Squad
-----------------
-
-TBD
-
 Methodologies Squad
 -------------------
 
@@ -1565,11 +1560,6 @@ Scope
 -  Attend to inquiries from the Sales and Operations offices.
 -  Ask for tasks to the Meeting and Operation offices.
 
-Sales Squad
------------
-
-TBD
-
 Testing Squad
 -------------
 
@@ -1595,11 +1585,6 @@ Correctness
 ^^^^^^^^^^^
 
 The application is compliant with the requirements specification.
-
-Glossary of terms
-~~~~~~~~~~~~~~~~~
-
-TBD
 
 Metrics
 ~~~~~~~
