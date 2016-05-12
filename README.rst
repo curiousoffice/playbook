@@ -166,7 +166,7 @@ After considering what's best for users, what's best for us?
 Web Apps
 --------
 
-In our experience, teams using the `Django framework<https://git.sophilabs.io/sophilabs/playbook>`_
+In our experience, teams using the `Django framework<https://www.djangoproject.com/>`_
 can bring products to market more quickly and with a lower total cost of
 ownership than other tools. There's also strong overlap between the agile and
 Python communities, which means (among things) that Python developers tend to
@@ -190,6 +190,141 @@ against security attacks such as:
 - SQL injection
 - Header injection
 
+Django helps us do the right thing with regards to security but we are still
+required to be diligent, knowledgeable, and test comprehensively.
+We support Internet Explorer 10+ and the latest versions of Firefox, Chrome, and
+Safari. We do not support Internet Explorer 6, 7, 8, or 9. Those browsers are
+`losing market share<https://en.wikipedia.org/wiki/Internet_Explorer#Market_adoption_and_usage_share>`_,
+they have `security issues<https://en.wikipedia.org/wiki/Internet_Explorer_6#Security_issues>`_,
+and they are time-consuming to design for, develop for, and support.
+On mobile devices, we support iOS Safari 7.1+, Android Browser 4.4+, and the
+latest version of Chrome for Android.
+In limited special cases, user demographics will dictate that supporting an
+older version of Internet Explorer is required. Those special cases should be
+identified early on so we can plan for additional time and expense in order to
+support the version.
+
+Mobile Apps
+-----------
+
+"Mobile" refers to the user, not the device.
+Everything about how we design a mobile application has to be in the context of that idea. It raises questions like:
+
+- Are they moving?
+- Are they relaxed on a couch?
+
+We try to start with the most usable platform first. If the device needs the
+camera, calendar, or address book, an “hybrid” app for iPhone, iPad or Android
+may be the right choice. If the app is targeted for a massive audience and/or
+the app performance is critical we recommend developing two separate “native”
+apps for iOS and Android.
+
+For other products, especially content-only products such as text, images,
+videos, and landing pages, a mobile web app makes sense because:
+
+- All modern smartphones can render HTML.
+- We can create and iterate quickly.
+- We can deploy new versions multiple times a day.
+
+Our mobile engineers expertise is with the Ionic Framework to create multi
+platform apps and Swift when we want to create platform specific apps for
+iPhones, iPads or Apple Watches.
+
+Programming Languages
+---------------------
+
+Examples of languages we typically use are:
+
+- Python, NodeJS: our server-side preferences
+- Javascript: our client-side preference for web and mobile hybrid apps
+
+Frameworks
+----------
+
+Examples of frameworks we typically use are:
+
+- Django
+- Flask
+- Express
+- HapiJS
+- Loopback
+- Angular
+- Ember
+- React
+- Ionic
+
+A framework is a library that makes performing a particular task in a
+programming language easier. Like the framework of a house, it is there when we
+begin programming and is always there giving the program structure and support.
+
+Databases
+---------
+
+For data that must be saved and stored correctly, we use `PostgreSQL<http://www.postgresql.org/>`_
+(we usually refer to it as "Postgres").
+It's a 30 year old open source database that is highly respected, well supported
+by documentation and hosting providers, and used by any developer who knows the
+SQL standard.
+
+In recent years, a movement called `NoSQL<https://en.wikipedia.org/wiki/NoSQL>`_
+has gained popularity. Best translated
+as "not only SQL", tremendous effort has been made to create different kinds of
+databases for different use cases, often based off `academic or industry
+research<http://nosqlsummer.org/papers>`_.
+
+Our most frequently used NoSQL database are `Redis<http://redis.io/>`_, which we
+use for storing
+transient, high quantity read/write data such as activity feeds, tags,
+background jobs, sessions, tokens, and counters; `Cassandra<http://cassandra.apache.org/>`_
+which we use for storing time series.
+
+Redis and Cassandra are reliable, open-source, and simple. They offer high
+performance and reliable predictions of its performance.
+When we need to do full-text search on documents, we use `Solr<http://lucene.apache.org/solr/>`_.
+Its major features include hit highlighting, faceted search, real-time indexing,
+dynamic clustering, database integration, and rich text documents handling.
+
+Licenses
+--------
+
+In contrast with a proprietary license, the source code of an open source
+program is made available for review, modification and redistribution. The
+difference between open source licenses is what we can and can't do with the
+source code.
+Open source licenses can be divided in two categories: permissive and copyleft.
+Permissive examples include:
+
+- `Berkeley Software Distribution (BSD) licenses<https://en.wikipedia.org/wiki/BSD_licenses>`_
+- `MIT license<https://en.wikipedia.org/wiki/MIT_License>`_
+- `Apache license<http://en.wikipedia.org/wiki/Apache_License>`_
+
+A copyleft example is the `General Public License (GPL)<https://en.wikipedia.org/wiki/GNU_General_Public_License>`_.
+Both categories have the purpose of establishing the copyright holder for the
+software, granting users the right to copy, modify and redistribute it,
+protecting the copyright holder from any potential guarantees that the software
+may provide (software is provided as-is), and optionally imposing some
+restrictions.
+
+Permissive licenses let us modify a program, redistribute it, and even sell it.
+We can embed or link code with other programs without restriction or explicit
+permission by the copyright holder.
+Copyleft licenses only allow us to link or distribute code with other code that
+has the same license. It also forces modifications to be released under the same
+license. Combining anything with the GPL makes it GPL.
+
+Non-copyleft licenses do not enforce derivative works to also be open source.
+Some software is released under a dual license: both a permissive and copyleft
+license. This provides developers who use the dual licensed code to apply the
+license that better suits their needs.
+
+Most of the software we use has a permissive license:
+
+- PostgreSQL, PostgreSQL License (BSD based)
+- Redis, BSD
+- Solr, Apache License 2.0
+- Python, Python Software Foundation License (PSFL) (BSD based)
+- Django, Django license (BSD based)
+- AngularJS, MIT
 
 Methodology
 ===========
