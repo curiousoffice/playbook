@@ -358,29 +358,215 @@ of work not done-- is essential, at every level.
 
 In our experience we have seen that the best architectures, requirements, and
 designs emerge from self-organizing teams that truly understands these
-principles, if you believe there are better ways to build good software we would
-love to hear from you.
+principles.
+
+Project kick off
+----------------
+
+When a project starts a kick off meeting is set up, please use this document to
+guide the presentation.
+
+After that, the following stuff is set up:
+
+- Project mailing-list (project@sophilabs.com - which includes the client and
+project-dev@sophilabs.com - which include only the technical team)
+- JIRA tracker (provided by client)
+- Gitlab or Github repositories (provided by client)
+- Jenkins project (provided by client)
+- Access to cloud service (security groups and roles)
+- Google docs folder (ask client for a documents repository or use
+docs.sophilabs.io instead)
+
+Standups
+--------
+
+During the morning, every project team get together for 15 minutes.
+We say what we did yesterday, what we're going to do today, and expose blockers.
+We immediately resolve blockers together or help the person after standup.
+
+We do this in order to:
+
+- See each other face-to-face.
+- Learn what others are doing so you can help them.
+- Build accountability and trust.
+
+Tasks
+-----
+
+We have used Redmine, JIRA, Pivotal Tracker, Asana, Trello and other task
+management systems over the years. The following section details a process
+using JIRA but the overall process remains relatively similar across different
+systems.
+No two products are the same, so flexibility in the product development process
+is important. JIRA responds well to changing the structure of the process
+"on the fly."
+
+In any task management system, it's important to have a view into the product
+development process. The Current Sprint is the single prioritized list to which
+the product team refers in order to know what to work on next. It represents
+two weeks of work.
+A story represents a job story, bug fix, engineering task, or general todo.
+They start out as a simple idea, 1-2 sentences long. Detail is added,
+explaining why (from a business perspective) we're focusing on it, descriptive
+wireframes and maybe notes on suggested implementation, sometimes is good idea
+including the acceptance criteria of the story.
+
+Once the stories in the Sprint have been prioritized and vetted, they are ready
+for design and development. A designer or developer "puts their face on it" by
+assigning it to themselves and pulling it into the In Progress column.
+The stories in the In Progress column are actively being designed or developed.
+You should never have your face on more than two stories at a time.
+Work is done in a feature git branch. When a designer or developer creates a
+pull request for their feature branch, they move the story to the Code Review
+column. Any reviewers "put their face on it" while reviewing.
+
+Biweekly Retrospective
+----------------------
+
+Once every 2 weeks, everyone in the project meets in-person or via video
+conference. This is an opportunity for the entire team to discuss achievements,
+hurdles, and concerns with the goal of everyone leaving excited and empowered
+for the week of work to come.
+
+The agile buddy runs this meeting aiming to:
+
+- Understand how the team feels about last week's progress and what's to come.
+Ask each team member from both sophilabs and the client, "How did you feel about
+last week? How do you feel coming into this week?" This is less a recap of the
+completed work (a better place being during daily standup) and more a pulse of
+how each person feels. Take notes.
+- Have each member of the team voice any risks or concerns; after everyone has
+had the opportunity to bring these up, work together as a group to mitigate
+these concerns. Encourage everyone to voice the same concerns even if they've
+already been mentioned; it helps prioritize what the team is most concerned
+about and should spend the most time fixing. This is an opportunity to discuss
+how to improve the process and product we're building together. Note who had
+which concerns and track how we'll be addressing these concerns.
+- Celebrate success. Review the work that shipped last week, showing the actual
+product, and congratulate those who made it happen.
+- After the retro is done, share the notes with the team and ensure anything
+actionable from the retro is captured. This allows teammates to view progress,
+understand how feelings on the project change over time, and accomplish
+anything we set out to do given the outcomes of the retro.
+
+Based on the answers to these questions, we record our plans in the task
+management system:
+
+- Archive the two-week previous sprint.
+- Review product design priorities. Pull what we estimate to be an appropriate
+amount for this week into the Backlog.
+- Review bugs. Pull any important bugs into the Backlog and prioritize them at
+the top of the queue before everything else. We want to always be fixing what's
+broken first.
+- Review engineering and refactoring tasks. Pull stories into the Backlog based
+on what the designers and developers believe is appropriate given the
+previously stated product design and bug tasks.
+- Re-sort the entire Backlog according to priority.
+
+The task management system is the canonical repository for plans.
+When things are only said on the phone, in person, in emails that don't include
+the whole group, or in one-on-one chats, information gets lost, forgotten, or
+misinterpreted. The problems expand when someone joins or leaves the project.
+
+We've been called "aggressive" with our approach cutting features, budgets, and
+schedules. It's hard to say "no." "No" is usually not well-received. There's a
+reason someone requested the feature.
+We have to battle sometimes in the face of "yes". We do so armed with knowledge
+of `the history of software success and failure<http://blog.codinghorror.com/the-long-dismal-history-of-software-project-failure/>`_:
+in 2004, only 34% of software
+projects were considered successes. The good news is that was 100% better than
+the stats in 1994. "The primary reason is the projects have gotten a lot
+smaller."
+Few software projects fail because they aren't complicated enough. Saying "no"
+means keeping the software we're building as simple as possible. Every line of
+code we write is an asset and a liability.
+
+Simple software, once launched, is better suited to meeting the demands of
+customers. Complex software, if it ever launches, is not as able to respond to
+customer demands quickly.
 
 Product Design
 ==============
 
-TBD by R&I Squad
+Wireframes
+----------
+
+It is crucial to keep the design of the application ahead of the development.
+Focus should be placed on wireframing usability, user experience, and flows.
+We find it important to keep the design and development cycle adequately tight.
+We do not wireframe one month out because as we approach certain areas of the
+product, we often decide to cut or change features.
+Those changes are an expected part of the iterative process and feedback loop
+between the client, the sophilabs team, and users. It would be wasteful to
+spend time wireframing features that never get built or building features that
+won't be used.
+The designer will refine the sketches into HTML and CSS wireframes.
+HTML and CSS wireframes are built on `moqups<https://moqups.com/>`_. It also allows developers to start
+implementing features within the wireframes.
 
 User Experience
 ===============
 
-TBD by UX Squad
+User Interface
+--------------
+
+In the context of our software, the user interface is the individual views that
+provide for goal completion.
+
+We evaluate interfaces on the following criteria:
+
+- Puts outcomes first
+- Provides users with affordances
+- Congruent with surrounding platform
+- Consistent across entire application
+
+We put the users goals first. No one is using our software exclusively because
+of how beautiful it is. There's a reason they sought our solution out. Making
+that outcome easily attainable and desirable is our highest priority.
+We make software easy to comprehend. It's not enough to be functional, users
+must know capabilities exist and be able to anticipate how the software is
+going to react to their inputs. Our software should be as intuitive as possible.
+We remain consistent with platform guidelines. Interfaces look and feel best
+when in congruence with their context, rather than being strictly branded
+across all platforms. We prefer common patterns when designing.
+We retain consistency. Usable interfaces work as expected across the entire
+application.
 
 Interaction Design
 ------------------
 
+Interaction gives users the ability to change the canvas, to directly
+manipulate. Designing those interactions is what makes our software come to
+life. Interactions should provide affordance — `animation<http://medium.com/p/926eb80d64e3>`_,
+for examples, can
+be used as a powerful metaphor for helping a user understand an interface.
+Interactions help guide a user from the beginning of a task through it's
+completion.
+
+Designers guide these interactions from prototype to implementation. For web
+applications we start in the browser. For review, we use gifs to demonstrate
+interactions.
+
 Visual Design
 -------------
 
-Software Design
-===============
+We refer to an application's visual design exclusively as its style.
+We use the `universal design principles<https://thoughtbot.com/upcase/design-for-developers-resources/principles>`_
+to communicate and bring order to those ideas in our applications.
 
-TBD by Software Design Squad
+Those fundamentals include, among others:
+
+- Alignment (often achieved with grids)
+- Emphasis (often achieved with size, position, color)
+- Consistency (buttons, links, headers typically look alike)
+- Whitespace (elegant, timeless, gives eye a rest)
+
+Successful visual designs typically don't draw attention to themselves.
+The content will be front-and-center. The workflows through the site will be
+obvious. Resist the temptation to aim for a design that is "memorable" or a
+design that "pops."
+
+Successful designs are usable.
 
 Development
 ===========
