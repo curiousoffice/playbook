@@ -690,17 +690,592 @@ CI test runs are triggered by GitLab post-receive hooks.
 Deployment
 ==========
 
-TBD by Deployment Squad
+We focus on the client's product as much as possible and outsource operations
+as much as possible to external services. This saves time and money.
+
+Checklist
+---------
+
+- We have found that a short checklist is valuable when setting up a new production environment or preparing for a launch:
+- Are we using a concurrent web server? See how to set up Nginx.
+- Are long-running processes such as email delivery being run in background jobs? See how to set up delayed Job.
+- Are there redundant (at least two) web and background processes running?
+- Are we using SSL? See "SSL Certificates" section below.
+- Are API requests being made via a separate subdomain (api.example.com)? Even if the same app, this gives us architectural flexibility in the future.
+- Are deploys done manually at a scheduled time when teammates are fresh and available if something goes wrong?
+- Do deploys follow a well-documented script?
+- Are we sending logs to a remote logging service? See How to integrate Sentry.
+- Are we using a AWS RDS service? See AWS production databases.
+- Are we monitoring performance and uptime? See `New Relic<https://newrelic.com/>`_.
+
+Domain Names
+------------
+
+We suggest to use `Domize<https://domize.com/>`_ to see what's available.
+Use `DNSimple<https://dnsimple.com/>`_ to buy and
+maintain domain names If the client doesn’t have a domain registered yet.
+
+SSL Certificates
+----------------
+
+Buy a `wildcard certificate from DNSimple<https://dnsimple.com/ssl-certificate>`_.
+The wildcard (*) lets you use the
+same certificate on www., staging., api., and any other future subdomains.
+SSL and DNS are tightly coupled. If we're doing any work with SSL, we need
+to make sure we have access to make DNS changes, like adding a CNAME record.
+If we're working with a client who has a department that handles DNS, schedule
+time during off-peak hours to pair program with the DNS person to make sure
+everything goes well. We can accidentally take down a site that is all SSL if
+this work isn't done methodically.
+
+Hosting
+-------
+
+We use `Amazon Web Services<https://aws.amazon.com/>`_.
+The cloud and the services it enables will empower our clients' businesses to start and operate in a manner that has never been possible before without significant upfront investment.
+If we offer file uploads for features like user avatars, we upload them to
+`Amazon S3<https://aws.amazon.com/s3/>`_.
+
+Transactional Email
+-------------------
+
+We use `Amazon SES<https://aws.amazon.com/ses/>`_ and `SparkPost<https://www.sparkpost.com/>`_
+(supports templates) to have our application
+deliver email to users, known as transactional email.
+
+Examples of transactional email are:
+
+- Confirmations
+- Follow ups after the first 3 days of use
+- Free trial is expiring
+- Message another user in the system
+
+Payment Processing
+------------------
+
+For collecting payments from users via credit or debit card, we use `Stripe<https://stripe.com/>`_.
+It is a payment gateway and merchant account. We also use it for recurring
+billing.
+Charges for Stripe will vary depending on usage.
+Successful charges are 2.9% + 30 cents. There are no setup fees, monthly fees,
+or card storage fees.
 
 Monitoring
 ==========
 
-TBD by Deployment Squad
+We use `New Relic<https://newrelic.com/>`_ to monitor performance of production
+applications.
+Debugging performance might be the best part of a developer's job.
+There's a clear, numeric problem. When we fix it, that number improves.
+We can say things like "We made this 175% better."
 
-Product Growth
+There's many established techniques for fixing performance problems.
+
+- Amazon server clusters
+- gzipping
+- Asset pipeline
+- SQL query caching
+- ORM queries improvements
+
+A number of them require developer thought:
+
+- Database indexing
+- Eager loading
+- HTTP caching
+
+Page caching is the heaviest handed technique we have, but if we can cache an
+entire page and push it into a CDN, that will be the fastest option.
+
+Communications
 ==============
 
-TBD by R&I Squad
+Everyone who works at Sophilabs has a responsibility to engage professionally
+with clients.
+As a developer or designer, we undoubtedly are involved in emails, phone calls,
+or chats with clients. In these interactions, we always demonstrate respect and
+professionalism.
+
+E-mails
+-------
+
+All emails are archived and not deleted, so that a paper trail exists on any
+internal conversation or client facing communications.
+
+Also for the purpose of maintaining a paper trail, we ensure that a record of
+all Sophilabs emails remain in the google apps Sophilabs site. This means
+that if we forward emails or use an email client, all emails are recorded in
+google apps as well.
+
+We use an appropriate `email signature<https://git.sophilabs.io/sophilabs/playbook/blob/master/communication/email-signature.html>`_
+to maintain a professional tone with clients at all times.
+
+Protecting confidential information via email is also extremely important for
+us. As such, we do not send passwords by email, and we are very careful in
+sending confidential documents by email as well. All email can be easily
+intercepted by third parties. No confidential information should ever be sent
+to someone who is not “need to know”.
+
+Slack
+-----
+
+We are logged in Slack during work hours. This decreases feedback loops for
+team communication. Our slack account is under sophilabs.slack.com.
+
+Data Security
+-------------
+
+We have some security guidelines to keep confidential information safe.
+
+- We set passwords on computer for boot up and sleep
+- We never send passwords using email
+- We create safe passwords
+- We do not leave our laptop, computer, phone, or papers lying around unprotected
+- We limit access to Sophilabs networks and communication channels, email and phones
+
+Sales
+=====
+
+We're designers and developers. We want to design and develop software.
+Before we can do that, we need clients to hire us. The following section
+details how our sales process works and answers commonly asked questions by
+potential clients.
+
+The overall process is:
+
+- Someone contacts us.
+- We have a skype call.
+- Qualify/disqualify: are we a good fit for the client?
+- Qualify/disqualify: is the client a good fit for us?
+- Understand the client's vision.
+- Agree to the outcomes we're trying to achieve.
+- Estimate iterations.
+- Schedule people for iterations.
+- Sign the contract.
+- Pay a security deposit
+- We start working.
+
+Leads
+-----
+
+Our leads often come from referrals from clients and Google searches.
+We track each lead on `sophia<https://panel.sophilabs.io>`_.
+
+A salesperson will get assigned to the card for the incoming lead but anyone
+in the sales team can take responsibility for that lead. The person responsible
+qualifies or disqualifies the lead, often with a quick intro email or skype
+call with the potential client.
+We prefer to pair on sales calls, having at least one designer and one
+developer on the call. This enables us to get multiple opinions on how good or
+bad of a fit the client and project might be for us, it gives us the ability
+to answer both design and development questions to the best of our ability,
+and it allows us to train and improve our process during sales calls.
+
+Understanding Product Vision
+----------------------------
+
+Our goal is to begin thinking about the client's product and working as a team
+to plan it even before we officially start working together. Some example
+questions to ask:
+
+- What big benefit does the product provide?
+- Who currently buys this product?
+- Who do you want to buy this product?
+- What do customers love about your product?
+
+We distribute the sales process throughout the team. Potential clients should
+be able to talk to the people they'll work with. We should be able to handle
+spikes in incoming leads that make it unreasonable for the sales team to
+respond in a timely fashion.
+
+Customer Availability
+---------------------
+
+Tools like Slack, Gitlab, and Jira have made remote work much easier over the
+years, and we work remotely every day with our customers.
+An ideal consulting project for us is one where a member of the client team is
+available every time. Failing that, we want to find out during the sales
+process how available they will be.
+If it seems like they won't be available very often, we should seriously
+consider declining the project.
+
+NDAs
+----
+
+If the NDA is important to the client, ask them to tell us enough about the
+business to evaluate whether there's a conflict with our existing or past
+clients. If we determine there's no conflict, the project is a good fit, we
+sign it.
+
+Roles
+-----
+
+Technical team
+~~~~~~~~~~~~~~
+
+We offer some combination of designers, Python developers, and Javascript
+developers. An agile buddy assists the team for a few hours a week.
+The designer is responsible for designing interactions between users and the
+product. They write user interface code.
+The developers make it work. They write the code that makes the app "smart."
+They aim to make the product error-free. They monitor performance because speed
+is a feature of every application.
+Developers keep it running. They make architectural decisions and interact with
+modern-day hosting companies.
+The developers also implement. They write and maintain HTML, SASS, Javascript,
+Python, SQL, and lots of other code. They set and meet development standards,
+keep the `Continuous Integration<http://www.extremeprogramming.org/rules/integrateoften.html>`_ build passing, and review each other's code.
+The agile buddy adds an impartial perspective. They run weekly meetings so that
+there is consistency in week-to-week communication. They keep an eye on the
+high-level goals of the project, which should be easier for them because they
+are not in the weeds of the project day-to-day. They express enthusiasm when
+the team is in a groove and help problem-solve when things get off track.
+When appropriate, they should work with the client to either reduce or increase
+team size to correctly serve the project.
+
+Agile buddy
+~~~~~~~~~~~
+
+The agile buddy is not a project manager. The rest of the team does not report
+to them. The agile buddy is also not a technical or design lead. Agile buddies
+need not be Managing Directors or CXOs, but typically are due to flexibility
+in schedule. Anyone at Sophilabs should be able to advise a project. If the
+primary salesperson is not also the agile buddy, there should be a smooth
+hand-off from one to the other.
+
+While each person plays a role, a team needs to be a team.
+Everyone takes responsibility every day for delivering high quality work,
+for staying true to the vision for the product, for communicating their
+schedule and intentions, for making hard decisions, for delegating to others
+when they don't have the time or skill to accomplish a task, for keeping
+team morale up, and for being consistent.
+
+No Fixed Bids
+-------------
+
+Some consulting relationships start with a requirements document. The
+requirements are often extremely detailed.
+The probability of this document containing the optimum feature set is
+extremely low. The right features are better learned through user interviews,
+prototyping, releasing actual software, and getting feedback from real users.
+Based on that document, clients expect consultants in the industry to submit
+an exact timeframe and bid. This contract style sets the client and consultant
+working against each other right from day one. Instead of focusing on designing
+the product experience or evaluating what assumptions were wrong, they spend
+time negotiating about what was meant in a document written a long time ago or
+focusing on arbitrary deadlines. But it's worse than negotiating; it's
+retroactively discussing something that no one remembers the same way.
+As you might have guessed, we don't do fixed-bid, fixed-feature-set proposals.
+
+Budget
+------
+
+We `do need to know clients' budget<https://medium.com/what-i-learned-today/a61ec864c898>`_.
+This is often uncomfortable for them but
+their budget helps determines what scope is possible. It saves time. If they
+don't know their budget, we discuss different options.
+We talk about breaking product rollout into stages and try to improve the
+product's chances of success at each stage by:
+
+- Focusing on a small subset of features.
+- Designing a valuable user experience.
+- Developing a meaningful relationship with users.
+
+Rate
+----
+
+We price projects at a per person, per hour rate. We consult a minimum of 32
+hours per week. We use the same rate for designers and developers. The work
+required for each week dictates which skills are needed. The number of people
+needed determines the cost and how much gets done.
+During the process of explaining our billing, we sometimes tell potential
+clients "time and materials" is the same as hiring an employee for their annual
+time except there's less risk to them because:
+
+- Our team is experienced. We've interviewed hundreds candidates in order to find the talented group of people we work with today.
+- We've worked together on projects before. We have "a way" of doing things.
+- Short projects require less money.
+- Our time is predictable (32 hours/week) and consistent.
+- We can quickly rotate in a new team member if someone gets sick, leaves the company, or is ready to rotate to a new project.
+
+Clients always know what is happening via access to the project management
+system (JIRA), chat room (Slack), version control system (Gitlab), and ongoing
+communication with our teammates.
+
+Contract
+--------
+
+We store contracts in Google Drive and have a series of folders for pending,
+current, past, and lost clients.
+
+The consulting proposal and contract contains:
+
+- A one-page summary of the expected work.
+- Our hourly rate.
+- Security deposit covering two weeks of work is required to start working.
+- Invoices will go out once a month.
+- Agreement that both parties won't use materials which break someone else's copyright.
+- Agreement that both parties won't publish things to the web hosting provider which are abusive or unethical.
+- Agreement that the contract is mutually "at-will" and either side can decide to stop work with a prior notice of 15 days.
+
+Hiring
+======
+
+Recruitment
+-----------
+
+We've met our future teammates via:
+
+- `GitHub<http://github.com/>`_
+- `Python<http://www.meetup.com/py-mvd/>`_ and `Javascript<http://www.meetup.com/mvd-js/>`_ Meetups
+- `Python<http://uy.pycon.org>`_ and `Javascript<http://jsconf.uy>`_ Conferences
+- `Buscojobs<http://www.buscojobs.com.uy/>`_
+
+Many of us are regulars at Python and Javascript events.
+A nice thing about those meetings are that they happen naturally.
+We know what we'll get when we hire in the above ways. We know their
+personality and energy level from the user group. We know their coding style
+from their open source work. We know they'll take initiative because they
+voluntarily contributed to the community.
+
+Interviewing
+------------
+
+We create a new record on Sophia for each candidate.
+The recruitment team ensures that everyone gets a response and make sure
+that one of the directors speak with a candidate before is hired.
+Anyone can do an initial review of the candidate's application. In particular,
+they review the candidate's code sample or portfolio. If necessary, they may
+ask someone else (like a designer or Javascript developer) for another pair of
+eyes on the code or portfolio.
+The recruitment team will pull the managing director, designers, or developers
+into subsequent discussions, putting their faces on the Sophia candidate to
+ensure we always know who is responsible.
+
+We have standard questions for Python developers, NodeJS developers, DevOps
+and designers for the technical interview. We like to talk to respondents about
+design process, architecting systems, and writing code; the same thing we do
+for work every day.
+Aside from technical skill, during the entire interview process, we look for
+`character strengths<http://www.kipp.org/our-approach/strengths-and-behaviors>`_ like:
+
+- Enthusiasm (invigorates others)
+- Focus (pays attention, resists distractions, remembers directions)
+- Composure (remains calm when critiqued, doesn't interrupt)
+- Gratitude (shows appreciation)
+- Curiosity (eager to explore, asks questions to understand, actively listens)
+- Optimism (gets over frustrations quickly)
+- Grit (finishes what he or she starts, doesn't get blocked)
+- Emotional intelligence (demonstrates respect for others' feelings, knows when and how to include others)
+- Appreciation of beauty (notices and appreciates beauty and excellence)
+
+To be hired, the candidate must get a unanimous "yes" from the existing
+teammates with whom they interacted.
+
+Offer and Onboarding
+--------------------
+
+We make the offer via mail, if it is accepted then a contract is signed by
+both parties and a trial work period of three months is agreed. Both parties
+are going to use that period to evaluate each other. A feedback meeting is
+going to be scheduled between the new team member, his mentor and the agile
+buddy 10 weeks after the hiring.
+
+When the offer is accepted, we create the teammate's email address, gives them
+access to systems like GitLab and Slack, sends them their Employment Agreement,
+notifies Accounting, sends a welcome email to the teammate, receives a welcome
+package including a MacBook Pro, stickers, a printed version of this playbook
+and a t-shirt; and creates JIRA issues for the hiring manager for any remaining
+items that we haven't been able to complete.
+
+Mentors
+-------
+
+We assign a mentor to new team members who acts as a guide on their first
+three months. The mentor helps them set up their machine, purchase any required
+software, and walk them through one turn of the development cycle by getting
+their profile added to our website. The mentor also makes them feel comfortable,
+answers questions they may have, or points them to the person who can answer
+them.
+
+Compensation
+------------
+
+We are entirely bootstrapped, with no outside investors, and no debt.
+Sustainability of the company is very important to us. We want to bring great
+people on at reasonable salaries and reward them as aggressively as possible
+for actual performance.
+We may never be able to compete dollar for dollar with other tech companies but
+we can compete on being a great place to work, with lots of opportunities to
+learn, and the freedom to define and execute on our own projects.
+
+Biannual Reviews
+----------------
+
+In order to continually improve ourselves and the company, all year round on
+every project we're on, we receive regular feedback from clients, managers,
+and teammates. We additionally have biannual reviews for more formal review
+and potential salary increases.
+During onboarding, a "Biannual Review" calendar event is created, set to recur
+once every 6 months, starting from the hire date.
+
+The agenda for biannual reviews is roughly:
+
+- Our performance on recent consulting projects
+- Our investment days contributions
+- Our satisfaction with our work, projects, and the company
+- Our questions about Sophilabs and our strategy
+- Our areas of focus for the next 6 months
+
+Salary increases are the natural result of improvement. Our manager may
+increase our salary during biannual reviews in a way that is compatible with
+the company's finances and individually appropriate to us based on things
+we've done, such as:
+
+- creating great software
+- making users and clients happy
+- improving ourselves by learning something new
+- improving Sophilabs by bringing in sales, mentoring a teammate, contributing to an internal tool or research
+- improving our community by writing blog posts, contributing to sophilabs open source projects, or attending conferences
+- doing the things we didn't think to put on this list
+
+It's important that our manager explains why a raise is being given and what,
+if anything, could be done to receive a higher raise next time. We don't get
+raises for "just showing up."
+
+Operations
+==========
+
+Running a software-based business requires more than beautiful code or a
+popular product. Managing cash flow and taxes can feel unimportant or difficult
+but getting them right is as vital to our success as product design.
+
+Fortunately, we have decided long time ago to build our own ERP system which
+make things like bookkeeping, receipts, signatures, and invoicing much easier,
+it is a minimal core system connected with multiple third party services such
+as Redmine, Jira, Quickbooks to extract desired information. It’s name is
+Sophia and it is living on `panel.sophilabs.io<https://panel.sophilabs.io>`_.
+
+Email
+-----
+
+We use `Gmail<https://mail.sophilabs.io>`_ for our email.
+
+Calendar
+--------
+
+We use `Google Calendar<https://calendar.sophilabs.io>`_ for our calendars.
+
+Documents
+---------
+
+We use `Google Docs<https://docs.sophilabs.io/>`_ for our editable documents.
+We prefer Google Docs because they are:
+
+- Easily sharable by URL. Everyone has a browser, not everyone has MS-Office or OpenOffice installed.
+- Always up to date with the latest edits.
+- Enable real-time collaboration, like group meeting notes.
+- Autosaved to the cloud, so no worrying about backup.
+- Are as easy to find as Googling something.
+- Without document type versioning (e.g. xls vs. xlsx).
+
+These tools are not well-suited for large documents or complicated spreadsheets,
+which is great.
+We write code and are biased toward minimal documentation and upfront specs so
+we shouldn't be writing long documents.
+For cases where we are writing large spreadsheets, we find it's faster to snap
+together a small app to do the job. This is a good time to ask if such
+complicated analysis is really necessary.
+When documents are mostly similar with slight variations (like contracts),
+we create templates and put them in the Templates folder of our Docs repository.
+
+Meetings
+--------
+
+We over-communicate with clients online to avoid having scheduled meetings.
+Every problem arises from poor communication.
+When we need to meet for a discussion, we aim for 30 minutes.
+When working remotely, `Google Hangouts<https://apps.google.com/intx/en/products/hangouts/>`_
+is the prefered communication tool,
+if not possible `Skype<http://skype.com>`_ works too. They are easy to set up, sharable by URL,
+and let us get a look at whoever we're talking to.
+Screen-sharing is also very easy, when necessary. We have used Hangouts/Skype
+for client meetings, candidate interviews, and company meetings.
+
+Sharing
+=======
+
+We've learned a ton from blog posts, tweets, and newsletters from others in the
+community. We should be giving back when we have something to share.
+
+Blog
+----
+
+We have an institutional blog called `Journal<https://sophilabs.co/journal>`_,
+for sharing important events
+and facts related to Sophilabs in addition to product design and software
+engineering topics.
+When you want to write a post, create an Issue on JIRA in the `Community
+project<https://sophilabs.atlassian.net/projects/COM/issues/?filter=allopenissues>`_
+and assign the Issue to yourself.
+
+Spend time writing and rewriting a `great headline<http://www.copyblogger.com/magnetic-headlines/>`_.
+It helps you narrow your
+focus, figure out the purpose of the post, and grab people's attention in the
+first place.
+When you begin writing, move the Issue to the "Drafts" column.
+Write the post in `Sophia<https://panel.sophilabs.io>`_, add tags to the post. Tags help our readers find
+related blog posts.
+When you're ready for feedback from the team, move the issue to "In Review"
+column and share the Issue URL with the team in Slack. Make changes based on
+their feedback and your judgement.
+When the post is ready to publish, give it a published date and change it
+status to published.
+Our RSS feed, Zapier, Buffer accounts are setup to automatically work together
+to link to the post from Twitter, Google+ and LinkedIn.
+Link to the post from Hacker News, Reddit or other appropriate sites.
+Move the Issue to "Live."
+
+Research & Innovation
+=====================
+
+Ongoing experiments are managed in our "Research & Innovation" JIRA project.
+
+We rigorously research, discuss, and conclude experiments on new tools and
+techniques. Write up these experiments on the blog at your discretion.
+
+Open Source
+-----------
+
+We've created a few open source libraries to help us perform common tasks and
+give back to the community.
+Our open source libraries do better when there's one person that really steps
+up to maintain them. Each of our repositories has a leader that tries to keep
+the repository moving forward. The leader doesn't necessarily do the bulk of
+the actual work; responsibilities include:
+
+- Understand the underlying code and goal of the library
+- Review and merge pull requests
+- Respond to and close issues
+- Push new releases of packages when appropriate
+- Encourage people to take on useful tasks for the library
+- Blog, tweet, and otherwise advertise new releases and tips
+
+Every sophilaber has commit access to our open source repositories.
+Some guidelines:
+
+- You may want to check with the project leader to see what would be most useful, or whether or not they're on board with your idea.
+- Send pull requests rather than committing straight to master.
+- Try helping out with existing pull requests or bug reports.
+- Documentation patches are a great way to get familiar with a project.
+
+Got an idea for a new library? Found something useful in a client project that
+you think is reusable? Great! Some guidelines:
+
+- Extractions are more likely to be useful than Brave New World ideas, because you're extracting something that has already proven useful once.
+- If you create a new library, you're expected to lead it, at least for the beginning of its life. Make sure you have time to maintain it.
+- Try not to duplicate something that's already been done well. Look around to make sure your problem hasn't already been solved.
+- Fixing bugs that affect client projects or introducing small features that would really help a client project is fine during client time. Most open source work should be conducted during investment time. Let the client know if you are willing to add the new open source project as a requirement to the client’s project.
+- Think about whether your idea makes more sense as a pull request to an existing project.
 
 Squads
 ======
@@ -709,14 +1284,14 @@ We realized that we needed to divide our forces in order to build a
 great company.
 
 One of our core principles is *always aim high*, and to be consequent we
-need to have demanding objectives:
+developed demanding objectives:
 
 * Hire the best people
 * Work for the best companies
 * Craft the best software
 * Build something that people love
 
-We created specialized workgroups that strive to achieve those goals by
+We have created specialized workgroups that strive to achieve those goals by
 defining universal guidelines and ensuring they are always applied.
 
 The current squads -classified by objective- are:
@@ -1053,45 +1628,12 @@ Correctness
 -  **▲ # acceptance tests asserts / acceptance criteria conditions**
 -  ▼ # tickets tagged with “correctness issue” on a testing session
 
-Communications
-==============
-
-It is important to maintain a professional and polished tone with clients
-at all times.
-
-E-mail signature
-~~~~~~~~~~~~~~~~
-
-Please use the following HTML snippet, adapt it and paste it into the
-signature field on the Gmail settings page.
-
-`Sophilabs Signature <https://git.sophilabs.io/sophilabs/playbook/blob/master/communication/email-signature.html/>`_
-
-Sales
-=====
-
-TBD by Sales Squad
-
-Hiring
-======
-
-TBD by Recruitment Squad
-
-Operations
-==========
-
-TBD
-
-Community
-=========
-
-TBD by Community Squad
-
 Goodbye
 =======
 
-We are a group of people who love crafting hight quality software for next-generation products.
-Thank you for being a part of it.
+We are a group of people who enjoy crafting software for next-generation products.
+We hope the practices we've shared here will be helpful to you.
+Thank you for reading.
 
 License
 =======
