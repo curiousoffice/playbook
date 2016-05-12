@@ -33,22 +33,163 @@ were yours.
 Culture
 =======
 
-TBD
+Our main objective is to be an outstanding team of designers and engineers so
+we will eliminate or simplify any policy that makes us diverge from that goal.
+Most of the time you won’t find a policy, we encourage you to "use your best
+judgement".
+
+We avoid departments and prefer just a few hierarchies. We like composition of
+roles necessary for projects and company objectives over inheritance of bosses
+and direct reports.
+
+We avoid having private conversations about each other or clients. Instead, we
+talk in person, and use tools such as Slack, JIRA and GitLab to communicate
+openly within a project, within sophilabs, and publicly.
+
+We prefer open offices where everyone sees each other encouraging people to
+collaborate spontaneously but keeping always a quiet environment, we say “work
+comfortably but keeping the stillness of a library”. There are many places for
+entertainment when you need to rest your head without disturbing your teammates.
+
+Our standards are very high, and bringing on a new team member requires a "yes"
+from everyone who participated in the interview process. Therefore, we expect
+the best from each other, give each other the benefit of the doubt, and
+encourage each other to take initiative to improve ourselves and the company.
+
+Except for a few roles with pure management responsibilities, everybody at
+sophilabs must dedicate at least part-time on programming software, on a
+customer project, on internal tools or for the Research and Innovation
+working group.
 
 Time
 ====
 
-TBD
+We work a `sustainable pace<http://www.extremeprogramming.org/rules/overtime.html>`_.
+From March to December we dedicate two days per
+month as “investment days”, and one day during January and February. We
+typically distribute investment days in the team in order to have at least one
+member dedicated to the project everyday.
+If a team member is absent from client work because of illness or study
+holidays, we'll use investment days as extra client days to avoid slipping
+behind schedule.
+
+When taking time off during client work, we discuss how it will impact the
+schedule with other team members.
+Sending off-hours communication may create an unintended sense of urgency with
+the recipients of your message. Try to avoid creating that urgency when
+possible.
+Unless actually urgent, you may ignore off-hours messages which you receive and
+handle them once you are back at work.
+
+Consulting
+----------
+
+Our main business is consulting projects. Those projects start with sales and
+go through a normal flow of designing, developing, shipping, monitoring, and
+iterating. We should do such a good job for our clients that they will want to
+poach us, and be such a great place to work that we can be confident our
+teammates won't leave.
+
+Investment
+----------
+
+Investment days are days for investment in ourselves, our company, and our
+community. Primarily this means doing something that interests us like
+defining best practices, investigating a new framework, contributing to open
+source, writing a blog post, attending community events, or reading an
+educational book. The goal is to encourage individuals to improve and share
+their knowledge with the rest of the team.
+
+The time you invest during these days must generate value, in different forms:
+
+- Pick from or contribute back to guidelines and playbook
+- Completing squads’ pre-defined tickets
+- Contributing or creating open source software
+- Writing a blog post
+- Explore change to tools and processes on the "R&I" JIRA project
+- Work on conference and meetup talks and proposals
+- Work on Sophia or other internal projects
+
+There is a difference between a normal investment day, and extended downtime
+between client projects (being “on bench”).
+
+Extended periods of time between client projects should skew heavily towards
+revenue generating activities. This could be working on existing revenue
+generating products and services, networking and sales, or creating something
+new that will generate revenue.
+
+Because this extended time period will go away when you resume client work, and
+because we can't sustain non-revenue generating activities for long, approach
+this extended time between client projects with a sense of urgency.
+Validating ideas, shipping, and getting to revenue generation as quickly as
+possible should be a priority. We shouldn't go weeks without results to show,
+and we should impose the same constraints and process as we do on client
+projects.
 
 Laptop
 ======
 
-TBD
+MacBook Pro
+-----------
+
+Every person that joins Sophilabs receives a MacBook Pro latest generation.
+These laptops are known for their performance, robustness, great look & feel
+and battery life, but for us, the most important feature is that they allow us
+building and testing apps on any platform: OSX, Linux and Windows.
+
+Text Editor/IDE
+---------------
+
+Plain text won't become obsolete. It helps leverage your work and simplifies
+debugging and testing. The editor should be an extension of your hand; make
+sure your editor is configurable, extensible, and programmable. -The Pragmatic
+Programmer
+
+We encourage everyone to be an expert using his favorite programming tool. Know
+every shortcut and automate repetitive tasks to gain more productivity so you
+can focus on building the software the way we want.
 
 Technology
 ==========
 
-TBD
+Early in a project, we have to decide which platforms we'll use.
+Which platform depends on our ideas for solving the users' problems. For
+example, if they're construction workers on a job site, a mobile or tablet
+interface might be the best choice.
+
+After considering what's best for users, what's best for us?
+
+- The tools are open source with a strong community
+- The tools make us happy
+- The tools help us create and iterate quickly
+
+Web Apps
+--------
+
+In our experience, teams using the `Django framework<https://git.sophilabs.io/sophilabs/playbook>`_
+can bring products to market more quickly and with a lower total cost of
+ownership than other tools. There's also strong overlap between the agile and
+Python communities, which means (among things) that Python developers tend to
+write adaptable modules, write tests and avoid repeated code.
+
+In addition to Python, we use other open source software and web standards such
+as HTML, CSS, JavaScript, UNIX and Postgres because they:
+
+- Are high quality.
+- Avoid vendor lock-in.
+- Provide flexibility to switch components.
+- Work on many devices.
+- Are battle-tested.
+- Have few bugs when seen by many eyes.
+
+Django comes with features that decrease the burden on the programmer to protect
+against security attacks such as:
+
+- Cross-Site Scripting (XSS)
+- Cross-Site Request Forgery (CSRF)
+- SQL injection
+- Header injection
+
 
 Methodology
 ===========
