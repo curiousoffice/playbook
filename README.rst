@@ -550,7 +550,70 @@ Successful designs are usable.
 Development
 ===========
 
-TBD by Code Analysis Squad
+Our development practices are based on the `Agile Manifesto<http://agilemanifesto.org/principles.html>`_
+and a subset of the `XP practices<http://www.extremeprogramming.org/>`_.
+We adhere to their principles and found that
+applying them improves the quality of our work and happiness of our team.
+
+Version Control
+---------------
+
+We always use source code control. It's like a time machine. We can work in
+parallel universes of our source code, experimenting without fear of losing
+work. Roll back if something goes wrong.
+`Git<http://git-scm.com/>`_ is an open source code control system written by
+Linus Torvalds.
+It's fast and great for working in branches.
+We prefer to use `Gitflow<https://github.com/nvie/gitflow>`_ for branches and release management.
+We use `GitLab<http://git.sophilabs.io>`_ for hosting our git repositories.
+
+Style Guide
+-----------
+
+We write code in a consistent `style<https://guidelines.sophilabs.io>`_ that
+emphasizes cleanliness and team communication.
+
+High level guidelines:
+
+- Be consistent.
+- Don't rewrite existing code to follow this guide.
+- Don't violate a guideline without a good reason.
+- A reason is good when you can convince a teammate.
+
+Pair Programming
+----------------
+
+Code that is written by two people who sit next to each other at the same
+computer is `pair-programmed<http://www.extremeprogramming.org/rules/pair.html>`_ code. That code is considered high quality and
+should result in cost savings due to less maintenance.
+In the long run, this style of development saves money because fewer bugs are
+written and therefore do not need to be fixed later.
+An indication that pairing is beneficial and should be done more often is the
+following example:
+When you are writing an important piece of code, don't you want another person
+to look it over before it goes into production?
+While we don't pair program all the time, we recognize the difficulty in acting
+as a team when we work at a distance from each other. There is no better
+collaboration between designers and developers than at the keyboard.
+
+Code Reviews
+------------
+
+Here's the flow. Read our `git flow based protocol<https://guidelines.sophilabs.io>`_ for the git commands.
+
+1. Create a local feature branch based on dev.
+2. When feature is complete and tests pass, stage the changes.
+4. When you've staged the changes, commit them.
+5. Write a good commit message.
+6. Share your branch.
+7. Submit a merge request.
+8. Ask for a code review in `Slack<https://chat.sophilabs.io>`_.
+9. A team member other than the author reviews the merge request. They follow the `Code Review guidelines<https://guidelines.sophilabs.io>`_ to avoid miscommunication.
+10. They make comments and ask questions directly on lines of code in the GitLab web interface or in Slack.
+11. When satisfied, they comment on the merge request "Ready to merge."
+12. View a list of new commits. View changed files. Merge branch into dev.
+13. Delete your remote feature branch.
+14. Delete your local feature branch.
 
 Testing
 =======
