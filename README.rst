@@ -618,7 +618,74 @@ Here's the flow. Read our `git flow based protocol<https://guidelines.sophilabs.
 Testing
 =======
 
-TBD by Testing Squad
+Test-Driven Development
+-----------------------
+
+`Test-Driven Development<http://www.extremeprogramming.org/rules/testfirst.html>`_
+(TDD) is one of the most important Extreme Programming
+(XP) rules, but we need to be very careful how to apply it as it may add an
+important amount of code that could make us move slower.
+One of the great benefits of TDD is that it enforces the design of testable
+components, it is a great practice to create clean and maintainable code, and
+we have some suggestions to encourage the creation of tests for components
+interfaces and not for implementation details:
+
+- Don’t test private methods.
+- Test the more generalist method that is closer to the user instead of each one responsible for the smaller tasks.
+
+Acceptance Tests
+----------------
+
+Acceptance tests are code created from stories’ acceptance criteria. This code
+is run against the application. When executed for the first time, the test will
+fail. The developer writes application code until the test passes.
+When the test passes, the developer commits the code into version control with
+a message such as:
+
+*Author creates post*
+
+The code is then run on the Continuous Integration server to make sure the
+acceptance test still passes in an environment that matches the production
+environment.
+Everytime the code is pushed to the dev branch, the staging environment is
+automatically updated so anyone can see the current status of the project.
+
+When the acceptance test is green for the CI server and you and any other
+designers, developers, or clients are satisfied that the jobs story is complete
+on staging, the feature can be deployed to production at will. This can result
+in features being pushed to production very frequently, and therefore more
+value is being delivered to customers sooner.
+
+Continuous Delivery
+-------------------
+
+Martin Fowler has an `extensive description<http://martinfowler.com/articles/continuousIntegration.html>`_
+of Continuous Integration. The basics are:
+
+- We have a test suite that each developer runs on their own machine.
+- When they commit their code to a shared version control repository, the tests are run again, "integrated" with code from other developers.
+
+This helps ensure there's nothing specific to the developer's machine making
+the tests pass. The code in version control needs to run cleanly in production
+later so before the code is allowed to be deployed to production, it is run on
+a CI server or service.
+When a build fails, we get alerts in Slack and via email. Click the alert and
+we see a backtrace that gives us a hint of how to "fix the build."
+When we write the fix and commit to version control again, we'll get a "passing
+build" alert in Slack and via email. Click the alert and we see the passing
+build.
+
+*Green is good.*
+
+A solid test suite is an absolute requirement for a web application in our
+opinion. However, one major problem with test suites is that they get slow as
+they get large.
+CI can ease the pain by distributing the test runs in parallel.
+We've used Bamboo, Hudson (now called Jenkins), and other CI libraries that we
+manage ourselves.
+We use `Travis CI<https://travis-ci.org/>`_ for open source projects. We use
+`Jenkins<http://ci.sophilabs.com>`_ for private repositories.
+CI test runs are triggered by GitLab post-receive hooks.
 
 Deployment
 ==========
