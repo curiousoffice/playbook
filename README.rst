@@ -368,14 +368,12 @@ guide the presentation.
 
 After that, the following stuff is set up:
 
-- Project mailing-list: project@sophilabs.com, which includes the client and
-project-dev@sophilabs.com, which include only the technical team
+- Project mailing-list: project@sophilabs.com, which includes the client and project-dev@sophilabs.com, which include only the technical team
 - JIRA tracker (provided by client)
 - Gitlab or Github repositories (provided by client)
 - Jenkins project (provided by client)
 - Access to cloud service (security groups and roles)
-- Google docs folder (ask client for a documents repository or use
-docs.sophilabs.io instead)
+- Google docs folder (ask client for a documents repository or use docs.sophilabs.io instead)
 
 Standups
 --------
@@ -430,37 +428,18 @@ for the week of work to come.
 
 The agile buddy runs this meeting aiming to:
 
-- Understand how the team feels about last week's progress and what's to come.
-Ask each team member from both sophilabs and the client, "How did you feel about
-last week? How do you feel coming into this week?" This is less a recap of the
-completed work (a better place being during daily standup) and more a pulse of
-how each person feels. Take notes.
-- Have each member of the team voice any risks or concerns; after everyone has
-had the opportunity to bring these up, work together as a group to mitigate
-these concerns. Encourage everyone to voice the same concerns even if they've
-already been mentioned; it helps prioritize what the team is most concerned
-about and should spend the most time fixing. This is an opportunity to discuss
-how to improve the process and product we're building together. Note who had
-which concerns and track how we'll be addressing these concerns.
-- Celebrate success. Review the work that shipped last week, showing the actual
-product, and congratulate those who made it happen.
-- After the retro is done, share the notes with the team and ensure anything
-actionable from the retro is captured. This allows teammates to view progress,
-understand how feelings on the project change over time, and accomplish
-anything we set out to do given the outcomes of the retro.
+- Understand how the team feels about last week's progress and what's to come. Ask each team member from both sophilabs and the client, "How did you feel about last week? How do you feel coming into this week?" This is less a recap of the completed work (a better place being during daily standup) and more a pulse of how each person feels. Take notes.
+- Have each member of the team voice any risks or concerns; after everyone has had the opportunity to bring these up, work together as a group to mitigate these concerns. Encourage everyone to voice the same concerns even if they've already been mentioned; it helps prioritize what the team is most concerned about and should spend the most time fixing. This is an opportunity to discuss how to improve the process and product we're building together. Note who had which concerns and track how we'll be addressing these concerns.
+- Celebrate success. Review the work that shipped last week, showing the actual product, and congratulate those who made it happen.
+- After the retro is done, share the notes with the team and ensure anything actionable from the retro is captured. This allows teammates to view progress, understand how feelings on the project change over time, and accomplish anything we set out to do given the outcomes of the retro.
 
 Based on the answers to these questions, we record our plans in the task
 management system:
 
 - Archive the two-week previous sprint.
-- Review product design priorities. Pull what we estimate to be an appropriate
-amount for this week into the Backlog.
-- Review bugs. Pull any important bugs into the Backlog and prioritize them at
-the top of the queue before everything else. We want to always be fixing what's
-broken first.
-- Review engineering and refactoring tasks. Pull stories into the Backlog based
-on what the designers and developers believe is appropriate given the
-previously stated product design and bug tasks.
+- Review product design priorities. Pull what we estimate to be an appropriate amount for this week into the Backlog.
+- Review bugs. Pull any important bugs into the Backlog and prioritize them at the top of the queue before everything else. We want to always be fixing what's broken first.
+- Review engineering and refactoring tasks. Pull stories into the Backlog based on what the designers and developers believe is appropriate given the previously stated product design and bug tasks.
 - Re-sort the entire Backlog according to priority.
 
 The task management system is the canonical repository for plans.
