@@ -140,8 +140,8 @@ building and testing apps on any platform: OSX, Linux and Windows.
 Text Editor/IDE
 ---------------
 
-    *Plain text won't become obsolete. It helps leverage your work and simplifies debugging and testing. The editor should be an extension of your hand; make sure your editor is configurable, extensible, and programmable.*
-    - The Pragmatic Programmer
+    | *Plain text won't become obsolete. It helps leverage your work and simplifies debugging and testing. The editor should be an extension of your hand; make sure your editor is configurable, extensible, and programmable.*
+    | - The Pragmatic Programmer
 
 We encourage everyone to be an expert using his favorite programming tool. Know
 every shortcut and automate repetitive tasks to gain more productivity so you
