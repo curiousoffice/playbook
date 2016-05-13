@@ -132,7 +132,7 @@ Laptop
 MacBook Pro
 -----------
 
-Every person that joins Sophilabs receives a MacBook Pro latest generation.
+Every person that joins sophilabs receives a MacBook Pro latest generation.
 These laptops are known for their performance, robustness, great look & feel
 and battery life, but for us, the most important feature is that they allow us
 building and testing apps on any platform: OSX, Linux and Windows.
@@ -789,7 +789,7 @@ entire page and push it into a CDN, that will be the fastest option.
 Communications
 ==============
 
-Everyone who works at Sophilabs has a responsibility to engage professionally
+Everyone who works at sophilabs has a responsibility to engage professionally
 with clients.
 As a developer or designer, we undoubtedly are involved in emails, phone calls,
 or chats with clients. In these interactions, we always demonstrate respect and
@@ -802,7 +802,7 @@ All emails are archived and not deleted, so that a paper trail exists on any
 internal conversation or client facing communications.
 
 Also for the purpose of maintaining a paper trail, we ensure that a record of
-all Sophilabs emails remain in the google apps Sophilabs site. This means
+all sophilabs emails remain in the google apps sophilabs site. This means
 that if we forward emails or use an email client, all emails are recorded in
 google apps as well.
 
@@ -830,7 +830,7 @@ We have some security guidelines to keep confidential information safe.
 - We never send passwords using email
 - We create safe passwords
 - We do not leave our laptop, computer, phone, or papers lying around unprotected
-- We limit access to Sophilabs networks and communication channels, email and phones
+- We limit access to sophilabs networks and communication channels, email and phones
 
 Sales
 =====
@@ -938,7 +938,7 @@ Agile buddy
 The agile buddy is not a project manager. The rest of the team does not report
 to them. The agile buddy is also not a technical or design lead. Agile buddies
 need not be Managing Directors or CXOs, but typically are due to flexibility
-in schedule. Anyone at Sophilabs should be able to advise a project. If the
+in schedule. Anyone at sophilabs should be able to advise a project. If the
 primary salesperson is not also the agile buddy, there should be a smooth
 hand-off from one to the other.
 
@@ -1123,7 +1123,7 @@ The agenda for biannual reviews is roughly:
 - Our performance on recent consulting projects
 - Our investment days contributions
 - Our satisfaction with our work, projects, and the company
-- Our questions about Sophilabs and our strategy
+- Our questions about sophilabs and our strategy
 - Our areas of focus for the next 6 months
 
 Salary increases are the natural result of improvement. Our manager may
@@ -1134,7 +1134,7 @@ we've done, such as:
 - creating great software
 - making users and clients happy
 - improving ourselves by learning something new
-- improving Sophilabs by bringing in sales, mentoring a teammate, contributing to an internal tool or research
+- improving sophilabs by bringing in sales, mentoring a teammate, contributing to an internal tool or research
 - improving our community by writing blog posts, contributing to sophilabs open source projects, or attending conferences
 - doing the things we didn't think to put on this list
 
@@ -1212,7 +1212,7 @@ Blog
 
 We have an institutional blog called `Journal<https://sophilabs.co/journal>`_,
 for sharing important events
-and facts related to Sophilabs in addition to product design and software
+and facts related to sophilabs in addition to product design and software
 engineering topics.
 When you want to write a post, create an Issue on JIRA in the `Community
 project<https://sophilabs.atlassian.net/projects/COM/issues/?filter=allopenissues>`_
@@ -1357,7 +1357,7 @@ Objectives
 ~~~~~~~~~~
 - Produce knowledge about code quality that can be applied to existing and new
   projects. This knowledge must be documented and only cover programming
-  languages being used in Sophilabs. Examples include: guidelines, linting
+  languages being used in sophilabs. Examples include: guidelines, linting
   rules, workflows, conventions, etc. These documents won’t only refer to code,
   but also to how to ensure code quality (e.g. code reviews).
 - Develop a plan or methodology to measure the effectiveness of the generated
@@ -1391,9 +1391,9 @@ Objectives
 ~~~~~~~~~~
 
 -  Hire great talents with experience or potential.
--  Offer talents to Sophilabs as soon as they are required.
+-  Offer talents to sophilabs as soon as they are required.
 -  Generate an excellent reputation and culture so people will aspire to
-   work at Sophilabs.
+   work at sophilabs.
 
 Scope
 ~~~~~
