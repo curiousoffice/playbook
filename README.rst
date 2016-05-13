@@ -1339,35 +1339,6 @@ metrics are needed. We use automated tools to measure quantifiable metrics and
 quizzes that we distribute periodically to teams and customers to measure
 opinionated metrics.
 
-Facing
-^^^^^^
-
-There are negative metrics (higher is worst) and positive metrics (higher
-is better).
-The ones marked with ▲ are positive, the others marked with ▼ are negative.
-
-Types
-^^^^^
-
-Some squads define multiple metrics for the same principle/objective. For those
-scenarios, primary and secondary metrics are defined, primary metrics are shown
-in the dashboard, while secondary metrics are shown in the detailed view of
-each project.
-
-Primary metrics are identified in this document in bold text.
-
-Dashboard
-~~~~~~~~~
-
-Customers can see the status of their projects by visiting
-`dashboard.sophilabs.io <https://dashboard.sophilabs.io>`_
-
-There are also TVs distributed all around our offices that show the status of
-each metric for every project.
-
-This adds true visibility and make everybody feel the responsibility of
-improving things.
-
 Code Analysis Squad
 -------------------
 
@@ -1395,42 +1366,6 @@ Objectives
   (linters, conventions, etc). This tools and documents must be Open Source.
 - Adjust guidelines, workflows and other procedures to the needs of each project.
 
-
-Metrics
-~~~~~~~
-
-Applicability of conventions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-- # linter errors per 1000 lines of code
-
-Code complexity
-^^^^^^^^^^^^^^^
-- avg # of conditionals per method/function
-- avg # of LoC per method/function
-- avg # of methods per class
-- avg # of arguments per function/method
-- avg # of nesting levels
-- avg # ancestors of a class
-- avg # of conditionals (branches)
-- avg # of local variables
-
-Modularity
-^^^^^^^^^^
-- avg # of LoC per module
-- avg # of LoC per file
-
-Legibility (Documentation in the code)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-- % of methods with docstring/annotations
-- % of classes with docstring/annotations
-- % of properties with docstring/annotations
-
-Simplicity
-^^^^^^^^^^
-- # of modules
-
-Pending: commit messages, code reviews, etc.
-
 Methodologies Squad
 -------------------
 
@@ -1438,108 +1373,16 @@ Objectives
 ~~~~~~~~~~
 
 Ensure that the software development processes used on different
-projects encourage the following principles.
+projects encourage the following principles:
 
-Adaptability
-^^^^^^^^^^^^
-
-The team's ability to quickly adapt to unexpected changes.
-
-Productivity
-^^^^^^^^^^^^
-
-The output rate of the team is above the average.
-
-Visibility
-^^^^^^^^^^
-
-The team is traceable and all documents and resources are accessible.
-The team proactively documents and informs to put everyone in the same
-page.
-
-Satisfaction
-^^^^^^^^^^^^
-
-Team, client and stake holders are happy.
-
-Integration
-^^^^^^^^^^^
-
-Team and client are involved in the project.
-
-Automation
-^^^^^^^^^^
-
-All the repetitive processes and tasks that add overhead are automated.
-
-Simplicity
-^^^^^^^^^^
-
-Doing only what is needed every time.
-
-Predictability
-^^^^^^^^^^^^^^
-
-Estimated tasks were completed on time.
-
-
-Metrics
-~~~~~~~
-
-These are the metrics designed by the squad, classified by principle.
-
-Adaptability
-^^^^^^^^^^^^
-
-- ▲ **# releases to staging**
-- ▲ # tickets related to process changes closed
-- ▲ # retrospective meetings
-
-Productivity
-^^^^^^^^^^^^
-
-We can't measure productivity. But the Code Analysis squad can give a picture
-about how many lines are added / deleted during a period of time by analyzing
-git statistics.
-
-Visibility
-^^^^^^^^^^
-
-- ▲ **total invested hours / invested hours on the project without a ticket**
-- ▼ # tickets assigned with size > 8 (enormous) / # total tickets
-
-Integration
-^^^^^^^^^^^
-
-- ▲ **# status meetings**
-- ▲ # roles and responsibilities documented / # team size
-- ▲ # communication channels defined and documented for: What, Organization, Status and Urgent
-
-Satisfaction
-^^^^^^^^^^^^
-
-- ▲ **Average of all metrics measured**
-- ▲ Adaptability satisfaction
-- ▲ Productivity satisfaction
-- ▲ Visibility satisfaction
-- ▲ Integration satisfaction
-- ▲ Automation satisfaction
-
-Automation
-^^^^^^^^^^
-
-- ▲ **invested time on automation tasks / total hours invested by the team**
-- ▼ invested time on development repetitive tasks / total hours invested by the team
-
-Simplicity
-^^^^^^^^^^
-
-- ▼ **pages/states with a standard deviation on number of visits below 10%**
-
-Predictability
-^^^^^^^^^^^^^^
-
-- ▲ **estimated time / invested time**
+- Adaptability: The team's ability to quickly adapt to unexpected changes.
+- Productivity: The output rate of the team is above the average.
+- Visibility: The team is traceable and all documents and resources are accessible. The team proactively documents and informs to put everyone in the same page.
+- Satisfaction: Team, client and stake holders are happy.
+- Integration: Team and client are involved in the project.
+- Automation: All the repetitive processes and tasks that add overhead are automated.
+- Simplicity: Doing only what is needed every time.
+- Predictability: Estimated tasks were completed on time.
 
 Recruitment Squad
 -----------------
@@ -1568,50 +1411,11 @@ Objectives
 
 Encourage that software built by sophilabs has the necessary
 mechanisms to boost the following principles in an execution
-environment.
+environment:
 
-Reliability
-^^^^^^^^^^^
-
-The application should behave as expected.
-
-Robustness
-^^^^^^^^^^
-
-The application should be able to continue operating despite
-abnormalities.
-
-Correctness
-^^^^^^^^^^^
-
-The application is compliant with the requirements specification.
-
-Metrics
-~~~~~~~
-
-These are the metrics designed by the squad classified by principle.
-
-Reliability
-^^^^^^^^^^^
-
--  **▲ # lines of code tested / # lines of code**
--  ▲ # unit tests asserts / # lines of code
--  ▲ # integration tests asserts / # lines of code
--  ▲ # validation tests asserts / # lines of code
--  ▼ # tickets tagged with “reliability issue” on a testing session
-
-Robustness
-^^^^^^^^^^
-
--  **▼ # server side uncaught exceptions**
--  ▼ # tickets tagged with “testing robustness” created on code review sessions
--  ▼ # tickets tagged with “robustness issue” on a testing session
-
-Correctness
-^^^^^^^^^^^
-
--  **▲ # acceptance tests asserts / acceptance criteria conditions**
--  ▼ # tickets tagged with “correctness issue” on a testing session
+- Reliability: The application should behave as expected.
+- Robustness: The application should be able to continue operating despite abnormalities.
+- Correctness: The application is compliant with the requirements specification.
 
 Goodbye
 =======
