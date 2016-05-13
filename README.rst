@@ -1201,8 +1201,8 @@ and let us get a look at whoever we're talking to.
 Screen-sharing is also very easy, when necessary. We have used Hangouts/Skype
 for client meetings, candidate interviews, and company meetings.
 
-Sharing
-=======
+Community
+=========
 
 We've learned a ton from blog posts, tweets, and newsletters from others in the
 community. We should be giving back when we have something to share.
@@ -1235,8 +1235,8 @@ to link to the post from Twitter, Google+ and LinkedIn.
 Link to the post from Hacker News, Reddit or other appropriate sites.
 Move the Issue to "Live."
 
-Research & Innovation
-=====================
+Research
+========
 
 Ongoing experiments are managed in our "Research & Innovation" JIRA project.
 
