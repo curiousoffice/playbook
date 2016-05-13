@@ -140,10 +140,8 @@ building and testing apps on any platform: OSX, Linux and Windows.
 Text Editor/IDE
 ---------------
 
-Plain text won't become obsolete. It helps leverage your work and simplifies
-debugging and testing. The editor should be an extension of your hand; make
-sure your editor is configurable, extensible, and programmable. -The Pragmatic
-Programmer
+    *Plain text won't become obsolete. It helps leverage your work and simplifies debugging and testing. The editor should be an extension of your hand; make sure your editor is configurable, extensible, and programmable.*
+    - The Pragmatic Programmer
 
 We encourage everyone to be an expert using his favorite programming tool. Know
 every shortcut and automate repetitive tasks to gain more productivity so you
@@ -447,7 +445,7 @@ When things are only said on the phone, in person, in emails that don't include
 the whole group, or in one-on-one chats, information gets lost, forgotten, or
 misinterpreted. The problems expand when someone joins or leaves the project.
 
-We've been called "aggressive" with our approach cutting features, budgets, and
+We could be called "aggressive" with our approach cutting features, budgets, and
 schedules. It's hard to say "no." "No" is usually not well-received. There's a
 reason someone requested the feature.
 We have to battle sometimes in the face of "yes". We do so armed with knowledge
@@ -627,8 +625,8 @@ Test-Driven Development
 important amount of code that could make us move slower.
 One of the great benefits of TDD is that it enforces the design of testable
 components, it is a great practice to create clean and maintainable code, and
-we have some suggestions to encourage the creation of tests for components
-interfaces and not for implementation details:
+we have some suggestions to encourage the creation components
+interfaces tests and not for implementation details:
 
 - Don’t test private methods.
 - Test the more generalist method that is closer to the user instead of each one responsible for the smaller tasks.
