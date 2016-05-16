@@ -1295,19 +1295,19 @@ defining universal guidelines and ensuring they are always applied.
 The current squads -classified by objective- are:
 
 - Hire the best people
- - Recruitment squad
+ * Recruitment squad
 - Work for the best companies
- - Sales squad
+ * Sales squad
 - Craft the best software
- - Code Analysis squad
- - Deployment squad
- - Methodologies squad
- - Product Design / UX squad
- - Testing squad
- - Security squad
- - Software Design squad
-- Build something that people love
- - Research & Innovation squad
+ * Code Analysis squad
+ * Deployment squad
+ * Methodologies squad
+ * Product Design / UX squad
+ * Testing squad
+ * Security squad
+ * Software Design squad
+* Build something that people love
+ * Research & Innovation squad
 
 In addition, we need to support sophilabs infrastructure and operations:
 
