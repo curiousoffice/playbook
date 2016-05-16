@@ -366,7 +366,7 @@ guide the presentation.
 
 After that, the following stuff is set up:
 
-- Project mailing-list: project@sophilabs.com, which includes the client and project-dev@sophilabs.com, which include only the technical team
+- Project mailing-list: `project@sophilabs.com<mailto:project@sophilabs.com>`_, which includes the client and `project-dev@sophilabs.com<mailto:project-dev@sophilabs.com>`, which include only the technical team
 - JIRA tracker (provided by client)
 - Gitlab or Github repositories (provided by client)
 - Jenkins project (provided by client)
