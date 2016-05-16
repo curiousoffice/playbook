@@ -8,7 +8,7 @@ company, and the tools and practices that should guide us to create quality
 software products.
 
 This document is in a continuous development process and you are a key player
-to make it evolve. Please contribute to it using `this repo
+to make it evolve. Please contribute to it using `the Playbook's git repo
 <https://git.sophilabs.io/sophilabs/playbook>`_.
 
 Principles
