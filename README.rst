@@ -1284,30 +1284,30 @@ great company.
 One of our core principles is *always aim high*, and to be consequent we
 developed demanding objectives:
 
-* Hire the best people
-* Work for the best companies
-* Craft the best software
-* Build something that people love
+- Hire the best people
+- Work for the best companies
+- Craft the best software
+- Build something that people love
 
 We have created specialized workgroups that strive to achieve those goals by
 defining universal guidelines and ensuring they are always applied.
 
 The current squads -classified by objective- are:
 
--  Hire the best people
- -  Recruitment squad
--  Work for the best companies
- -  Sales squad
--  Craft the best software
- -  Code Analysis squad
- -  Deployment squad
- -  Methodologies squad
- -  Product Design / UX squad
- -  Testing squad
- -  Security squad
- -  Software Design squad
--  Build something that people love
- -  Research & Innovation squad
+- Hire the best people
+ - Recruitment squad
+- Work for the best companies
+ - Sales squad
+- Craft the best software
+ - Code Analysis squad
+ - Deployment squad
+ - Methodologies squad
+ - Product Design / UX squad
+ - Testing squad
+ - Security squad
+ - Software Design squad
+- Build something that people love
+ - Research & Innovation squad
 
 In addition, we need to support sophilabs infrastructure and operations:
 
