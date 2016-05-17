@@ -934,9 +934,7 @@ Agile buddy
 ~~~~~~~~~~~
 
 The agile buddy is not a project manager. The rest of the team does not report
-to them. The agile buddy is also not a technical or design lead. Agile buddies
-need not be Managing Directors or CXOs, but typically are due to flexibility
-in schedule. Anyone at sophilabs should be able to advise a project. If the
+to them. The agile buddy is also not a technical or design lead. Anyone at sophilabs should be able to advise a project. If the
 primary salesperson is not also the agile buddy, there should be a smooth
 hand-off from one to the other.
 
