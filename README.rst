@@ -18,7 +18,7 @@ We've learned from our experience that working with people that share the
 correct set of principles is the foundation for creating highly productive
 teams.
 
-**Aim high** and encourage everyone else to outstand above the average.
+**Aim high** and encourage everyone else to stand out above the average.
 
 **Look into the details**, a great product is the sum of perfectly well thought
 details.
@@ -621,7 +621,7 @@ Test-Driven Development
 
 `Test-Driven Development<http://www.extremeprogramming.org/rules/testfirst.html>`_
 (TDD) is one of the most important Extreme Programming
-(XP) rules, but we need to be very careful how to apply it as it may add an
+(XP) rules, but we need to be very careful how to apply it, as it may add an
 important amount of code that could make us move slower.
 One of the great benefits of TDD is that it enforces the design of testable
 components, it is a great practice to create clean and maintainable code, and
