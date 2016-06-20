@@ -379,7 +379,7 @@ After that, the following stuff is set up:
 Standups
 --------
 
-Every morning morning, each project team gets together for 15 minutes.
+Every morning, each project team gets together for 15 minutes.
 We talk about what we did yesterday, what we're going to do today,
 and expose blockers.
 We immediately resolve blockers together or help the person in need following
