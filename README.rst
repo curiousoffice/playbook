@@ -424,6 +424,21 @@ Work is done in a feature git branch. When a designer or developer creates a
 pull request for their feature branch, they move the story to the Code Review
 column. All reviewers must "put their face on it" while reviewing.
 
+Agile buddy
+~~~~~~~~~~~
+
+The agile buddy is not a project manager. The rest of the team does not report
+to them. The agile buddy is also not a technical or design lead.
+
+The agile buddy adds an impartial perspective. They run weekly meetings so that
+there is consistency in week-to-week communication. They keep an eye on the
+high-level goals of the project, which should be easier for them because they
+are not involved in the weeds of the project day-to-day.
+They express enthusiasm when the team is in a groove and help
+problem-solve when things get off track.
+When appropriate, they should work with the client to either reduce or increase
+team size to correctly serve the project.
+
 Biweekly Retrospective
 ----------------------
 
@@ -951,20 +966,7 @@ other code. They set and meet development standards, keep the
 build passing, and review each other's code.
 In addition, an agile buddy assists the team for a few hours a week
 
-The agile buddy adds an impartial perspective. They run weekly meetings so that
-there is consistency in week-to-week communication. They keep an eye on the
-high-level goals of the project, which should be easier for them because they
-are not involved in the weeds of the project day-to-day.
-They express enthusiasm when the team is in a groove and help
-problem-solve when things get off track.
-When appropriate, they should work with the client to either reduce or increase
-team size to correctly serve the project.
-
-Agile buddy
-~~~~~~~~~~~
-
-The agile buddy is not a project manager. The rest of the team does not report
-to them. The agile buddy is also not a technical or design lead. Anyone at sophilabs should be able to advise a project. If the
+Anyone at sophilabs should be able to advise a project. If the
 primary salesperson is not also the agile buddy, there should be a smooth
 hand-off from one to the other.
 
