@@ -425,7 +425,7 @@ pull request for their feature branch, they move the story to the Code Review
 column. All reviewers must "put their face on it" while reviewing.
 
 Agile buddy
-~~~~~~~~~~~
+-----------
 
 The agile buddy is not a project manager. The rest of the team does not report
 to them. The agile buddy is also not a technical or design lead.
