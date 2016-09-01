@@ -65,7 +65,7 @@ a customer project, internal tools, or to the Research and Innovation working
 group.
 
 Stay focused
-============
+------------
 
 Sometimes we need to stay highly focused to solve challenging problems properly
 and we want no interruptions from our team, during those moments we listen to
