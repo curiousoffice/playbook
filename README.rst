@@ -64,6 +64,14 @@ sophilabs must dedicate at least part of their time to programming software,
 a customer project, internal tools, or to the Research and Innovation working
 group.
 
+Stay focused
+============
+
+Sometimes we need to stay highly focused to solve challenging problems properly
+and we want no interruptions from our team, during those moments we listen to
+our favorite music avoiding any program or podcast that requires attention, or
+we just move temporarily to a more quiet and isolated space.
+
 Time
 ====
 
