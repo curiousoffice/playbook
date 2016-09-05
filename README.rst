@@ -1,6 +1,9 @@
 Hello Sophilaber
 ================
 
+.. image:: ./figures/hello_sophilaber.jpg
+
+
 This is the team’s playbook, your playbook.
 
 Here you will find how you and your teammates should run our software
@@ -67,8 +70,8 @@ group.
 Time
 ====
 
-We work at a
-`sustainable pace<http://www.extremeprogramming.org/rules/overtime.html>`_.
+We work at a `sustainable pace
+<http://www.extremeprogramming.org/rules/overtime.html>`_.
 From March to December we dedicate two days per
 month as “investment days”, and one day during January and February. We
 typically distribute investment days in the team in order to have at least
@@ -167,7 +170,7 @@ After considering what's best for users, consider what's best for us:
 Web Apps
 --------
 
-In our experience, teams using the `Django framework<https://www.djangoproject.com/>`_
+In our experience, teams using the `Django framework <https://www.djangoproject.com/>`_
 can bring products to market more quickly and with a lower total cost of
 ownership than other tools. There's also strong overlap between the agile and
 Python communities, which means (among other things) that Python developers tend to
@@ -195,8 +198,8 @@ Django helps us do the right thing with regards to security but we are still
 required to be diligent, knowledgeable, and test comprehensively.
 We support Internet Explorer 10+ and the latest versions of Firefox, Chrome, and
 Safari. We do not support Internet Explorer 6, 7, 8, or 9. Those browsers are
-`losing market share<https://en.wikipedia.org/wiki/Internet_Explorer#Market_adoption_and_usage_share>`_,
-they have `security issues<https://en.wikipedia.org/wiki/Internet_Explorer_6#Security_issues>`_,
+`losing market share <https://en.wikipedia.org/wiki/Internet_Explorer#Market_adoption_and_usage_share>`_,
+they have `security issues <https://en.wikipedia.org/wiki/Internet_Explorer_6#Security_issues>`_,
 and they are time-consuming to design for, develop for, and support.
 On mobile devices, we support iOS Safari 7.1+, Android Browser 4.4+, and the
 latest version of Chrome for Android.
@@ -261,27 +264,27 @@ begin programming and is always there giving the program structure and support.
 Databases
 ---------
 
-For data that must be saved and stored correctly, we use `PostgreSQL<http://www.postgresql.org/>`_
-(we usually refer to it as "Postgres").
+For data that must be saved and stored correctly, we use `PostgreSQL
+<http://www.postgresql.org/>`_ (we usually refer to it as "Postgres").
 It's a thirty-year-old open source database that is highly respected,
 is well supported by documentation and hosting providers, and can be used
 by any developer who knows the SQL standard.
 
-In recent years, a movement called `NoSQL<https://en.wikipedia.org/wiki/NoSQL>`_
+In recent years, a movement called `NoSQL <https://en.wikipedia.org/wiki/NoSQL>`_
 has gained popularity. Best translated
 as "not only SQL", tremendous effort has been made to create different kinds of
 databases for different use cases, often based off `academic or industry
-research<http://nosqlsummer.org/papers>`_.
+research <http://nosqlsummer.org/papers>`_.
 
-Our most frequently used NoSQL database are `Redis<http://redis.io/>`_, which we
+Our most frequently used NoSQL database are `Redis <http://redis.io/>`_, which we
 use for storing
 transient, high quantity read/write data such as activity feeds, tags,
-background jobs, sessions, tokens, and counters; `Cassandra<http://cassandra.apache.org/>`_
+background jobs, sessions, tokens, and counters; `Cassandra <http://cassandra.apache.org/>`_
 which we use for storing time series.
 
 Redis and Cassandra are reliable, open-source, and simple. They offer high
 performance and reliable predictions of its performance.
-When we need to do full-text search on documents, we use `Solr<http://lucene.apache.org/solr/>`_.
+When we need to do full-text search on documents, we use `Solr <http://lucene.apache.org/solr/>`_.
 Its major features include hit highlighting, faceted search, real-time indexing,
 dynamic clustering, database integration, and rich text documents handling.
 
@@ -295,11 +298,11 @@ source code.
 Open source licenses can be divided in two categories: permissive and copyleft.
 Permissive examples include:
 
-- `Berkeley Software Distribution (BSD) licenses<https://en.wikipedia.org/wiki/BSD_licenses>`_
-- `MIT license<https://en.wikipedia.org/wiki/MIT_License>`_
-- `Apache license<http://en.wikipedia.org/wiki/Apache_License>`_
+- `Berkeley Software Distribution (BSD) licenses <https://en.wikipedia.org/wiki/BSD_licenses>`_
+- `MIT license <https://en.wikipedia.org/wiki/MIT_License>`_
+- `Apache license <http://en.wikipedia.org/wiki/Apache_License>`_
 
-A copyleft example is the `General Public License (GPL)<https://en.wikipedia.org/wiki/GNU_General_Public_License>`_.
+A copyleft example is the `General Public License (GPL) <https://en.wikipedia.org/wiki/GNU_General_Public_License>`_.
 Both categories have the purpose of establishing the copyright holder for the
 software, granting users the right to copy, modify and redistribute it,
 protecting the copyright holder from any potential guarantees that the software
@@ -369,7 +372,7 @@ please use this document to guide the presentation.
 
 After that, the following stuff is set up:
 
-- Project mailing-list: `project@sophilabs.com<project@sophilabs.com>`_, which includes the client and `project-dev@sophilabs.com<project-dev@sophilabs.com>`_, which include only the technical team
+- Project mailing-list: `project@sophilabs.com <project@sophilabs.com>`_, which includes the client and `project-dev@sophilabs.com <project-dev@sophilabs.com>`_, which include only the technical team
 - JIRA tracker (provided by client)
 - Gitlab or Github repositories (provided by client)
 - Jenkins project (provided by client)
@@ -473,7 +476,7 @@ We could be called "aggressive" with our approach to cutting features, budgets, 
 schedules. It's hard to say "no." as it is usually not well-received. There's a
 reason someone requested a specific feature.
 We have to battle sometimes in the face of "yes". We do so armed with knowledge
-of `the history of software success and failure<http://blog.codinghorror.com/the-long-dismal-history-of-software-project-failure/>`_:
+of `the history of software success and failure <http://blog.codinghorror.com/the-long-dismal-history-of-software-project-failure/>`_:
 in 2004, only 34% of software
 projects were considered successes. The good news is that that was 100% better
 than the stats in 1994.
@@ -502,7 +505,7 @@ between the client, the sophilabs team, and users. It would be wasteful to
 spend time wireframing features that never get built or building features that
 won't be used.
 The designer will refine the sketches into HTML and CSS wireframes.
-HTML and CSS wireframes are built on `moqups<https://moqups.com/>`_. It also allows developers to start
+HTML and CSS wireframes are built on `moqups <https://moqups.com/>`_. It also allows developers to start
 implementing features within the wireframes.
 
 User Experience
@@ -540,7 +543,7 @@ Interaction Design
 Interaction gives users the ability to change the canvas, and to directly
 manipulate it.
 Designing those interactions is what makes our software come to
-life. Interactions should provide affordance — `animation<http://medium.com/p/926eb80d64e3>`_,
+life. Interactions should provide affordance — `animation <http://medium.com/p/926eb80d64e3>`_,
 for examples, can
 be used as a powerful metaphor to help a user understand an interface.
 Interactions help guide a user from the beginning of a task all the way
@@ -554,7 +557,7 @@ Visual Design
 -------------
 
 We refer to an application's visual design exclusively as its style.
-We use the `universal design principles<https://thoughtbot.com/upcase/design-for-developers-resources/principles>`_
+We use the `universal design principles <https://thoughtbot.com/upcase/design-for-developers-resources/principles>`_
 to communicate and bring order to those ideas in our applications.
 
 Those fundamentals include, among others:
@@ -574,8 +577,8 @@ Successful designs are usable.
 Development
 ===========
 
-Our development practices are based on the `Agile Manifesto<http://agilemanifesto.org/principles.html>`_
-and a subset of the `XP practices<http://www.extremeprogramming.org/>`_.
+Our development practices are based on the `Agile Manifesto <http://agilemanifesto.org/principles.html>`_
+and a subset of the `XP practices <http://www.extremeprogramming.org/>`_.
 We adhere to their principles, and have found that
 applying them greately improves the quality of our work as well as the
 happiness of our team.
@@ -587,17 +590,17 @@ We always use source code control.
 It's like a time machine because it enables us to work in
 parallel universes of our source code, experimenting without fear of losing
 work and roll back back if something goes wrong.
-`Git<http://git-scm.com/>`_ is an open source code control system written by
+`Git <http://git-scm.com/>`_ is an open source code control system written by
 Linus Torvalds.
 It's fast and great for working in branches.
-Additionally, we prefer to use `Gitflow<https://github.com/nvie/gitflow>`_
+Additionally, we prefer to use `Gitflow <https://github.com/nvie/gitflow>`_
 for branches and release management.
-We also use `GitLab<http://git.sophilabs.io>`_ for hosting our git repositories.
+We also use `GitLab <http://git.sophilabs.io>`_ for hosting our git repositories.
 
 Style Guide
 -----------
 
-We write code in a consistent `style<https://guidelines.sophilabs.io>`_ that
+We write code in a consistent `style <https://guidelines.sophilabs.io>`_ that
 emphasizes cleanliness and team communication.
 
 High level guidelines:
@@ -611,7 +614,7 @@ Pair Programming
 ----------------
 
 Code that is written by two people who sit next to each other at the same
-computer is `pair-programmed<http://www.extremeprogramming.org/rules/pair.html>`_ code. That code is considered high quality and
+computer is `pair-programmed <http://www.extremeprogramming.org/rules/pair.html>`_ code. That code is considered high quality and
 should result in cost savings due to less maintenance.
 In the long run, this style of development saves money because fewer bugs are
 written and therefore do not need to be fixed later.
@@ -626,21 +629,21 @@ and developers than at the keyboard.
 Code Reviews
 ------------
 
-Here's the flow. Read our `git flow based protocol<https://guidelines.sophilabs.io>`_ for the git commands.
+Here's the flow. Read our `git flow based protocol <https://guidelines.sophilabs.io>`_ for the git commands.
 
-1. Create a local feature branch based on dev
-2. When feature is complete and tests pass, stage the changes
-4. When you've staged the changes, commit them
-5. Write a good commit message
-6. Share your branch
-7. Submit a merge request
-8. Ask for a code review in `Slack<https://chat.sophilabs.io>`_
-9. A team member other than the author reviews the merge request. They follow the `Code Review guidelines<https://guidelines.sophilabs.io>`_ to avoid miscommunication
-10. They make comments and ask questions directly on lines of code in the GitLab web interface or in Slack
-11. When satisfied, they comment on the merge request "Ready to merge."
-12. View a list of new commits. View changed files. Merge branch into dev
-13. Delete your remote feature branch
-14. Delete your local feature branch
+#. Create a local feature branch based on dev
+#. When feature is complete and tests pass, stage the changes
+#. When you've staged the changes, commit them
+#. Write a good commit message
+#. Share your branch
+#. Submit a merge request
+#. Ask for a code review in `Slack <https://chat.sophilabs.io>`_
+#. A team member other than the author reviews the merge request. They follow the `Code Review guidelines <https://guidelines.sophilabs.io>`_ to avoid miscommunication
+#. They make comments and ask questions directly on lines of code in the GitLab web interface or in Slack
+#. When satisfied, they comment on the merge request "Ready to merge."
+#. View a list of new commits. View changed files. Merge branch into dev
+#. Delete your remote feature branch
+#. Delete your local feature branch
 
 Testing
 =======
@@ -648,7 +651,7 @@ Testing
 Test-Driven Development
 -----------------------
 
-`Test-Driven Development<http://www.extremeprogramming.org/rules/testfirst.html>`_
+`Test-Driven Development <http://www.extremeprogramming.org/rules/testfirst.html>`_
 (TDD) is one of the most important Extreme Programming
 (XP) rules, but we need to be very careful how applying it, as it may add a
 significant amount of code that could make us move slower.
@@ -688,7 +691,7 @@ and therefore, more value is being delivered to customers sooner.
 Continuous Delivery
 -------------------
 
-Martin Fowler has an `extensive description<http://martinfowler.com/articles/continuousIntegration.html>`_
+Martin Fowler has an `extensive description <http://martinfowler.com/articles/continuousIntegration.html>`_
 of Continuous Integration. The basics are:
 
 - We have a test suite that each developer runs on their own machine
@@ -715,8 +718,8 @@ they get large.
 CI can ease the pain by distributing the test runs in parallel.
 We've used Bamboo, Hudson (now called Jenkins), and other CI libraries that we
 manage ourselves.
-We use `Travis CI<https://travis-ci.org/>`_ for open source projects. We use
-`Jenkins<http://ci.sophilabs.com>`_ for private repositories.
+We use `Travis CI <https://travis-ci.org/>`_ for open source projects. We use
+`Jenkins <http://ci.sophilabs.com>`_ for private repositories.
 CI test runs are triggered by GitLab post-receive hooks.
 
 Deployment
@@ -738,19 +741,19 @@ Checklist
 - Do deploys follow a well-documented script?
 - Are we sending logs to a remote logging service? (See How to integrate Sentry)
 - Are we using a AWS RDS service? See AWS production databases
-- Are we monitoring performance and uptime? See `New Relic<https://newrelic.com/>`_
+- Are we monitoring performance and uptime? See `New Relic <https://newrelic.com/>`_
 
 Domain Names
 ------------
 
-We suggest using `Domize<https://domize.com/>`_ to see what's available.
-Use `DNSimple<https://dnsimple.com/>`_ to buy and
+We suggest using `Domize <https://domize.com/>`_ to see what's available.
+Use `DNSimple <https://dnsimple.com/>`_ to buy and
 maintain domain names if a client doesn’t hasn't registered a domain name yet.
 
 SSL Certificates
 ----------------
 
-Buy a `wildcard certificate from DNSimple<https://dnsimple.com/ssl-certificate>`_.
+Buy a `wildcard certificate from DNSimple <https://dnsimple.com/ssl-certificate>`_.
 The wildcard (*) lets you use the
 same certificate on www., staging., api., and any other future subdomains.
 SSL and DNS are tightly coupled. If we're doing any work with SSL, we need
@@ -764,16 +767,16 @@ this work isn't done methodically.
 Hosting
 -------
 
-We use `Amazon Web Services<https://aws.amazon.com/>`_.
+We use `Amazon Web Services <https://aws.amazon.com/>`_.
 The cloud and its services will empower our clients' businesses to start
 and operate in a way that has never before been possible without significant
 upfront investment. File uploads for features such as user avatars
-are uploaded to `Amazon S3<https://aws.amazon.com/s3/>`_.
+are uploaded to `Amazon S3 <https://aws.amazon.com/s3/>`_.
 
 Transactional Email
 -------------------
 
-We use `Amazon SES<https://aws.amazon.com/ses/>`_ and `SparkPost<https://www.sparkpost.com/>`_
+We use `Amazon SES <https://aws.amazon.com/ses/>`_ and `SparkPost <https://www.sparkpost.com/>`_
 (supports templates) to have our application
 deliver email to users, which is known as transactional email.
 
@@ -786,7 +789,7 @@ Examples of transactional email are:
 
 Payment Processing
 ------------------
-We use `Stripe<https://stripe.com/>`_ to collect payments
+We use `Stripe <https://stripe.com/>`_ to collect payments
 from users via credit or debit card,
 as well as for recurring billing.
 It is a payment gateway and merchant account.
@@ -797,7 +800,7 @@ There are no setup fees, monthly fees, or card storage fees
 Monitoring
 ==========
 
-We use `New Relic<https://newrelic.com/>`_ to monitor performance of
+We use `New Relic <https://newrelic.com/>`_ to monitor performance of
 production applications.
 Debugging performance might be the best part of a developer's job.
 When there's a clear, numeric problem, we get to fix it and improve
@@ -841,7 +844,7 @@ all sophilabs emails remain in the google apps sophilabs site. This means
 that if we forward emails or use an email client, all emails are recorded in
 google apps as well.
 
-We use an appropriate `email signature<https://git.sophilabs.io/sophilabs/playbook/blob/master/communication/email-signature.html>`_
+We use an appropriate `email signature <https://git.sophilabs.io/sophilabs/playbook/blob/master/communication/email-signature.html>`_
 to maintain a professional tone with clients at all times.
 
 Protecting confidential information via email is also extremely important for
@@ -894,7 +897,7 @@ Leads
 -----
 
 Our leads often come to us from Google searches and client referrals.
-Each lead is tracked on `sophia<https://panel.sophilabs.io>`_.
+Each lead is tracked on `sophia <https://panel.sophilabs.io>`_.
 
 A salesperson will get assigned to the card for the incoming lead but anyone
 in the sales team can take responsibility for that lead.
@@ -962,7 +965,7 @@ Developers keep it running by making architectural decisions and interacting
 with modern-day hosting companies. The developers also implement;
 they write and maintain HTML, SASS, Javascript, Python, SQL, and lots of
 other code. They set and meet development standards, keep the
-`Continuous Integration<http://www.extremeprogramming.org/rules/integrateoften.html>`_
+`Continuous Integration <http://www.extremeprogramming.org/rules/integrateoften.html>`_
 build passing, and review each other's code.
 In addition, an agile buddy assists the team for a few hours a week
 
@@ -998,7 +1001,7 @@ As you might have guessed, we don't do fixed-bid, fixed-feature-set proposals.
 Budget
 ------
 
-We `do need to know clients' budget<https://medium.com/what-i-learned-today/a61ec864c898>`_.
+We `do need to know clients' budget <https://medium.com/what-i-learned-today/a61ec864c898>`_.
 This is often uncomfortable for them but
 their budget helps determines what scope is possible. It saves time. If they
 don't know their budget, we discuss different options.
@@ -1054,10 +1057,10 @@ Recruitment
 
 We've met our current teammates via:
 
-- `GitHub<http://github.com/>`_
-- `Python<http://www.meetup.com/py-mvd/>`_ and `Javascript<http://www.meetup.com/mvd-js/>`_ Meetups
-- `Python<http://uy.pycon.org>`_ and `Javascript<http://jsconf.uy>`_ Conferences
-- `Buscojobs<http://www.buscojobs.com.uy/>`_
+- `GitHub <http://github.com/>`_
+- `Python <http://www.meetup.com/py-mvd/>`_ and `Javascript <http://www.meetup.com/mvd-js/>`_ Meetups
+- `Python <http://uy.pycon.org>`_ and `Javascript <http://jsconf.uy>`_ Conferences
+- `Buscojobs <http://www.buscojobs.com.uy/>`_
 
 Many of us are regulars at Python and Javascript events.
 A nice thing about those meetings is that they happen naturally.
@@ -1086,7 +1089,7 @@ and designers for the technical interview. We like to talk to respondents about
 design process, architecting systems, and writing code which is
 exactly the same thing we do for work every day.
 Apart from technical skill, during the entire interview process, we look for
-`character strengths<http://www.kipp.org/our-approach/strengths-and-behaviors>`_
+`character strengths <http://www.kipp.org/our-approach/strengths-and-behaviors>`_
 such as:
 
 - Enthusiasm (invigorates others)
@@ -1186,22 +1189,22 @@ Fortunately, we decided long time ago to build our own ERP system which
 make things like bookkeeping, receipts, signatures, and invoicing much easier.
 It is a minimal core system connected with multiple third party services such
 as Redmine, Jira, Quickbooks to extract desired information. We named it
-sophia and you can find it at `panel.sophilabs.io<https://panel.sophilabs.io>`_.
+sophia and you can find it at `panel.sophilabs.io <https://panel.sophilabs.io>`_.
 
 Email
 -----
 
-We use `Gmail<https://mail.sophilabs.io>`_ for our email.
+We use `Gmail <https://mail.sophilabs.io>`_ for our email.
 
 Calendar
 --------
 
-We use `Google Calendar<https://calendar.sophilabs.io>`_ for our calendars.
+We use `Google Calendar <https://calendar.sophilabs.io>`_ for our calendars.
 
 Documents
 ---------
 
-We use `Google Docs<https://docs.sophilabs.io/>`_ for our editable documents.
+We use `Google Docs <https://docs.sophilabs.io/>`_ for our editable documents.
 We prefer Google Docs because they are:
 
 - Easily sharable by URL. Everyone has a browser, not everyone has MS-Office or OpenOffice installed
@@ -1227,9 +1230,9 @@ Meetings
 We over-communicate with clients online to avoid having scheduled meetings.
 Problems usually come up because of poor communication.
 When we need to meet for a discussion, we aim for 30 minutes.
-`Google Hangouts<https://apps.google.com/intx/en/products/hangouts/>`_
+`Google Hangouts <https://apps.google.com/intx/en/products/hangouts/>`_
 is our prefered communication tool when working remotely,
-(`Skype<http://skype.com>`_ works too if Google Hangouts is not possible).
+(`Skype <http://skype.com>`_ works too if Google Hangouts is not possible).
 They are easy to set up, sharable by URL,
 and let us get a look at whoever we're talking to.
 Screen-sharing is also very easy, when necessary. We have used Hangouts/Skype
@@ -1245,19 +1248,19 @@ We encourage teammates to give back whenever they have something to contribute.
 Blog
 ----
 
-We have an institutional blog called `Journal<https://sophilabs.co/journal>`_,
+We have an institutional blog called `Journal <https://sophilabs.co/journal>`_,
 for sharing important events
 and facts related to sophilabs in addition to product design and software
 engineering topics.
-When you want to write a post, create an Issue on JIRA in the `Community
-project<https://sophilabs.atlassian.net/projects/COM/issues/?filter=allopenissues>`_
+When you want to write a post, create an Issue on JIRA in the `Community project
+<https://sophilabs.atlassian.net/projects/COM/issues/?filter=allopenissues>`_
 and assign the Issue to yourself.
 
-Spend time writing and rewriting a `great headline<http://www.copyblogger.com/magnetic-headlines/>`_.
+Spend time writing and rewriting a `great headline <http://www.copyblogger.com/magnetic-headlines/>`_.
 It helps you narrow your
 focus, figure out the purpose of the post, and catch the reader's attention.
 When writing a post, first move the Issue to the “Drafts” column.
-Then write the post in `sophia<https://panel.sophilabs.io>`_,
+Then write the post in `sophia <https://panel.sophilabs.io>`_,
 and be sure to add tags to the post.
 Tags help readers find related blog posts.
 When you’re ready for feedback from the team,
@@ -1384,6 +1387,7 @@ Code Analysis Squad
 
 Principles
 ~~~~~~~~~~
+
 - **Simplicity** : Minimize the effort required to understand a given source
   code.
 - **Consistency** : Apply the same practices throughout the project and across
