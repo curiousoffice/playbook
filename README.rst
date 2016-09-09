@@ -1,7 +1,7 @@
 Hello Sophilaber
 ================
 
-.. image:: ./figures/hello_sophilaber.jpg
+.. image:: ./figures/hello-sophilaber.jpg
 
 
 This is the team’s playbook, your playbook.
