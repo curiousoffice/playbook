@@ -146,7 +146,7 @@ Laptop
 MacBook Pro
 -----------
 
-Every person that joins sophilabs receives a MacBook Pro latest generation.
+Every person who joins sophilabs receives a MacBook Pro latest generation.
 These laptops are known for their performance, robustness, great look & feel
 and battery life, but for us, the most important feature is that they allow us
 building and testing apps on any platform: OSX, Linux and Windows.
@@ -157,7 +157,7 @@ Text Editor/IDE
     | *Plain text won't become obsolete. It helps leverage your work and simplifies debugging and testing. The editor should be an extension of your hand; make sure your editor is configurable, extensible, and programmable.*
     | - The Pragmatic Programmer
 
-We encourage everyone to be an expert using his favorite programming tool. Know
+We encourage everyone to be an expert using his/her favorite programming tool. Know
 every shortcut and automate repetitive tasks to gain more productivity so you
 can focus on building the software the way we want.
 
@@ -1119,7 +1119,7 @@ Offer and Onboarding
 We make the offer via email, if it is accepted then a contract is signed by
 both parties and a trial work period of three months begins. Both parties
 are going to use that period to evaluate each other. A feedback meeting
-will be scheduled between the new team member, his mentor, and the agile
+will be scheduled between the new team member, his/her mentor, and the agile
 buddy 10 weeks after hiring.
 
 Once an offer is accepted, we create an email address for the new teammate,
