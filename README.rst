@@ -1,7 +1,7 @@
 Hello Sophilaber
 ================
 
-.. image:: ./figures/hello_sophilaber.jpg
+.. image:: ./figures/hello-sophilaber.jpg
 
 
 This is the team’s playbook, your playbook.
@@ -16,6 +16,8 @@ player in helping it evolve. Please contribute to it using `the Playbook's git r
 
 Principles
 ==========
+
+.. image:: ./figures/principles.jpg
 
 We've learned from our experience that working with people that share the
 correct set of principles is the foundation for creating highly productive
@@ -35,6 +37,8 @@ were your own.
 
 Culture
 =======
+
+.. image:: ./figures/culture.jpg
 
 Our main objective is to be an outstanding team of designers and engineers.
 If necessary, we will eliminate or simplify any policy that makes us diverge
@@ -77,6 +81,8 @@ we just move temporarily to a more quiet and isolated space.
 
 Time
 ====
+
+.. image:: ./figures/time.jpg
 
 We work at a `sustainable pace
 <http://www.extremeprogramming.org/rules/overtime.html>`_.
@@ -143,6 +149,8 @@ projects.
 Laptop
 ======
 
+.. image:: ./figures/laptop.jpg
+
 MacBook Pro
 -----------
 
@@ -163,6 +171,8 @@ can focus on building the software the way we want.
 
 Technology
 ==========
+
+.. image:: ./figures/technology.jpg
 
 Early in a project, we have to decide which platforms we'll use.
 Which platform depends on our ideas for solving the users' problems. For
@@ -341,6 +351,8 @@ Most of the software we use has a permissive license:
 Methodology
 ===========
 
+.. image:: ./figures/methodology.jpg
+
 The Agile way
 -------------
 
@@ -500,6 +512,8 @@ customer demands quickly.
 Product Design
 ==============
 
+.. image:: ./figures/product-design.jpg
+
 Wireframes
 ----------
 
@@ -518,6 +532,8 @@ implementing features within the wireframes.
 
 User Experience
 ===============
+
+.. image:: ./figures/user-experience.jpg
 
 User Interface
 --------------
@@ -584,6 +600,8 @@ Successful designs are usable.
 
 Development
 ===========
+
+.. image:: ./figures/development.jpg
 
 Our development practices are based on the `Agile Manifesto <http://agilemanifesto.org/principles.html>`_
 and a subset of the `XP practices <http://www.extremeprogramming.org/>`_.
@@ -655,6 +673,8 @@ Here's the flow. Read our `git flow based protocol <https://guidelines.sophilabs
 
 Testing
 =======
+
+.. image:: ./figures/testing.jpg
 
 Test-Driven Development
 -----------------------
@@ -733,6 +753,8 @@ CI test runs are triggered by GitLab post-receive hooks.
 Deployment
 ==========
 
+.. image:: ./figures/deployment.jpg
+
 In order to save time and money, we focus as much as possible on
 the client’s product and the outsource operations to external services.
 
@@ -808,6 +830,8 @@ There are no setup fees, monthly fees, or card storage fees
 Monitoring
 ==========
 
+.. image:: ./figures/monitoring.jpg
+
 We use `New Relic <https://newrelic.com/>`_ to monitor performance of
 production applications.
 Debugging performance might be the best part of a developer's job.
@@ -834,6 +858,8 @@ it will be the fastest option.
 
 Communications
 ==============
+
+.. image:: ./figures/comunications.jpg
 
 Everyone who works at sophilabs has the responsibility to engage professionally
 with clients.
@@ -881,6 +907,8 @@ We have some security guidelines in order to keep confidential information safe.
 
 Sales
 =====
+
+.. image:: ./figures/sales.jpg
 
 We want to design and develop software.
 Before we can do that, we need clients to hire us. The following section
@@ -1060,13 +1088,15 @@ The consulting proposal and contract contains:
 Hiring
 ======
 
+.. image:: ./figures/hiring.jpg
+
 Recruitment
 -----------
 
 We've met our current teammates via:
 
 - `GitHub <http://github.com/>`_
-- `Python <http://www.meetup.com/py-mvd/>`_ and `Javascript <http://www.meetup.com/mvd-js/>`_ Meetups
+- `Python Meetup <http://www.meetup.com/py-mvd/>`_ and `Javascript Meetup <http://www.meetup.com/mvd-js/>`_ Meetups
 - `Python <http://uy.pycon.org>`_ and `Javascript <http://jsconf.uy>`_ Conferences
 - `Buscojobs <http://www.buscojobs.com.uy/>`_
 
@@ -1189,6 +1219,8 @@ Raises aren't given just for "showing up".
 Operations
 ==========
 
+.. image:: ./figures/operations.jpg
+
 Running a software-based business requires more than beautiful code or a
 popular product. Managing cash flow and taxes can feel unimportant or difficult
 but getting them right is as vital to our success as product design.
@@ -1249,6 +1281,8 @@ for client meetings, candidate interviews, and company meetings.
 Community
 =========
 
+.. image:: ./figures/community.jpg
+
 We've learned a ton from blog posts, tweets, and newsletters from others in the
 community.
 We encourage teammates to give back whenever they have something to contribute.
@@ -1286,6 +1320,8 @@ Lastly, move the Issue to "Live."
 
 Research
 ========
+
+.. image:: ./figures/research.jpg
 
 Ongoing experiments are managed in our "Research & Innovation" JIRA project.
 
@@ -1328,6 +1364,8 @@ you think is reusable? Great! Here are some guidelines:
 
 Squads
 ======
+
+.. image:: ./figures/squads.jpg
 
 We realized that in order to build a great company,
 it was necessary to divide our forces.
@@ -1472,12 +1510,16 @@ environment:
 Goodbye
 =======
 
+.. image:: ./figures/goodbye.jpg
+
 We are a group of people who enjoy crafting software for next-generation products.
 We hope the practices we've shared here will be helpful to you.
 Thank you for reading.
 
 License
 =======
+
+.. image:: ./figures/license.jpg
 
 The original idea comes from `Thoughtbot's playbook
 <https://playbook.thoughtbot.com>`_, we took the great work they did and adapted
