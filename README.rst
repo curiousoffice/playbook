@@ -71,14 +71,6 @@ sophilabs must dedicate at least part of their time to programming software,
 a customer project, internal tools, or to the Research and Innovation working
 group.
 
-Stay focused
-------------
-
-Sometimes we need to stay highly focused to solve challenging problems properly
-and we want no interruptions from our team, during those moments we listen to
-our favorite music avoiding any program or podcast that requires attention, or
-we just move temporarily to a more quiet and isolated space.
-
 Time
 ====
 
@@ -95,11 +87,20 @@ holidays, we'll use investment days as extra client days to avoid
 slipping behind schedule.
 When taking time off during client work, we discuss how it will impact the
 schedule with other team members.
+
 Sending off-hours communication may create an unintended sense of urgency with
 the recipients of your message. Try to avoid creating that urgency when
 possible.
 Unless actually urgent, you may ignore off-hours messages which you receive and
 handle them once you are back at work.
+
+Staying focused
+---------------
+
+Sometimes we need to stay highly focused to solve challenging problems properly
+and we want no interruptions from our team, during those moments we listen to
+our favorite music avoiding any program or podcast that requires attention, or
+we just move temporarily to a more quiet and isolated space.
 
 Consulting
 ----------
@@ -364,7 +365,7 @@ We welcome changing requirements, even late in development as we understand that
 agile processes must harness change for the customer's competitive advantage.
 
 We say that working software is the primary measure of progress, and as a
-resulte we aim to deliver working software in the shortest amount of time,
+result we aim to deliver working software in the shortest amount of time,
 usually within one or two weeks.
 
 Agile processes promote sustainable development. The sponsors, developers, and
@@ -381,7 +382,7 @@ excellence enhances agility. Lastly, we believe that simplicity --the art of
 maximizing the amount of work to avoid-- is essential, at every level.
 
 In our experience we have seen that the best architectures, requirements, and
-designs emerge from self-organizing teams whoe truly understand these
+designs emerge from self-organizing teams who truly understand these
 principles.
 
 Project kick off
@@ -447,13 +448,13 @@ Work is done in a feature git branch. When a designer or developer creates a
 pull request for their feature branch, they move the story to the Code Review
 column. All reviewers must "put their face on it" while reviewing.
 
-Agile buddy
------------
+Agile Master
+------------
 
-The agile buddy is not a project manager. The rest of the team does not report
-to them. The agile buddy is also not a technical or design lead.
+The agile master is not a project manager. The rest of the team does not report
+to them. The agile master is also not a technical or design lead.
 
-The agile buddy adds an impartial perspective. They run weekly meetings so that
+The agile master adds an impartial perspective. They run weekly meetings so that
 there is consistency in week-to-week communication. They keep an eye on the
 high-level goals of the project, which should be easier for them because they
 are not involved in the weeds of the project day-to-day.
@@ -471,7 +472,7 @@ This is an opportunity for the entire team to discuss achievements,
 hurdles, and concerns. The goal is that everyone leaves feeling
 excited and empowered for the week of work to come.
 
-The agile buddy runs this meeting aiming to:
+The agile master runs this meeting aiming to:
 
 - Understand how the team feels about last week's progress and what's to come. Ask all team members from both sophilabs and the client, "How did you feel about last week? How do you feel going into this week?" This is less of a recap of the completed work (a better place for a recap being during daily standups) and more a check of how each person feels about the current project. Take notes
 - Have each member of the team voice any risks or concerns; after everyone has had the opportunity to bring these up, work together as a group to mitigate these concerns. Encourage everyone to voice the same concerns even if they've already been mentioned; it helps prioritize what the team is most concerned about and should spend the most time fixing. This is an opportunity to discuss how to improve the process and product we're building together. Note who had which concerns and track how we'll be addressing these concerns
@@ -552,7 +553,7 @@ We put the user's goals first.
 No one is using our software solely because it looks nice.
 There's a reason they sought out our solution.
 Our number one priority is making that outcome desirable and easily attainable.
-We make software easy to undertand. It's not enough to be functional, users
+We make software easy to understand. It's not enough to be functional, users
 must know capabilities exist and be able to anticipate how the software is
 going to react to their inputs. Our software should be as intuitive as possible.
 We remain consistent with platform guidelines. Interfaces look and feel best
@@ -606,7 +607,7 @@ Development
 Our development practices are based on the `Agile Manifesto <http://agilemanifesto.org/principles.html>`_
 and a subset of the `XP practices <http://www.extremeprogramming.org/>`_.
 We adhere to their principles, and have found that
-applying them greately improves the quality of our work as well as the
+applying them greatly improves the quality of our work as well as the
 happiness of our team.
 
 Version Control
@@ -615,7 +616,7 @@ Version Control
 We always use source code control.
 It's like a time machine because it enables us to work in
 parallel universes of our source code, experimenting without fear of losing
-work and roll back back if something goes wrong.
+work and rollback if something goes wrong.
 `Git <http://git-scm.com/>`_ is an open source code control system written by
 Linus Torvalds.
 It's fast and great for working in branches.
@@ -707,7 +708,7 @@ with a message such as:
 The code is then run on the Continuous Integration server to make sure the
 acceptance test still passes in an environment that matches the production
 environment.
-Everytime the code is pushed to the dev branch, the staging environment is
+Every time the code is pushed to the dev branch, the staging environment is
 automatically updated so that anyone can see the current status of the project.
 
 When the acceptance test is green for the CI server, and you along with any
@@ -900,7 +901,7 @@ Data Security
 We have some security guidelines in order to keep confidential information safe.
 
 - We set passwords on computer for boot up and sleep
-- We never send passwords using email
+- We never send passwords using email, we use `1Password <https://sophilabs.1password.com>`_
 - We create safe passwords
 - We do not leave our laptop, computer, phone, or papers lying around unprotected
 - We limit access to sophilabs networks and communication channels, email and phones
@@ -1003,10 +1004,10 @@ they write and maintain HTML, SASS, Javascript, Python, SQL, and lots of
 other code. They set and meet development standards, keep the
 `Continuous Integration <http://www.extremeprogramming.org/rules/integrateoften.html>`_
 build passing, and review each other's code.
-In addition, an agile buddy assists the team for a few hours a week
+In addition, an agile master assists the team for a few hours a week
 
 Anyone at sophilabs should be able to advise a project. If the
-primary salesperson is not also the agile buddy, there should be a smooth
+primary salesperson is not also the agile master, there should be a smooth
 hand-off from one to the other.
 
 While each person plays a role, a team needs to be a team.
@@ -1150,13 +1151,13 @@ We make the offer via email, if it is accepted then a contract is signed by
 both parties and a trial work period of three months begins. Both parties
 are going to use that period to evaluate each other. A feedback meeting
 will be scheduled between the new team member, his/her mentor, and the agile
-buddy 10 weeks after hiring.
+master 10 weeks after hiring.
 
 Once an offer is accepted, we create an email address for the new teammate,
 give them access to systems like GitLab and Slack, send them an
 Employment Agreement, notify accounting, and send them a welcome email.
 They will receive a welcome package, which includes a MacBook Pro,
-stickers, a printed copy of this playbook, and a tshirt.
+stickers, a printed copy of this playbook, and a t-shirt.
 JIRA issues will be created for the hiring manager for any remaining
 items that haven’t yet been completed.
 
@@ -1271,7 +1272,7 @@ We over-communicate with clients online to avoid having scheduled meetings.
 Problems usually come up because of poor communication.
 When we need to meet for a discussion, we aim for 30 minutes.
 `Google Hangouts <https://apps.google.com/intx/en/products/hangouts/>`_
-is our prefered communication tool when working remotely,
+is our preferred communication tool when working remotely,
 (`Skype <http://skype.com>`_ works too if Google Hangouts is not possible).
 They are easy to set up, sharable by URL,
 and let us get a look at whoever we're talking to.
@@ -1290,7 +1291,7 @@ We encourage teammates to give back whenever they have something to contribute.
 Blog
 ----
 
-We have an institutional blog called `Journal <https://sophilabs.co/journal>`_,
+We have an institutional `Blog <https://sophilabs.co/journal>`_,
 for sharing important events
 and facts related to sophilabs in addition to product design and software
 engineering topics.
@@ -1333,7 +1334,7 @@ Open Source
 
 We've created a few open source libraries to help us perform common tasks and
 give back to the community.
-Our open source libraries workk best when one person steps up to maintain them.
+Our open source libraries work best when one person steps up to maintain them.
 Each of our repositories has a leader responsible for keeping
 the repository moving forward. The leader doesn't necessarily have to
 do the bulk of the actual work; responsibilities include:
@@ -1341,7 +1342,7 @@ do the bulk of the actual work; responsibilities include:
 - Understanding the underlying code and goal of the library
 - Reviewing and merging pull requests
 - Responding to and close issues
-- Pushshing new releases of packages when appropriate
+- Pushing new releases of packages when appropriate
 - Encouraging people to take on useful tasks for the library
 - Blogging, tweeting, and advertising new releases and tips
 
@@ -1447,7 +1448,7 @@ Objectives
 ~~~~~~~~~~
 - Produce knowledge about code quality that can be applied to new and existing
   projects. This knowledge must be documented and only cover programming
-  languages being used in sophilabs. Examples include: guidelines, linting
+  languages being used in sophilabs. Examples include: guidelines, linter
   rules, workflows, conventions, etc. These documents will not only refer to code,
   but also to how to ensure code quality (e.g. code reviews)
 - Develop a plan or methodology to measure the effectiveness of the generated
