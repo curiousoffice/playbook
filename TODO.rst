@@ -1,0 +1,1 @@
+*  Add content: "Write always hours' description in english".
