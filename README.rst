@@ -879,7 +879,7 @@ all sophilabs emails remain in the google apps sophilabs site. This means
 that if we forward emails or use an email client, all emails are recorded in
 google apps as well.
 
-We use an appropriate `email signature <https://raw.githubusercontent.com/sophilabs/playbook/master/communication/email-signature.html>`_
+We use an appropriate `email signature <http://jsbin.com/qagebuw/edit?html,output>`_
 to maintain a professional tone with clients at all times.
 
 Protecting confidential information via email is also extremely important for
