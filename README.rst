@@ -466,7 +466,7 @@ team size to correctly serve the project.
 Biweekly Retrospective
 ----------------------
 
-Once every 2 weeks, everyone involved on a the project meets in-person or
+Once every 2 weeks, everyone involved on a project meets in-person or
 via video conference.
 This is an opportunity for the entire team to discuss achievements,
 hurdles, and concerns. The goal is that everyone leaves feeling
@@ -968,7 +968,7 @@ Customer Availability
 ---------------------
 
 We work remotely every day with our customers, and tools like Slack, Gitlab,
-and Jira have made that much easier over the yearsAn ideal consulting
+and Jira have made that much easier over the years. An ideal consulting
 project for us is one where a member of the client team is
 available at all times. When that fails, we want to find out during the sales
 process how available they will be.
@@ -1040,7 +1040,7 @@ Budget
 
 We `do need to know clients' budget <https://medium.com/what-i-learned-today/a61ec864c898>`_.
 This is often uncomfortable for them but
-their budget helps determines what scope is possible. It saves time. If they
+their budget helps determine what scope is possible. It saves time. If they
 don't know their budget, we discuss different options.
 We talk about breaking product rollout into stages and try to improve the
 product's chances of success at each stage by:
