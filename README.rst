@@ -12,7 +12,7 @@ us to create quality software products.
 
 This document is in a continuous development process and you are a key
 player in helping it evolve. Please contribute to it using `the Playbook's git repo
-<https://git.sophilabs.io/sophilabs/playbook>`_.
+<https://github.com/sophilabs/playbook>`_.
 
 Principles
 ==========
