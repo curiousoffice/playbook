@@ -14,24 +14,24 @@ This document is in a continuous development process and you are a key
 player in helping it evolve. Please contribute to it using `the Playbook's git repo
 <https://github.com/sophilabs/playbook>`_.
 
-Principles
-==========
+Values
+======
 
-.. image:: ./figures/principles.jpg
+.. image:: ./figures/values.jpg
 
 We've learned from our experience that working with people that share the
-correct set of principles is the foundation for creating highly productive
+correct `set of values <https://sophilabs.co/values>`_ is the foundation for creating highly productive
 teams.
 
-**Aim high** and encourage everyone else to stand out above the average.
+**Be bold** and encourage everyone else to stand out above the average.
 
-**Pay attention to details**, a great product is the sum of perfectly well-thought-out
+**Stay sharp**, a great product is the sum of perfectly well-thought-out
 details.
 
-**Practice impersonation** helping pursuing other people’s goals as if they
-were your own.
-
 **Be Honest**, never sacrifice honesty for politeness.
+
+**Be a team player** helping pursuing other people’s goals as if they
+were your own.
 
 **Love your craft** and strive to transcend through your creations.
 
@@ -906,6 +906,153 @@ We have some security guidelines in order to keep confidential information safe.
 - We do not leave our laptop, computer, phone, or papers lying around unprotected
 - We limit access to sophilabs networks and communication channels, email and phones
 
+Squads
+======
+
+.. image:: ./figures/squads.jpg
+
+We realized that in order to build a great company,
+it was necessary to divide our forces.
+One of our core values is to *“be bold”*, so keeping in line with that,
+we’ve developed the following challenging objectives:
+
+- Hire the best people
+- Work for the best companies
+- Craft the best software
+- Build something that people love
+
+We have created specialized workgroups who strive to achieve those goals by
+defining universal guidelines and ensuring they are always applied.
+
+The current squads are:
+
+ * Code Analysis squad
+ * Deployment squad
+ * Methodologies squad
+ * Testing squad
+ * Security squad
+ * Software Design squad
+
+How they work
+-------------
+
+Workflow
+~~~~~~~~
+
+Every squad follows the same workflow (M.A.P.E.D.):
+
+1. **M** easure teams and projects on different areas
+2. **A** nalyze measurements in order to detect the underlying issues and areas of improvements
+3. **P** ropose changes and design an action plan considering different scenarios
+4. **E** nsure the action plan is executed and help solving stoppers
+5. **D** ocument lessons learned and how the plan affected the measurements
+6. Go back to step 1
+
+Metrics
+~~~~~~~
+
+Each squad defines its own objectives and principles.
+In order to measure performance on different projects,
+metrics are needed. We use automated tools to measure quantifiable metrics,
+as well as quizzes that we distribute periodically to teams and
+customers to measure opinionated metrics.
+
+Code Analysis Squad
+-------------------
+
+Objectives
+~~~~~~~~~~
+
+Improve the quality of the code we write and help new team members adopt the best practices early.
+
+- **Simplicity**: Minimize the effort required to understand a given source
+  code.
+- **Consistency**: Apply the same practices throughout the project and across
+  similar projects.
+- **Legibility**: The ability to understand the code at a statement level.
+- **Scalability**: The activity of writing performant code at a statement-level.
+- **Reusability**: The ability of a given piece of code to be reused in other
+  projects without modification.
+
+Deployment Squad
+----------------
+
+Objectives
+~~~~~~~~~~
+
+Ensure that systems deployed by Sophilabs have a high performance, are scalable
+and are always available; and that the deployment processes are traceable,
+visible, reversible and reliable.
+
+**Systems**
+
+- **Performance**: the overall response time of a system.
+- **Scalability**: is the capability of a system to handle a growing amount of work.
+- **Availability**: the probability that a system will work as required when required.
+
+**Processes**
+
+- **Traceability**: the ability to associate a released version to its source ticket and commit and to trace any exception.
+- **Visibility**: make the next release candidate version visible to stakeholders before actually releasing it.
+- **Reversibility**: the ability to restore a system to a previous state
+- **Reliability**: the deployment process is reliable
+
+Methodologies Squad
+-------------------
+
+Objectives
+~~~~~~~~~~
+
+Ensure that the software development processes used on different
+projects encourage adaptability, integration, predictability, satisfaction,
+simplicity and visibility.
+
+- **Adaptability**: The team's ability to quickly adapt to unexpected changes
+- **Integration**: Team and client are involved in the project
+- **Predictability**: Estimated tasks were completed on time
+- **Satisfaction**: Team, client, and stake holders are happy
+- **Simplicity**: Doing only what is needed every time
+- **Visibility**: The team is traceable and all documents and resources are accessible. The team proactively documents and informs to keep everyone on the same page
+
+Security Squad
+--------------
+
+Objectives
+~~~~~~~~~~
+
+Protect Sophilabs and its clients assets: Operations integrity & intellectual
+property by guaranteeing compliance with the highest possible security standards.
+
+- **Confidentiality**: Information, no matter its classification, is only seen or used by people authorized to access it.
+- **Integrity**: Any unauthorized information changes are impossible (or at least detected), and changes by authorized users are tracked.
+- **Availability**: Information is accessible when authorized users need it, while accounting for proper balance between security and availability.
+
+Software design Squad
+---------------------
+
+Objectives
+~~~~~~~~~~
+
+Ensure that the software design decisions took by sophilabs encourages simplicity, consistency, scalability and reusability.
+
+- **Simplicity** : Minimize the effort required to understand a project.
+- **Consistency** : Apply the same practices throughout the project and across similar projects.
+- **Scalability** : The ability of scaling a system without the need of rewriting.
+- **Reusability** : The ability of a given solution to be reused in other projects.
+
+Testing Squad
+-------------
+
+Objectives
+~~~~~~~~~~
+
+Ensure that software built by sophilabs has the necessary mechanisms to boost
+its reliability, robustness and correctness in an execution environment.
+
+- **Reliability**: The application should behave as expected.
+- **Robustness**: The application should be able to continue operating despite abnormalities.
+- **Correctness**: The application is compliant with the requirements specification.
+
 Sales
 =====
 
@@ -1362,151 +1509,6 @@ you think is reusable? Great! Here are some guidelines:
 - Do your best not to duplicate anything that's already been done. Do some digging to ensure you're not solving a problem that already has a solution.
 - Introducing features that would be helpful to a client project or fixing bugs relevant to a client project are both acceptable during client time. However, most open source work should be conducted during investment time. If you are willing to add a/the? new open source project as a requirement to a project, be sure to let the client know
 - Think about whether or not your idea makes sense as a pull request to an existing project.
-
-Squads
-======
-
-.. image:: ./figures/squads.jpg
-
-We realized that in order to build a great company,
-it was necessary to divide our forces.
-One of our core principles is *“always aim high”*, so keeping in line with that,
-we’ve developed the following challenging objectives:
-
-- Hire the best people
-- Work for the best companies
-- Craft the best software
-- Build something that people love
-
-We have created specialized workgroups who strive to achieve those goals by
-defining universal guidelines and ensuring they are always applied.
-
-The current squads -classified by objective- are:
-
-**Hire the best people**
-
- * Recruitment squad
-
-**Work for the best companies**
-
- * Sales squad
-
-**Craft the best software**
-
- * Code Analysis squad
- * Deployment squad
- * Methodologies squad
- * Product Design / UX squad
- * Testing squad
- * Security squad
- * Software Design squad
-
-**Build something that people love**
-
- * Research & Innovation squad
-
-How it works
-------------
-
-Workflow
-~~~~~~~~
-
-Every squad follows the same workflow (M.A.P.E.D.):
-
-1. **M** easure teams and projects on different areas
-2. **A** nalyze measurements in order to detect the underlying issues and areas of improvements
-3. **P** ropose changes and design an action plan considering different scenarios
-4. **E** nsure the action plan is executed and help solving stoppers
-5. **D** ocument lessons learned and how the plan affected the measurements
-6. Go back to step 1
-
-Metrics
-~~~~~~~
-
-Each squad defines its own objectives and principles.
-In order to measure performance on different projects,
-metrics are needed. We use automated tools to measure quantifiable metrics,
-as well as quizzes that we distribute periodically to teams and
-customers to measure opinionated metrics.
-
-Code Analysis Squad
--------------------
-
-Principles
-~~~~~~~~~~
-
-- **Simplicity** : Minimize the effort required to understand a given source
-  code.
-- **Consistency** : Apply the same practices throughout the project and across
-  similar projects.
-- **Legibility** : The ability to understand the code at a statement level.
-- **Scalability** : The activity of writing performant code at a statement-level.
-- **Reusability** : The ability of a given piece of code to be reused in other
-  projects without modification.
-
-Objectives
-~~~~~~~~~~
-- Produce knowledge about code quality that can be applied to new and existing
-  projects. This knowledge must be documented and only cover programming
-  languages being used in sophilabs. Examples include: guidelines, linter
-  rules, workflows, conventions, etc. These documents will not only refer to code,
-  but also to how to ensure code quality (e.g. code reviews)
-- Develop a plan or methodology to measure the effectiveness of the generated
-  knowledge
-- Develop or improve tools that automate and control the quality of the code
-  (linters, conventions, etc). These tools and documents must be Open Source
-- Adjust guidelines, workflows and other procedures to the needs of each project
-
-Methodologies Squad
--------------------
-
-Objectives
-~~~~~~~~~~
-
-Ensure that the software development processes used on different
-projects encourage the following principles:
-
-- Adaptability: The team's ability to quickly adapt to unexpected changes
-- Productivity: The output rate of the team is above average
-- Visibility: The team is traceable and all documents and resources are accessible. The team proactively documents and informs to keep everyone on the same page
-- Satisfaction: Team, client, and stake holders are happy
-- Integration: Team and client are involved in the project
-- Automation: All the repetitive processes and tasks that add overhead are automated
-- Simplicity: Doing only what is needed every time
-- Predictability: Estimated tasks were completed on time
-
-Recruitment Squad
------------------
-
-Objectives
-~~~~~~~~~~
-
--  Hire great talents with experience or potential
--  Offer talents to sophilabs as soon as they are required
--  Create an excellent reputation and culture so people will aspire to
-   work at sophilabs
-
-Scope
-~~~~~
-
--  This group will be responsible for the hiring process and the three
-   months trial period.
--  Attend to inquiries from the Sales and Operations offices.
--  Ask for tasks to the Meeting and Operation offices.
-
-Testing Squad
--------------
-
-Objectives
-~~~~~~~~~~
-
-Ensure that software built by sophilabs has the necessary
-mechanisms to promote the following principles in an execution
-environment:
-
-- Reliability: The application should behave as expected.
-- Robustness: The application should be able to continue operating despite abnormalities.
-- Correctness: The application is compliant with the requirements specification.
 
 Goodbye
 =======
