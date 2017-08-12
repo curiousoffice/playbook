@@ -939,7 +939,7 @@ as well as quizzes that we distribute periodically to teams and
 customers to measure opinionated metrics.
 
 Checklists
-==========
+~~~~~~~~~~
 
 We have found that a short checklist is valuable when setting up a new project,
 a production environment or preparing for a launch. We use to document tasks such as:
