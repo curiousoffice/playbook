@@ -249,7 +249,7 @@ videos, and landing pages, a mobile web app makes sense because:
 - We can create and iterate quickly.
 - We can deploy new versions multiple times a day.
 
-Our mobile engineers make use of their expertise with the Ionic Framework to
+Our mobile engineers make use of their expertise with React Native to
 create multi platform apps and Swift when we want to create platform specific
 apps for iPhones, iPads or Apple Watches.
 
@@ -258,7 +258,7 @@ Programming Languages
 
 Examples of languages we typically use are:
 
-- Python, NodeJS: our server-side preferences
+- Python, NodeJS or Elixir: our server-side preferences
 - Javascript: our client-side preference for web and mobile hybrid apps
 
 Frameworks
@@ -271,10 +271,9 @@ Examples of frameworks we typically use are:
 - Express
 - HapiJS
 - Loopback
+- Phoenix
 - Angular
-- Ember
 - React
-- Ionic
 
 A framework is a library that makes performing a particular task in a
 programming language easier. Like the framework of a house, it is there when we
@@ -759,21 +758,6 @@ Deployment
 In order to save time and money, we focus as much as possible on
 the client’s product and the outsource operations to external services.
 
-Checklist
----------
-
-- We have found that a short checklist is valuable when setting up a new production environment or preparing for a launch:
-- Are we using a concurrent web server?
-- Are long-running processes such as email delivery being run in background jobs? (See how to set up delayed Job)
-- Are there redundant (at least two) web and background processes running?
-- Are we using SSL? (See "SSL Certificates" section below)
-- Are API requests being made via a separate subdomain (api.example.com)? Even if the same app, this gives us architectural flexibility in the future
-- Are deploys done manually at a scheduled time when teammates are fresh and available if something goes wrong?
-- Do deploys follow a well-documented script?
-- Are we sending logs to a remote logging service? (See How to integrate Sentry)
-- Are we using a AWS RDS service? See AWS production databases
-- Are we monitoring performance and uptime? See `New Relic <https://newrelic.com/>`_
-
 Domain Names
 ------------
 
@@ -939,14 +923,11 @@ How they work
 Workflow
 ~~~~~~~~
 
-Every squad follows the same workflow (M.A.P.E.D.):
+Every squad follows the same workflow (M.A.P.):
 
 1. **M** easure teams and projects on different areas
-2. **A** nalyze measurements in order to detect the underlying issues and areas of improvements
-3. **P** ropose changes and design an action plan considering different scenarios
-4. **E** nsure the action plan is executed and help solving stoppers
-5. **D** ocument lessons learned and how the plan affected the measurements
-6. Go back to step 1
+2. **A** nalyze measurements in order to detect underlying issues and areas of improvement
+3. **P** ropose changes via simple checklists that can be found on `guidelines<https://guidelines.sophilabs.io/projects/checklist>`_
 
 Metrics
 ~~~~~~~
@@ -956,6 +937,24 @@ In order to measure performance on different projects,
 metrics are needed. We use automated tools to measure quantifiable metrics,
 as well as quizzes that we distribute periodically to teams and
 customers to measure opinionated metrics.
+
+Checklists
+==========
+
+We have found that a short checklist is valuable when setting up a new project,
+a production environment or preparing for a launch. We use to document tasks such as:
+
+- Are long-running processes such as email delivery being run in background jobs?
+- Are there redundant (at least two) web and background processes running?
+- Are we using SSL? (See "SSL Certificates" section below)
+- Are API requests being made via a separate subdomain (api.example.com)? Even if the same app, this gives us architectural flexibility in the future
+- Are deploys done manually at a scheduled time when teammates are fresh and available if something goes wrong?
+- Do deploys follow a well-documented script?
+- Are we sending logs to a remote logging service? (See How to integrate Sentry)
+- Are we using a AWS RDS service? See AWS production databases
+- Are we monitoring performance and uptime? See `New Relic <https://newrelic.com/>`_
+
+We document the `projects manifesto<https://guidelines.sophilabs.io/projects/manifesto/>`_. structure and `checklists<https://guidelines.sophilabs.io/projects/checklist>`_ in guidelines.
 
 Code Analysis Squad
 -------------------
@@ -1020,7 +1019,7 @@ Security Squad
 Objectives
 ~~~~~~~~~~
 
-Protect Sophilabs and its clients assets: Operations integrity & intellectual
+Protect Sophilabs and its clients assets: operations integrity and intellectual
 property by guaranteeing compliance with the highest possible security standards.
 
 - **Confidentiality**: Information, no matter its classification, is only seen or used by people authorized to access it.
@@ -1033,7 +1032,8 @@ Software design Squad
 Objectives
 ~~~~~~~~~~
 
-Ensure that the software design decisions took by sophilabs encourages simplicity, consistency, scalability and reusability.
+Ensure that Sophilabs’ software design best practices encourage simplicity,
+consistency, scalability and reusability.
 
 - **Simplicity** : Minimize the effort required to understand a project.
 - **Consistency** : Apply the same practices throughout the project and across similar projects.
@@ -1047,7 +1047,7 @@ Objectives
 ~~~~~~~~~~
 
 Ensure that software built by sophilabs has the necessary mechanisms to boost
-its reliability, robustness and correctness in an execution environment.
+its reliability, robustness and correctness.
 
 - **Reliability**: The application should behave as expected.
 - **Robustness**: The application should be able to continue operating despite abnormalities.
@@ -1259,18 +1259,15 @@ to the community.
 Interviewing
 ------------
 
-We create a new record on sophia for each candidate.
-The recruitment team ensures that everyone gets a response and makes sure
-that one of the directors speaks with a candidate before being hired.
-Anyone can do an initial review of the candidate's application to review
-the candidate's code sample or portfolio. If necessary, they may
-ask someone else (like a designer or Javascript developer) for another pair of
-eyes on the code or portfolio.
-The recruitment team will pull the managing director, designers, or developers
-into subsequent discussions, putting their faces on the sophia candidate to
+We use `Google Hire<https://hire.google.com/>`_ to run our recruitment process.
+The recruitment team ensures that a complete profile is created for every candidate
+and that everyone gets a timely response.
+Anyone can participate on the candidate's application review process.
+The recruitment team will pull the managing staff, designers, or developers
+into subsequent discussions, putting their faces on the candidate profile to
 ensure we always know who is responsible.
 
-We have standard questions for Python developers, NodeJS developers, DevOps
+We have standard questions for Python, NodeJS and Elixir developers, DevOps
 and designers for the technical interview. We like to talk to respondents about
 design process, architecting systems, and writing code which is
 exactly the same thing we do for work every day.
