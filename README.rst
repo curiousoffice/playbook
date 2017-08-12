@@ -927,7 +927,7 @@ Every squad follows the same workflow (M.A.P.):
 
 1. **M** easure teams and projects on different areas
 2. **A** nalyze measurements in order to detect underlying issues and areas of improvement
-3. **P** ropose changes via simple checklists that can be found on `guidelines<https://guidelines.sophilabs.io/projects/checklist>`_
+3. **P** ropose changes via simple checklists that can be found on `guidelines <https://guidelines.sophilabs.io/projects/checklist>`_
 
 Metrics
 ~~~~~~~
@@ -954,7 +954,7 @@ a production environment or preparing for a launch. We use to document tasks suc
 - Are we using a AWS RDS service? See AWS production databases
 - Are we monitoring performance and uptime? See `New Relic <https://newrelic.com/>`_
 
-We document the `projects manifesto<https://guidelines.sophilabs.io/projects/manifesto/>`_. structure and `checklists<https://guidelines.sophilabs.io/projects/checklist>`_ in guidelines.
+We document the `projects manifesto <https://guidelines.sophilabs.io/projects/manifesto/>`_. structure and `checklists <https://guidelines.sophilabs.io/projects/checklist>`_ in guidelines.
 
 Code Analysis Squad
 -------------------
@@ -1259,7 +1259,7 @@ to the community.
 Interviewing
 ------------
 
-We use `Google Hire<https://hire.google.com/>`_ to run our recruitment process.
+We use `Google Hire <https://hire.google.com/>`_ to run our recruitment process.
 The recruitment team ensures that a complete profile is created for every candidate
 and that everyone gets a timely response.
 Anyone can participate on the candidate's application review process.
