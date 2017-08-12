@@ -954,7 +954,7 @@ a production environment or preparing for a launch. We use to document tasks suc
 - Are we using a AWS RDS service? See AWS production databases
 - Are we monitoring performance and uptime? See `New Relic <https://newrelic.com/>`_
 
-We document the `projects manifesto <https://guidelines.sophilabs.io/projects/manifesto/>`_. structure and `checklists <https://guidelines.sophilabs.io/projects/checklist>`_ in guidelines.
+We document the projects `manifesto <https://guidelines.sophilabs.io/projects/manifesto/>`_ and `checklists <https://guidelines.sophilabs.io/projects/checklist>`_ in guidelines.
 
 Code Analysis Squad
 -------------------
