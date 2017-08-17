@@ -1032,8 +1032,7 @@ Software design Squad
 Objectives
 ~~~~~~~~~~
 
-Ensure that Sophilabs’ software design best practices encourage simplicity,
-consistency, scalability and reusability.
+Ensure that Sophilabs’ Software Design best practices encourage simplicity, consistency, scalability & reusability.
 
 - **Simplicity** : Minimize the effort required to understand a project.
 - **Consistency** : Apply the same practices throughout the project and across similar projects.
