@@ -979,8 +979,8 @@ Deployment Squad
 Objectives
 ~~~~~~~~~~
 
-Ensure that systems deployed by Sophilabs have a high performance, are scalable
-and are always available; and that the deployment processes are traceable,
+Ensure that systems deployed by Sophilabs are high performing, scalable
+and always available; and that deployment processes are traceable,
 visible, reversible and reliable.
 
 **Systems**
@@ -991,7 +991,7 @@ visible, reversible and reliable.
 
 **Processes**
 
-- **Traceability**: the ability to associate a released version to its source ticket and commit and to trace any exception.
+- **Traceability**: the ability to associate a released version to its source ticket and commit, and to trace any exception.
 - **Visibility**: make the next release candidate version visible to stakeholders before actually releasing it.
 - **Reversibility**: the ability to restore a system to a previous state
 - **Reliability**: the deployment process is reliable
@@ -1007,11 +1007,11 @@ projects encourage adaptability, integration, predictability, satisfaction,
 simplicity and visibility.
 
 - **Adaptability**: The team's ability to quickly adapt to unexpected changes
-- **Integration**: Team and client are involved in the project
+- **Integration**: Team and client are actively involved in the project
 - **Predictability**: Estimated tasks were completed on time
 - **Satisfaction**: Team, client, and stake holders are happy
 - **Simplicity**: Doing only what is needed every time
-- **Visibility**: The team is traceable and all documents and resources are accessible. The team proactively documents and informs to keep everyone on the same page
+- **Visibility**: The team is traceable and all documents and resources are accessible. The team proactively communicates to keep everyone on the same page
 
 Security Squad
 --------------
@@ -1022,7 +1022,7 @@ Objectives
 Protect Sophilabs and its clients assets: operations integrity and intellectual
 property by guaranteeing compliance with the highest possible security standards.
 
-- **Confidentiality**: Information, no matter its classification, is only seen or used by people authorized to access it.
+- **Confidentiality**: Information, no matter its classification, is only seen or used by authorized users.
 - **Integrity**: Any unauthorized information changes are impossible (or at least detected), and changes by authorized users are tracked.
 - **Availability**: Information is accessible when authorized users need it, while accounting for proper balance between security and availability.
 
@@ -1046,11 +1046,11 @@ Objectives
 ~~~~~~~~~~
 
 Ensure that software built by sophilabs has the necessary mechanisms to boost
-its reliability, robustness and correctness.
+its reliability, robustness and correctness in an execution environment.
 
 - **Reliability**: The application should behave as expected.
 - **Robustness**: The application should be able to continue operating despite abnormalities.
-- **Correctness**: The application is compliant with the requirements specification.
+- **Correctness**: The application is compliant with the specified requirements.
 
 Sales
 =====
