@@ -935,9 +935,8 @@ Rules
 1. Participation in squads is optional
 2. Anyone can join up to 2 squads
 3. The maximum capacity per squad is 3
-4. Anytime we want to join or leave a squad we notify the team using the squads slack channel. When multiple candidates are interested in the same vacancy, we use seniority as the criteria to solve conflicts
-5. We document squads information, including members and roles in this
-`spreadsheet <https://docs.google.com/spreadsheets/d/1HS_aOPScwwfWdYkyJ6d1JupVl3FdNmWIIBZTGfy-NaQ/edit#gid=549058251>`_
+4. Anytime we want to join or leave a squad we notify the team using the `#squads <https://sophilabs.slack.com/messages/C6X74NTV3/>`_ slack channel. When multiple candidates are interested in the same vacancy, we use seniority as the criteria to solve conflicts
+5. We document squads information, including members and roles in this `spreadsheet <https://docs.google.com/spreadsheets/d/1HS_aOPScwwfWdYkyJ6d1JupVl3FdNmWIIBZTGfy-NaQ/edit#gid=549058251>`_
 
 Metrics
 ~~~~~~~
