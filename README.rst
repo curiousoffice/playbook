@@ -992,7 +992,7 @@ Every squad follows the same workflow (M.A.P.):
 3. **P** ropose changes via simple checklists that can be found on `guidelines <https://guidelines.sophilabs.io/projects/checklist>`_
 
 Note that the squads are not responsible for actually implementing the best practices proposed.
-Their execution should be part of the projects and their individuals goals.
+Their execution should be part of the projects' goals and the team should talk about them on standups and retros.
 
 Rules
 ~~~~~
