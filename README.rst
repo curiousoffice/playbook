@@ -51,13 +51,13 @@ composition of roles necessary for projects and company objectives over
 inheritance of bosses and direct reports.
 
 We avoid having private conversations about each other or clients. Instead, we
-talk in person, and use tools such as Slack, JIRA and GitLab to communicate
+talk in person, and use tools such as Slack, Jira and GitLab to communicate
 openly within a project, within sophilabs, and publicly.
 
 We prefer open offices where everyone can see each other, encouraging people to
-collaborate spontaneously but still maintaining  a quiet work environment.
-We say, “Work comfortably while  keeping the stillness of a library”.
-There are many places for entertainment so you can  rest when you need to
+collaborate spontaneously but still maintaining a quiet work environment.
+We say, “Work comfortably while keeping the stillness of a library”.
+There are many places for entertainment so you can rest when you need to
 without disturbing your teammates.
 
 Our standards are very high, and bringing on a new team member requires a
@@ -78,8 +78,7 @@ Time
 
 We work at a `sustainable pace
 <http://www.extremeprogramming.org/rules/overtime.html>`_.
-From March to December we dedicate two days per
-month as “investment days”, and one day during January and February. We
+We dedicate up to two days per month as “investment days”. We
 typically distribute investment days in the team in order to have at least
 one member dedicated to the project everyday.
 If a team member is absent from client work because of illness or study
@@ -94,6 +93,54 @@ possible.
 Unless actually urgent, you may ignore off-hours messages which you receive and
 handle them once you are back at work.
 
+Time tracking
+-------------
+
+We work and bill our customers by the hour, so making that every invested hour counts is very important.
+We track the time we invest on different projects in `Hours <https://hours.sophilabs.io>`_ using as much detail as possible when documenting what we do.
+
+If we worked for a specific ticket, we track time directly in the tasks management system as they will be imported automatically by the tool, this is important to avoid typing them twice and to be able to generate time investment reports within the tasks management tool.
+
+Activities
+~~~~~~~~~~
+
+When tracking time at Sophilabs we have to categorize the type of time investment we are doing by providing an Activity.
+They can be typed when creating the time entry in `Hours <https://hours.sophilabs.io>`_,
+or by appending it as a hashtag in the tasks management system's time entry log, i.e.: "Created a new service for handling I/O exceptions. #development".
+
+The activities we use are:
+
+- **Analysis**: when analyzing an issue or exploring ideas.
+- **Bug Fixing**: when solving a bug.
+- **Code review**: when reviewing code.
+- **Email/Chat**: when communicating over chat or e-mail.
+- **Configuration**: when configuring tools or services.
+- **Deployment**: when deploying new code to an environment.
+- **Development**: when programming.
+- **Documentation**: when writing documents/pages/blog posts.
+- **Management**: when managing stuff.
+- **Not paid time off**: when taking not paid time off.
+- **Lecture**: when giving a talk or presentation to an audience or teaching something to someone else.
+- **Paid time off**: when taking paid time off.
+- **Meeting**: when meeting face-to-face or remotely with someone else.
+- **Support**: when helping an user.
+- **Testing**: when manually testing software.
+- **Training**: when learning something new.
+- **Travel**: when traveling on a company trip.
+- **Visual Design**: when designing new UI/UX/marketing material.
+
+Patch
+~~~~~
+
+A special activity used to adjust the sum of hours a day should have. i.e.
+I have to work 8 hours a day but for some reason I did 7, to complete 8 hours for
+that day I create a 1 hour patch entry explaining why I could not complete 8 hours.
+Patch entries could also be negative if I worked more than 8 hours a day.
+
+Patch entries are very useful so we are able to "close" days without any human intervention.
+At the end of the month when we prepare the bill for our customers, we just make
+sure that the month was properly closed so no more modifications are allowed.
+
 Staying focused
 ---------------
 
@@ -107,7 +154,7 @@ Consulting
 
 Our main business is consulting projects. Those projects start with sales and
 go through a normal flow of designing, developing, shipping, monitoring, and
-iterating. The goal is to  do such a good job for our clients that they  want
+iterating. The goal is to do such a good job for our clients that they want
 to poach us, and to be such a great place to work that we can be confident our
 teammates won't leave.
 
@@ -122,14 +169,19 @@ educational book. The goal is to encourage individuals to improve and share
 their knowledge with the rest of the team.
 The time you invest during these days must generate value in different forms:
 
-- Picking from or contributing  to guidelines and playbook
+- Picking from or contributing to guidelines and playbook
 - Completing squads’ pre-defined tickets
-- Contributing to  or creating open source software
+- Contributing to or creating open source software
 - Writing a blog post
-- Exploring change to tools and processes on the "R&I" JIRA project
+- Exploring change to tools and processes on the "R&I" Jira project
 - Working on conference and meetup talks and proposals
-- Working on sophia or other internal projects
+- Working on Sophia or other internal projects
 
+When taking an investment day we follow the same steps as we were taking a `short
+vacation <https://man.sophilabs.io/#short-vacations>`_ to let the team and PO know about it in advance.
+
+Being "On Bench"
+~~~~~~~~~~~~~~~~
 
 There is a difference between a normal investment day, and extended downtime
 between client projects (being “on bench”).
@@ -393,7 +445,7 @@ please use this document to guide the presentation.
 After that, the following stuff is set up:
 
 - Project mailing-list: `project@sophilabs.com <project@sophilabs.com>`_, which includes the client and `project-dev@sophilabs.com <project-dev@sophilabs.com>`_, which include only the technical team
-- JIRA tracker (provided by client)
+- Jira tracker (provided by client)
 - Gitlab or Github repositories (provided by client)
 - Jenkins project (provided by client)
 - Access to cloud service (security groups and roles)
@@ -403,26 +455,25 @@ Standups
 --------
 
 Every morning, each project team gets together for 15 minutes.
-We talk about what we did yesterday, what we're going to do today,
-and expose blockers.
+We talk about the current sprint goals and how we are in regards to it, reprioritizing tasks if needed.
 We immediately resolve blockers together or help the person in need following
 the standup.
 
 We do this in order to:
 
+- Align ourselves to the sprint's goal
 - See each other face-to-face
 - Learn what others are doing in order to help them
-- Build accountability and trust
 
 Tasks
 -----
 
-We have used Redmine, JIRA, Pivotal Tracker, Asana, Trello, and other task
+We have used Jira, Redmine, Pivotal Tracker, Asana, Trello, and other task
 management systems over the years. The following section details a process
-that uses JIRA, however the overall process remains relatively the same
+that uses Jira, however the overall process remains relatively the same
 if other tools are used instead.
 No two products are the same, so flexibility in the product development process
-is important. JIRA responds well to changing the structure of the process
+is important. Jira responds well to changing the structure of the process
 "on the fly."
 
 In any task management system, it's important to have a clear understanding of
@@ -663,7 +714,7 @@ Here's the flow. Read our `git flow based protocol <https://guidelines.sophilabs
 #. Write a good commit message
 #. Share your branch
 #. Submit a merge request
-#. Ask for a code review in `Slack <https://chat.sophilabs.io>`_
+#. Ask for a code review in your project's `slack channel <https://chat.sophilabs.io>`_
 #. A team member other than the author reviews the merge request. They follow the `Code Review guidelines <https://guidelines.sophilabs.io>`_ to avoid miscommunication
 #. They make comments and ask questions directly on lines of code in the GitLab web interface or in Slack
 #. When satisfied, they comment on the merge request "Ready to merge."
@@ -877,7 +928,18 @@ Slack
 
 We are always logged in Slack during work hours.
 This decreases feedback loops for team communication.
-Our slack account is found under sophilabs.slack.com.
+Our slack account is found under `chat.sophilabs.io <https://chat.sophilabs.io>`_.
+
+Discourse
+---------
+
+We use the `Discourse platform <https://www.discourse.org/>`_
+whenever we need to discuss software engineering related topics and get
+general consensus.
+The forum is opened for the world with read-only access, as a sophilaber you
+might be interested in signing up to get writing access.
+
+Check it out under `discuss.sophilabs.io <https://discuss.sophilabs.io>`_.
 
 Data Security
 -------------
@@ -929,6 +991,9 @@ Every squad follows the same workflow (M.A.P.):
 2. **A** nalyze measurements in order to detect underlying issues and areas of improvement
 3. **P** ropose changes via simple checklists that can be found on `guidelines <https://guidelines.sophilabs.io/projects/checklist>`_
 
+Note that the squads are not responsible for actually implementing the best practices proposed.
+Their execution should be part of the projects and their individuals goals.
+
 Rules
 ~~~~~
 
@@ -947,6 +1012,13 @@ metrics are needed. We use automated tools to measure quantifiable metrics,
 as well as quizzes that we distribute periodically to teams and
 customers to measure opinionated metrics.
 
+Dashboard
+~~~~~~~~~
+
+Whenever we want to know how our projects are performing regarding
+software development best practices, we take a look at `dashboard.sophilabs.io <https://dashboard.sophilabs.io>`_,
+we also have TVs strategically placed around the office displaying it so we are all aware of them.
+
 Checklists
 ~~~~~~~~~~
 
@@ -959,9 +1031,9 @@ a production environment or preparing for a launch. We use to document tasks suc
 - Are API requests being made via a separate subdomain (api.example.com)? Even if the same app, this gives us architectural flexibility in the future
 - Are deploys done manually at a scheduled time when teammates are fresh and available if something goes wrong?
 - Do deploys follow a well-documented script?
-- Are we sending logs to a remote logging service? (See How to integrate Sentry)
-- Are we using a AWS RDS service? See AWS production databases
-- Are we monitoring performance and uptime? See `New Relic <https://newrelic.com/>`_
+- Are we sending logs to a remote logging service?
+- Are we using a AWS RDS service?
+- Are we monitoring performance and uptime?
 
 We document the projects `manifesto <https://guidelines.sophilabs.io/projects/manifesto/>`_ and `checklists <https://guidelines.sophilabs.io/projects/checklist>`_ in guidelines.
 
@@ -973,14 +1045,11 @@ Objectives
 
 Improve the quality of the code we write and help new team members adopt the best practices early.
 
-- **Simplicity**: Minimize the effort required to understand a given source
-  code.
-- **Consistency**: Apply the same practices throughout the project and across
-  similar projects.
+- **Simplicity**: Minimize the effort required to understand a given source code.
+- **Consistency**: Apply the same practices throughout the project and across similar projects.
 - **Legibility**: The ability to understand the code at a statement level.
 - **Scalability**: The activity of writing performant code at a statement-level.
-- **Reusability**: The ability of a given piece of code to be reused in other
-  projects without modification.
+- **Reusability**: The ability of a given piece of code to be reused in other projects without modification.
 
 Deployment Squad
 ----------------
@@ -1089,7 +1158,7 @@ Leads
 -----
 
 Our leads often come to us from Google searches and client referrals.
-Each lead is tracked on `sophia <https://panel.sophilabs.io>`_.
+Each lead is tracked on `Sophia <https://panel.sophilabs.io>`_.
 
 A salesperson will get assigned to the card for the incoming lead but anyone
 in the sales team can take responsibility for that lead.
@@ -1222,7 +1291,7 @@ time with less risk to them because:
 - We can quickly rotate in a new team member if someone gets sick, leaves the company, or is ready to rotate to a new project
 
 Clients always know what is happening via access to the project management
-system (JIRA), chat room (Slack), version control system (Gitlab), and ongoing
+system (Jira), chat room (Slack), version control system (Gitlab), and ongoing
 communication with our teammates.
 
 Contract
@@ -1310,7 +1379,7 @@ give them access to systems like GitLab and Slack, send them an
 Employment Agreement, notify accounting, and send them a welcome email.
 They will receive a welcome package, which includes a MacBook Pro,
 stickers, a printed copy of this playbook, and a t-shirt.
-JIRA issues will be created for the hiring manager for any remaining
+Jira issues will be created for the hiring manager for any remaining
 items that haven’t yet been completed.
 
 Mentors
@@ -1382,7 +1451,7 @@ Fortunately, we decided long time ago to build our own ERP system which
 make things like bookkeeping, receipts, signatures, and invoicing much easier.
 It is a minimal core system connected with multiple third party services such
 as Redmine, Jira, Quickbooks to extract desired information. We named it
-sophia and you can find it at `panel.sophilabs.io <https://panel.sophilabs.io>`_.
+Sophia and you can find it at `panel.sophilabs.io <https://panel.sophilabs.io>`_.
 
 Email
 -----
@@ -1423,12 +1492,12 @@ Meetings
 We over-communicate with clients online to avoid having scheduled meetings.
 Problems usually come up because of poor communication.
 When we need to meet for a discussion, we aim for 30 minutes.
-`Google Hangouts <https://apps.google.com/intx/en/products/hangouts/>`_
+`Google Meet <https://meet.google.com>`_
 is our preferred communication tool when working remotely,
 (`Skype <http://skype.com>`_ works too if Google Hangouts is not possible).
 They are easy to set up, sharable by URL,
 and let us get a look at whoever we're talking to.
-Screen-sharing is also very easy, when necessary. We have used Hangouts/Skype
+Screen-sharing is also very easy, when necessary. We have used Meet/Skype
 for client meetings, candidate interviews, and company meetings.
 
 Community
@@ -1443,19 +1512,19 @@ We encourage teammates to give back whenever they have something to contribute.
 Blog
 ----
 
-We have an institutional `Blog <https://sophilabs.co/journal>`_,
+We have our own `Blog <https://sophilabs.co/blog>`_,
 for sharing important events
 and facts related to sophilabs in addition to product design and software
-engineering topics.
-When you want to write a post, create an Issue on JIRA in the `Community project
-<https://sophilabs.atlassian.net/projects/COM/issues/?filter=allopenissues>`_
-and assign the Issue to yourself.
+engineering news.
+When you want to write a post, create an card on Trello in the `Blog Posts board
+<https://trello.com/b/BNNoOg1q/sales-posts>`_
+and assign it to yourself.
 
 Spend time writing and rewriting a `great headline <http://www.copyblogger.com/magnetic-headlines/>`_.
 It helps you narrow your
 focus, figure out the purpose of the post, and catch the reader's attention.
 When writing a post, first move the Issue to the “Drafts” column.
-Then write the post in `sophia <https://panel.sophilabs.io>`_,
+Then write the post in `Sophia <https://panel.sophilabs.io>`_,
 and be sure to add tags to the post.
 Tags help readers find related blog posts.
 When you’re ready for feedback from the team,
@@ -1476,7 +1545,8 @@ Research
 
 .. image:: ./figures/research.jpg
 
-Ongoing experiments are managed in our "Research & Innovation" JIRA project.
+Ongoing experiments are managed in our `"Research" <https://trello.com/b/0BdO1FTM/research>`_
+Trello board.
 
 We rigorously research, discuss, and conclude experiments on new tools and
 techniques. Write up these experiments on the blog at your discretion.
