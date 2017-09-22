@@ -106,12 +106,11 @@ Activities
 
 When tracking time at Sophilabs we have to categorize the type of time investment we are doing by providing an Activity.
 They can be typed when creating the time entry in `Hours <https://hours.sophilabs.io>`_,
-or by appending it as a hashtag in the tasks management system's time entry log, i.e.: "Created a new service for handling I/O exceptions. #development".
+or by appending it as a hashtag in the tasks management system's time entry log, i.e.: "Deployed a new service for handling I/O exceptions. #deployment". If no hashtag is provided, `development` will be assumed.
 
 The activities we use are:
 
 - **Analysis**: when analyzing an issue or exploring ideas.
-- **Bug Fixing**: when solving a bug.
 - **Code review**: when reviewing code.
 - **Email/Chat**: when communicating over chat or e-mail.
 - **Configuration**: when configuring tools or services.
@@ -126,13 +125,13 @@ The activities we use are:
 - **Support**: when helping an user.
 - **Testing**: when manually testing software.
 - **Training**: when learning something new.
-- **Travel**: when traveling on a company trip.
+- **Travel**: when traveling during a company trip.
 - **Visual Design**: when designing new UI/UX/marketing material.
 
 Patch
 ~~~~~
 
-A special activity used to adjust the sum of hours a day should have. i.e.
+It's a special activity used to adjust the sum of hours a day should have. i.e.
 I have to work 8 hours a day but for some reason I did 7, to complete 8 hours for
 that day I create a 1 hour patch entry explaining why I could not complete 8 hours.
 Patch entries could also be negative if I worked more than 8 hours a day.
@@ -1523,13 +1522,11 @@ and assign it to yourself.
 Spend time writing and rewriting a `great headline <http://www.copyblogger.com/magnetic-headlines/>`_.
 It helps you narrow your
 focus, figure out the purpose of the post, and catch the reader's attention.
-When writing a post, first move the Issue to the “Drafts” column.
-Then write the post in `Sophia <https://panel.sophilabs.io>`_,
-and be sure to add tags to the post.
-Tags help readers find related blog posts.
-When you’re ready for feedback from the team,
-move the issue to the “In Review” column and share the
-Issue URL with the team in Slack.
+When writing a post, first move the card to the “Drafts” column.
+Then write the post in `Sophia <https://panel.sophilabs.io>`_, and be sure to
+add tags to the post. Tags help readers find related blog posts.
+When you’re ready for feedback from the team, move the card to the
+"Peers Review” column and share the card URL with the team in Slack.
 Based on the feedback you’ve received and your own judgement,
 make any necessary changes. Once the post is ready to be published,
 date it and change the status to “published”
@@ -1538,7 +1535,7 @@ Our RSS feed, Zapier, and Buffer accounts are setup to automatically
 work together to link to the post from Twitter, Google+ and LinkedIn.
 You should also link to the post from Hacker News,
 Reddit, and any other appropriate sites.
-Lastly, move the Issue to "Live."
+Lastly, move the card to "Live."
 
 Research
 ========
