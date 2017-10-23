@@ -500,42 +500,44 @@ column. All reviewers must "put their face on it" while reviewing.
 Agile Master
 ------------
 
-The agile master is not a project manager. The rest of the team does not report
-to them. The agile master is also not a technical or design lead.
+The agile master is not a project manager, they are also not technical or
+design leads.
+The agile master is the `guardian of the process`.
 
-The agile master adds an impartial perspective. They run weekly meetings so that
-there is consistency in week-to-week communication. They keep an eye on the
-high-level goals of the project, which should be easier for them because they
-are not involved in the weeds of the project day-to-day.
+They keep an eye on the project process, making sure that the team is focused
+on delivering value on every iteration, receiving timely feedback and adapting
+to change as quick as possible.
+They run periodic meetings to ensure there is an effective communication between
+all team members. They help the team running periodic surveys to ensure Product Owners
+and stake-holders voices are heard.
 They express enthusiasm when the team is in a groove and help
 problem-solve when things get off track.
-When appropriate, they should work with the client to either reduce or increase
-team size to correctly serve the project.
+When appropriate, they work closer with the client to help removing
+blockers or either coaching them to improve their Product Owner skills.
 
 Biweekly Retrospective
 ----------------------
 
 Once every 2 weeks, everyone involved on a project meets in-person or
-via video conference.
+via video conference to perform a retrospective analysis.
 This is an opportunity for the entire team to discuss achievements,
 hurdles, and concerns. The goal is that everyone leaves feeling
-excited and empowered for the week of work to come.
+excited and empowered for the weeks of work to come.
 
 The agile master runs this meeting aiming to:
 
-- Understand how the team feels about last week's progress and what's to come. Ask all team members from both sophilabs and the client, "How did you feel about last week? How do you feel going into this week?" This is less of a recap of the completed work (a better place for a recap being during daily standups) and more a check of how each person feels about the current project. Take notes
-- Have each member of the team voice any risks or concerns; after everyone has had the opportunity to bring these up, work together as a group to mitigate these concerns. Encourage everyone to voice the same concerns even if they've already been mentioned; it helps prioritize what the team is most concerned about and should spend the most time fixing. This is an opportunity to discuss how to improve the process and product we're building together. Note who had which concerns and track how we'll be addressing these concerns
-- Celebrate success. Review the work that shipped last week, showing the actual product, and congratulate those who made it happen
-- After the retro is done, share the notes with the team and ensure anything actionable from the retro is captured. This allows teammates to view progress, understand how feelings on the project change over time, and accomplish anything we set out to do given the outcomes of the retro
+- Understand how the team feels about last 2 week's progress and what's to come.
+- Have each member of the team voice any risks or concerns; after everyone has had the opportunity to bring these up, work together as a group to mitigate these concerns. Encourage everyone to voice the same concerns even if they've already been mentioned; it helps prioritize what the team is most concerned about and should spend the most time fixing. This is an opportunity to discuss how to improve the process and product we're building together.
+- Celebrate success. We review the work we shipped, showing the actual product, and congratulate those who made it happen.
+- After the retro is done, we share the notes with the team and ensure anything actionable from the retro is captured. This allows teammates to view progress, understand how feelings on the project change over time, and accomplish anything we set out to do given the outcomes of the retro.
 
-Based on the answers to these questions, we record our plans in the task
-management system:
+Based on the answers to these questions, we record our plans in the task management system:
 
 - Archive the two-week previous sprint
-- Review product design priorities. Pull what we estimate to be an appropriate amount for this week into the Backlog
+- Review product design priorities. Pull what we estimate to be an appropriate amount for next sprint into the Backlog
 - Review bugs. Pull any important bugs into the Backlog and prioritize them at the top of the queue before everything else. We want to always be fixing what's broken first
 - Review engineering and refactoring tasks. Pull stories into the Backlog based on what the designers and developers believe is appropriate given the previously stated product design and bug tasks
-- Re-sort the entire Backlog according to priority
+- Ask the Product Owner to re-sort the entire Backlog according to priorities
 
 The task management system is the canonical repository for plans.
 When things are only said on the phone, in person, in emails that don't include
@@ -971,12 +973,12 @@ defining universal guidelines and ensuring they are always applied.
 
 The current squads are:
 
- * Code Analysis squad
- * Deployment squad
- * Methodologies squad
- * Testing squad
- * Security squad
- * Software Design squad
+- Code Analysis squad
+- Deployment squad
+- Methodologies squad
+- Testing squad
+- Security squad
+- Software Design squad
 
 How they work
 -------------
