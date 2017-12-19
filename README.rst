@@ -435,6 +435,24 @@ In our experience we have seen that the best architectures, requirements, and
 designs emerge from self-organizing teams who truly understand these
 principles.
 
+Agile Master
+------------
+
+The agile master is not a project manager, they are also not technical or
+design leads.
+The agile master is the `guardian of the process`.
+
+They keep an eye on the project process, making sure that the team is focused
+on delivering value on every iteration, receiving timely feedback and adapting
+to change as quick as possible.
+They run periodic meetings to ensure there is an effective communication between
+all team members. They help the team running periodic surveys to ensure Product Owners
+and stake-holders voices are heard.
+They express enthusiasm when the team is in a groove and helps as a
+problem-solver when things get off track.
+When appropriate, they work closer with the client to help removing
+blockers or either coaching them to improve their Product Owner skills.
+
 Project kick off
 ----------------
 
@@ -450,19 +468,53 @@ After that, the following stuff is set up:
 - Access to cloud service (security groups and roles)
 - Google docs folder (ask client for a documents repository or use docs.sophilabs.io instead)
 
-Standups
+Planning
 --------
 
-Every morning, each project team gets together for 15 minutes.
-We talk about the current sprint goals and how we are in regards to it, reprioritizing tasks if needed.
-We immediately resolve blockers together or help the person in need following
-the standup.
+Contrary to common misconceptions, planning is fundamental to Agile. That being said, planning is done in a rather unique way: with Agile we focus on planning for the work at hand and getting it "just right", while traditional approaches would require full upfront planning for every possible feature without accounting for change.
 
-We do this in order to:
+The most important planning instance occurs at the beginning of every iteration and determines the expected value to be realized by its expiration through the finished product increment.This is addressed by answering two questions:
 
-- Align ourselves to the sprint's goal
-- See each other face-to-face
-- Learn what others are doing in order to help them
+- "What" will we build to increase the product value?. This aligns with the product strategy.
+- "How" are we going to build it?. This represents the development team's tactical approach to deliver results.
+
+**Prerequisites:**
+
+- The whole team must be present: Product Owner, Development Team & Agile Master
+- The Product Owner must bring an updated Product Backlog (PBL) reflecting his product's strategy
+
+**A planning session's objectives are:**
+
+- Settling an iteration goal. The whole team should agree on it by discussing the PO's strategic perspective.
+- Defining the amount of work that will be completed during the iteration, in context of the iteration goal. This is called an "Iteration Backlog"
+
+...These represent the "What".
+
+- Defining a "tactical plan", roughly outlining how the development team will tackle work to deliver the expected results.
+
+**Iteration Goal + Iteration Backlog + Dev. team's Tactical plan = Iteration Plan**
+
+Estimation
+----------
+
+Work Estimation through relative sizing is instrumental for achieving all of the planning session goals; through this process the Dev. team uses its knowledge to try and determine the size of Product Backlog requirements, while the PO will rely on his product/business experience to make sure such requirements are clear and fully understood by the Developers.
+
+We tend to prefer "Planning Poker" and "Two-pass" amongst all existing relative sizing techniques, and we use a trimmed scale with Fibonacci numbers from 1 to 13 in all our projects. We've also laid scale descriptions as loose guidelines to facilitate its use:
+
+**- 1: Tiny effort** - a "zero-complexity/zero-uncertainty" bit of work. Can be easily fulfilled within a day's work, usually just in a couple of hours tops to complete
+**- 2: Small effort** - a "low-complexity/zero-uncertainty" bit of work. Roughly "double" the amount of work of a "1", it'll likely take a day's work or even a bit more to complete
+**- 3: Regular effort** - a "low-complexity/low-uncertainty" bit of work. Roughly "double or less" the amount of work of a "2", it'll easily take a day's work up to a couple more days to complete
+
+**- 5: Big effort** - a "medium-complexity/medium-uncertainty" bit of work. Distinctively bigger than a "3", It'll most likely take no less than a couple days of work to complete
+**- 8: Very Big effort** - a "high complexity/high-uncertainty" bit of work. Distinctively bigger than a "5"
+
+**- 13: Epic/New Feature** - a "highest-complexity/highest-uncertainty" bit of work. Perceived as being distinctively bigger than an "8" and highly uncertain, requirements with this profile are deemed as "Epics"
+
+We've also laid down the following rules depending on estimation size:
+
+- Only requirements from 1 up to 3 can be part of an Iteration Backlog. "5"'s can exeptionally be included, given the dev. team has capacity and the PO commits to clearing all uncertainty
+- Requirements from 5 up to 13 must be further refined and splitted into smaller, more specific requirements
+- Requirements  with a 13 are immediately deemed as "Epics", which means they must be treated as new features
 
 Tasks
 -----
@@ -497,23 +549,19 @@ Work is done in a feature git branch. When a designer or developer creates a
 pull request for their feature branch, they move the story to the Code Review
 column. All reviewers must "put their face on it" while reviewing.
 
-Agile Master
-------------
+Standups
+--------
 
-The agile master is not a project manager, they are also not technical or
-design leads.
-The agile master is the `guardian of the process`.
+Every morning, each project team gets together for 15 minutes.
+We talk about the current sprint goals and how we are in regards to it, reprioritizing tasks if needed.
+We immediately resolve blockers together or help the person in need following
+the standup.
 
-They keep an eye on the project process, making sure that the team is focused
-on delivering value on every iteration, receiving timely feedback and adapting
-to change as quick as possible.
-They run periodic meetings to ensure there is an effective communication between
-all team members. They help the team running periodic surveys to ensure Product Owners
-and stake-holders voices are heard.
-They express enthusiasm when the team is in a groove and help
-problem-solve when things get off track.
-When appropriate, they work closer with the client to help removing
-blockers or either coaching them to improve their Product Owner skills.
+We do this in order to:
+
+- Align ourselves to the sprint's goal
+- See each other face-to-face
+- Learn what others are doing in order to help them
 
 Biweekly Retrospective
 ----------------------
