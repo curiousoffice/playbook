@@ -480,19 +480,19 @@ The most important planning instance occurs at the beginning of every iteration 
 
 **Prerequisites:**
 
-- The whole team must be present: Product Owner, Development Team & Agile Master
-- The Product Owner must bring an updated Product Backlog (PBL) reflecting his product's strategy
+- The whole team must be present: Product Owner, Development Team & Agile Master.
+- The Product Owner must bring an updated Product Backlog (PBL) reflecting his product's strategy.
 
 **A planning session's objectives are:**
 
 - Settling an iteration goal. The whole team should agree on it by discussing the PO's strategic perspective.
-- Defining the amount of work that will be completed during the iteration, in context of the iteration goal. This is called an "Iteration Backlog"
+- Defining the amount of work that will be completed during the iteration, in context of the iteration goal. This is called an "Iteration Backlog".
 
-...These represent the "What".
+**...The latter points answer the "What".**
 
 - Defining a "tactical plan", roughly outlining how the development team will tackle work to deliver the expected results.
 
-**Iteration Goal + Iteration Backlog + Dev. team's Tactical plan = Iteration Plan**
+**Iteration Goal + Iteration Backlog + Dev. team's Tactical plan = Iteration Plan. The latter points answer the "How".**
 
 Estimation
 ----------
@@ -501,20 +501,18 @@ Work Estimation through relative sizing is instrumental for achieving all of the
 
 We tend to prefer "Planning Poker" and "Two-pass" amongst all existing relative sizing techniques, and we use a trimmed scale with Fibonacci numbers from 1 to 13 in all our projects. We've also laid scale descriptions as loose guidelines to facilitate its use:
 
-**- 1: Tiny effort** - a "zero-complexity/zero-uncertainty" bit of work. Can be easily fulfilled within a day's work, usually just in a couple of hours tops to complete
-**- 2: Small effort** - a "low-complexity/zero-uncertainty" bit of work. Roughly "double" the amount of work of a "1", it'll likely take a day's work or even a bit more to complete
-**- 3: Regular effort** - a "low-complexity/low-uncertainty" bit of work. Roughly "double or less" the amount of work of a "2", it'll easily take a day's work up to a couple more days to complete
-
-**- 5: Big effort** - a "medium-complexity/medium-uncertainty" bit of work. Distinctively bigger than a "3", It'll most likely take no less than a couple days of work to complete
-**- 8: Very Big effort** - a "high complexity/high-uncertainty" bit of work. Distinctively bigger than a "5"
-
-**- 13: Epic/New Feature** - a "highest-complexity/highest-uncertainty" bit of work. Perceived as being distinctively bigger than an "8" and highly uncertain, requirements with this profile are deemed as "Epics"
+- **1: Tiny effort** - a "zero-complexity/zero-uncertainty" bit of work. Can be easily fulfilled within a day's work, usually just in a couple of hours tops to complete.
+- **2: Small effort** - a "low-complexity/zero-uncertainty" bit of work. Roughly "double" the amount of work of a "1", it'll likely take a day's work or even a bit more to complete.
+- **3: Regular effort** - a "low-complexity/low-uncertainty" bit of work. Roughly "double or less" the amount of work of a "2", it'll easily take a day's work up to a couple more days to complete.
+- **5: Big effort** - a "medium-complexity/medium-uncertainty" bit of work. Distinctively bigger than a "3", It'll most likely take no less than a couple days of work to complete.
+- **8: Very Big effort** - a "high complexity/high-uncertainty" bit of work. Distinctively bigger than a "5".
+- **13: Epic/New Feature** - a "highest-complexity/highest-uncertainty" bit of work. Perceived as being distinctively bigger than an "8" and highly uncertain, requirements with this profile are deemed as "Epics".
 
 We've also laid down the following rules depending on estimation size:
 
-- Only requirements from 1 up to 3 can be part of an Iteration Backlog. "5"'s can exeptionally be included, given the dev. team has capacity and the PO commits to clearing all uncertainty
-- Requirements from 5 up to 13 must be further refined and splitted into smaller, more specific requirements
-- Requirements  with a 13 are immediately deemed as "Epics", which means they must be treated as new features
+- **Only requirements from 1 up to 3 can be included in the Iteration Backlog.** 5's can exeptionally be included, given the dev. team has capacity and the PO commits to clearing all uncertainty
+- **Requirements from 5 up to 13 must be further refined** and splitted into smaller, more specific requirements
+- **Requirements  with a 13 are immediately deemed as "Epics"**, which means they must be treated as new features
 
 Tasks
 -----
