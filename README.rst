@@ -473,26 +473,42 @@ Planning
 
 Contrary to common misconceptions, planning is fundamental to Agile. That being said, planning is done in a rather unique way: with Agile we focus on planning for the work at hand and getting it "just right", while traditional approaches would require full upfront planning for every possible feature without accounting for change.
 
-The most important planning instance occurs at the beginning of every iteration and determines the expected value to be realized by its expiration through the finished product increment.This is addressed by answering two questions:
-
-- "What" will we build to increase the product value?. This aligns with the product strategy.
-- "How" are we going to build it?. This represents the development team's tactical approach to deliver results.
-
 **Prerequisites:**
 
 - The whole team must be present: Product Owner, Development Team & Agile Master.
 - The Product Owner must bring an updated Product Backlog (PBL) reflecting his product's strategy.
+- Team-wide agreement about using **process quality-assurance elements (Such as "Acceptance Criteria" & "Definition of Done")**
 
-**A planning session's objectives are:**
+The most important planning instance occurs at the beginning of every iteration, its objective is to determine the expected value to be realized by its expiration through the finished product increment.This is addressed by answering two questions:
 
-- Settling an iteration goal. The whole team should agree on it by discussing the PO's strategic perspective.
-- Defining the amount of work that will be completed during the iteration, in context of the iteration goal. This is called an "Iteration Backlog".
+- **"What" will we build to increase the product value?**. This aligns with the product strategy.
+- **"How" are we going to build it?**. This represents the development team's tactical approach to deliver results.
 
-**...The latter points answer the "What".**
+**Answering the "What"**
 
-- Defining a "tactical plan", roughly outlining how the development team will tackle work to deliver the expected results.
+- **Settling for an iteration goal**. The whole team should agree on it by discussing the PO's strategic perspective.
+- **Defining the amount of work that will be completed during the iteration**, in context of the iteration goal. This is called an "Iteration Backlog".
+- **Agreeing on clear Acceptance Criterias**. The PO should be able to convey a clear understanding of what each piece of work needs to have from a functional or UX perspective in order for him to accept it as done.
 
-**Iteration Goal + Iteration Backlog + Dev. team's Tactical plan = Iteration Plan. The latter points answer the "How".**
+**Answering the "How"**
+
+- **Defining a "tactical plan"**, roughly outlining how the development team will tackle work to deliver the expected results and which tools (such as a "Definition of Done") will they use for said end.
+
+**Defining a "Done" criteria**
+
+The "Done" criteria or *"Definition of Done (DoD)"* is a quality related tool, used to enforce all elements each unit of work must comply with from a development perspective. The Dev team uses the DoD as a checklist to guide the development of a quality product. Organizations such as ours commonly have a base DoD, but teams tend to build on top of them including project-specific valuable elements when deemed approrpiate.
+
+- **Our base organizational DoD is:**
+    1. Feature is tested against acceptance criteria.
+    2. Unit/functional tests written and passing.
+    3. Integration/load tests passing.
+    4. CI successful build and linters passing.
+    5. Project deployed and working on the test environment identical to production.
+    6. Feature ok-ed by UX designer (If applicable).
+    7. Peer code & QA review performed and issues resolved.
+    8. Documentation updated (If applicable).
+
+**Iteration Goal + Iteration Backlog + Dev. team's Tactical plan = Iteration Plan. .**
 
 Estimation
 ----------
