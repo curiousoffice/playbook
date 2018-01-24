@@ -511,7 +511,7 @@ The "Done" criteria or *"Definition of Done (DoD)"* is a quality related tool, u
 The result of good planning is a defined **Iteration Plan**, the sum of:
 
 - A strategic **Iteration goal**.
-- A team-wide agreed upon **Iteration Backlog** with clear **Acceptance Criteria** for all work.
+- A purposeful **Iteration Backlog** with clear **Acceptance Criteria** for all work.
 - The dev team's tactical plan, enhanced with a relevant **Definition of Done**.
 
 Estimation
