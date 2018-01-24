@@ -487,7 +487,7 @@ The most important planning instance occurs at the beginning of every iteration,
 **Answering the "What"**
 
 - **Settling for an iteration goal**. The whole team should agree on it by discussing the PO's strategic perspective.
-- **Defining the amount of work that will be completed during the iteration**, in context of the iteration goal. This is called an "Iteration Backlog".
+- **Forecasting the amount of work that will be completed during the iteration**, in context of the iteration goal. This is called an "Iteration Backlog".
 - **Agreeing on clear Acceptance Criterias**. The PO should be able to convey a clear understanding of what each piece of work needs to have from a functional or UX perspective in order for him to accept it as done.
 
 **Answering the "How"**
@@ -508,7 +508,11 @@ The "Done" criteria or *"Definition of Done (DoD)"* is a quality related tool, u
     7. Peer code & QA review performed and issues resolved.
     8. Documentation updated (If applicable).
 
-**Iteration Goal + Iteration Backlog + Dev. team's Tactical plan = Iteration Plan. .**
+The result of good planning is a defined **Iteration Plan**, the sum of:
+
+- A strategic **Iteration goal**.
+- A team-wide agreed upon **Iteration Backlog** with clear **Acceptance Criteria** for all work.
+- The dev team's tactical plan, enhanced with a relevant **Definition of Done**.
 
 Estimation
 ----------
