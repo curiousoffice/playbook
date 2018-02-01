@@ -14,7 +14,7 @@ This document is in a continuous development process and you are a key player in
 Please contribute to it using [the Playbook's git repo](https://github.com/sophilabs/playbook).
 
 > __Important:__ This document is a excerpt and combination of our
-> [Guidelines](https://sophilabs.co/guidelines/) and [Manifesto](https://man.sophilabs.io)
+> [Guidelines](https://sophilabs.co/guidelines/) and our [Manifesto](https://man.sophilabs.io)
 > for a quick overview.
 
 ## Values
@@ -96,7 +96,7 @@ When tracking time at Sophilabs we have to categorize the type of time investmen
 providing an Activity.
 They can be typed when creating the time entry in [Hours](https://hours.sophilabs.io), or by
 appending it as a hashtag in the tasks management system's time entry log, i.e.: "Deployed a new
-service for handling I/O exceptions. #deployment". If no hashtag is provided, `development` will be 
+service for handling I/O exceptions. #deployment". If no hashtag is provided, `development` will be
 assumed.
 
 The activities we use are:
@@ -134,7 +134,7 @@ was properly closed so no more modifications are allowed.
 
 Sometimes we need to stay highly focused to solve challenging problems properly and we want no
 interruptions from our team, during those moments we listen to our favorite music avoiding any
-program or podcast that requires attention, or we just move temporarily to a more quiet and 
+program or podcast that requires attention, or we just move temporarily to a more quiet and
 isolated space.
 
 ### Consulting
@@ -259,7 +259,8 @@ additional time and expense in order to support the version.
 ### Mobile Apps
 
 "Mobile" refers to the user, not the device.
-Everything about how we design a mobile application has to be in the context of that idea. It raises questions like:
+Everything about how we design a mobile application has to be in the context of that idea. It raises
+questions like:
 
 - Are they moving?
 - Are they relaxed on a couch?
@@ -418,7 +419,8 @@ please use this document to guide the presentation.
 
 After that, the following stuff is set up:
 
-- Project mailing-list: [project@sophilabs.com](project@sophilabs.com), which includes the client and [project-dev@sophilabs.com](project-dev@sophilabs.com), which include only the technical team
+- Project mailing-list: [project@sophilabs.com](project@sophilabs.com), which includes the client
+  and [project-dev@sophilabs.com](project-dev@sophilabs.com), which include only the technical team
 - Jira tracker (provided by client)
 - Gitlab or Github repositories (provided by client)
 - Jenkins project (provided by client)
@@ -688,8 +690,8 @@ Those fundamentals include, among others:
 - Whitespace (elegant, timeless, gives eye a rest)
 
 Successful visual designs typically don't draw attention to themselves.
-The content will be front-and-center. The workflows throughout the site will be obvious. Resist the 
-temptation to aim for a design that is "memorable" or a design that "pops."
+The content will be front-and-center. The workflows throughout the site will be obvious. Resist
+the temptation to aim for a design that is "memorable" or a design that "pops."
 
 Successful designs are usable.
 
@@ -741,7 +743,7 @@ we believe that. There is no better collaboration between designers and develope
 
 ### Code Reviews
 
-Here's the flow. Read our [git flow based protocol](https://guidelines.sophilabs.io) for the git 
+Here's the flow. Read our [git flow based protocol](https://guidelines.sophilabs.io) for the git
 commands.
 
 1. Create a local feature branch based on dev
@@ -751,7 +753,8 @@ commands.
 1. Share your branch
 1. Submit a merge request
 1. Ask for a code review in your project's [slack channel](https://chat.sophilabs.io)
-1. A team member other than the author reviews the merge request. They follow the [Code Review guidelines](https://guidelines.sophilabs.io) to avoid miscommunication
+1. A team member other than the author reviews the merge request. They follow the
+   [Code Review guidelines](https://guidelines.sophilabs.io) to avoid miscommunication
 1. They make comments and ask questions directly on lines of code in the GitLab web interface or in Slack
 1. When satisfied, they comment on the merge request "Ready to merge."
 1. View a list of new commits. View changed files. Merge branch into dev
@@ -990,7 +993,8 @@ Every squad follows the same workflow (M.A.P.):
 3. **P** ropose changes via simple checklists that can be found on [guidelines](https://guidelines.sophilabs.io/projects/checklist)
 
 Note that the squads are not responsible for actually implementing the best practices proposed.
-Their execution should be part of the projects' goals and the team should talk about them on standups and retros.
+Their execution should be part of the projects' goals and the team should talk about them on
+standups and retros.
 
 ### Rules
 
@@ -1024,14 +1028,17 @@ a production environment or preparing for a launch. We use to document tasks suc
 - Are long-running processes such as email delivery being run in background jobs?
 - Are there redundant (at least two) web and background processes running?
 - Are we using SSL? (See "SSL Certificates" section below)
-- Are API requests being made via a separate subdomain (api.example.com)? Even if the same app, this gives us architectural flexibility in the future
-- Are deploys done manually at a scheduled time when teammates are fresh and available if something goes wrong?
+- Are API requests being made via a separate subdomain (api.example.com)? Even if the same app, this
+  gives us architectural flexibility in the future
+- Are deploys done manually at a scheduled time when teammates are fresh and available if something
+  goes wrong?
 - Do deploys follow a well-documented script?
 - Are we sending logs to a remote logging service?
 - Are we using a AWS RDS service?
 - Are we monitoring performance and uptime?
 
-We document the projects [manifesto](https://guidelines.sophilabs.io/projects/manifesto/) and [checklists](https://guidelines.sophilabs.io/projects/checklist) in guidelines.
+We document the projects [manifesto](https://guidelines.sophilabs.io/projects/manifesto/) and
+[checklists](https://guidelines.sophilabs.io/projects/checklist) in guidelines.
 
 ### Code Analysis Squad
 
@@ -1053,16 +1060,18 @@ Ensure that systems deployed by Sophilabs are high performing, scalable
 and always available; and that deployment processes are traceable,
 visible, reversible and reliable.
 
-**Systems**
+#### Systems
 
 - **Performance**: the overall response time of a system.
 - **Scalability**: is the capability of a system to handle a growing amount of work.
 - **Availability**: the probability that a system will work as required when required.
 
-**Processes**
+#### Processes
 
-- **Traceability**: the ability to associate a released version to its source ticket and commit, and to trace any exception.
-- **Visibility**: make the next release candidate version visible to stakeholders before actually releasing it.
+- **Traceability**: the ability to associate a released version to its source ticket and commit, and
+  to trace any exception.
+- **Visibility**: make the next release candidate version visible to stakeholders before actually
+  releasing it.
 - **Reversibility**: the ability to restore a system to a previous state
 - **Reliability**: the deployment process is reliable
 
@@ -1079,7 +1088,8 @@ simplicity and visibility.
 - **Predictability**: Estimated tasks were completed on time
 - **Satisfaction**: Team, client, and stake holders are happy
 - **Simplicity**: Doing only what is needed every time
-- **Visibility**: The team is traceable and all documents and resources are accessible. The team proactively communicates to keep everyone on the same page
+- **Visibility**: The team is traceable and all documents and resources are accessible. The team
+  proactively communicates to keep everyone on the same page
 
 ### Security Squad
 
@@ -1088,15 +1098,19 @@ simplicity and visibility.
 Protect Sophilabs and its clients assets: operations integrity and intellectual
 property by guaranteeing compliance with the highest possible security standards.
 
-- **Confidentiality**: Information, no matter its classification, is only seen or used by authorized users.
-- **Integrity**: Any unauthorized information changes are impossible (or at least detected), and changes by authorized users are tracked.
-- **Availability**: Information is accessible when authorized users need it, while accounting for proper balance between security and availability.
+- **Confidentiality**: Information, no matter its classification, is only seen or used by authorized
+  users.
+- **Integrity**: Any unauthorized information changes are impossible (or at least detected), and
+  changes by authorized users are tracked.
+- **Availability**: Information is accessible when authorized users need it, while accounting for
+  proper balance between security and availability.
 
 ### Software design Squad
 
 #### Objectives
 
-Ensure that Sophilabs’ Software Design best practices encourage simplicity, consistency, scalability & reusability.
+Ensure that Sophilabs’ Software Design best practices encourage simplicity, consistency, scalability
+& reusability.
 
 - **Simplicity** : Minimize the effort required to understand a project.
 - **Consistency** : Apply the same practices throughout the project and across similar projects.
@@ -1245,11 +1259,13 @@ skills are needed. The number of people needed determines the cost and how much 
 During the process of explaining our billing, we sometimes tell potential clients "time and
 materials" is the same as hiring an employee for their annual time with less risk to them because:
 
-- Our team is experienced. We've interviewed hundreds of candidates in order to find the talented group of people we work with today
+- Our team is experienced. We've interviewed hundreds of candidates in order to find the talented
+  group of people we work with today
 - We've worked together on projects before. We have "a way" of doing things
 - Short projects require less money
 - Our time is predictable (32 hours/week) and consistent
-- We can quickly rotate in a new team member if someone gets sick, leaves the company, or is ready to rotate to a new project
+- We can quickly rotate in a new team member if someone gets sick, leaves the company, or is ready
+  to rotate to a new project
 
 Clients always know what is happening via access to the project management
 system (Jira), chat room (Slack), version control system (Gitlab), and ongoing
@@ -1268,7 +1284,8 @@ The consulting proposal and contract contains:
 - Invoices will go out once a month
 - Agreement that both parties won't use any materials that violate someone else's copyright
 - Agreement that neither party will publish anything abusive or unethical to the web hosting provider
-- Agreement that the contract is mutually "at-will" meaning either side can decide to stop working with 15 days' notice
+- Agreement that the contract is mutually "at-will" meaning either side can decide to stop working
+  with 15 days' notice
 
 ## Hiring
 
@@ -1279,7 +1296,8 @@ The consulting proposal and contract contains:
 We've met our current teammates via:
 
 - [GitHub](http://github.com/)
-- [Python Meetup](http://www.meetup.com/py-mvd/) and [Javascript Meetup](http://www.meetup.com/mvd-js/) Meetups
+- [Python Meetup](http://www.meetup.com/py-mvd/) and
+  [Javascript Meetup](http://www.meetup.com/mvd-js/) Meetups
 - [Python](http://uy.pycon.org) and [Javascript](http://jsconf.uy) Conferences
 - [Buscojobs](http://www.buscojobs.com.uy/)
 
@@ -1332,8 +1350,7 @@ systems like GitLab and Slack, send them an
 Employment Agreement, notify accounting, and send them a welcome email.
 They will receive a welcome package, which includes a MacBook Pro, stickers, a printed copy of
 this playbook, and a t-shirt.
-Jira issues will be created for the hiring manager for any remaining items that haven’t yet 
-been completed.
+Jira issues will be created for the hiring manager for any remaining items that haven’t yet been completed.
 
 ### Mentors
 
