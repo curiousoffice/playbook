@@ -184,7 +184,7 @@ and processes as we do on client projects.
 
 ## Laptop
 
-![Laptop](\g1-/figures/laptop.jpg)
+![Laptop](./figures/laptop.jpg)
 
 ### MacBook Pro
 
@@ -206,7 +206,7 @@ the way we want.
 
 ## Technology
 
-![Technology](/figures/technology.jpg)
+![Technology](./figures/technology.jpg)
 
 Early in a project, we have to decide which platforms we'll use. Which platform depends on our ideas
 for solving the users' problems. For example, if they're construction workers on a job site, a
@@ -369,7 +369,7 @@ Most of the software we use has a permissive license:
 
 ## Methodology
 
-![Methodology](/figures/methodology.jpg)
+![Methodology](./figures/methodology.jpg)
 
 ### The Agile way
 
@@ -619,7 +619,7 @@ customer demands quickly.
 
 ## Product Design
 
-![Product Design](/figures/product-design.jpg)
+![Product Design](./figures/product-design.jpg)
 
 ### Wireframes
 
@@ -637,7 +637,7 @@ start implementing features within the wireframes.
 
 ## User Experience
 
-![User Experience](/figures/user-experience.jpg)
+![User Experience](./figures/user-experience.jpg)
 
 ### User Interface
 
@@ -695,7 +695,7 @@ Successful designs are usable.
 
 ## Development
 
-![Development](/figures/development.jpg)
+![Development](./figures/development.jpg)
 
 Our development practices are based on the [Agile Manifesto](http://agilemanifesto.org/principles.html)
 and a subset of the [XP practices](http://www.extremeprogramming.org/).
@@ -760,7 +760,7 @@ commands.
 
 ## Testing
 
-![Testing](/figures/testing.jpg)
+![Testing](./figures/testing.jpg)
 
 ### Test-Driven Development
 
@@ -830,7 +830,7 @@ CI test runs are triggered by GitLab post-receive hooks.
 
 ## Deployment
 
-![Deployment](/figures/deployment.jpg)
+![Deployment](./figures/deployment.jpg)
 
 In order to save time and money, we focus as much as possible on the client’s product and the
 outsource operations to external services.
@@ -882,7 +882,7 @@ There are no setup fees, monthly fees, or card storage fees
 
 ## Monitoring
 
-![Monitoring](/figures/monitoring.jpg)
+![Monitoring](./figures/monitoring.jpg)
 
 We use [New Relic](https://newrelic.com/) to monitor performance of production applications.
 Debugging performance might be the best part of a developer's job.
@@ -907,7 +907,7 @@ page and push it into a CDN, it will be the fastest option.
 
 ## Communications
 
-![Communications](/figures/comunications.jpg)
+![Communications](./figures/comunications.jpg)
 
 Everyone who works at sophilabs has the responsibility to engage professionally with clients.
 As a developer or designer, we are undoubtedly involved in emails, phone calls, or chats with
@@ -958,7 +958,7 @@ We have some security guidelines in order to keep confidential information safe.
 
 ## Squads
 
-![Squads](/figures/squads.jpg)
+![Squads](./figures/squads.jpg)
 
 We realized that in order to build a great company, it was necessary to divide our forces.
 One of our core values is to *“be bold”*, so keeping in line with that, we’ve developed the
@@ -1116,7 +1116,7 @@ its reliability, robustness and correctness in an execution environment.
 
 ## Sales
 
-![Sales](/figures/sales.jpg)
+![Sales](./figures/sales.jpg)
 
 We want to design and develop software.
 Before we can do that, we need clients to hire us. The following section details how our sales
@@ -1272,7 +1272,7 @@ The consulting proposal and contract contains:
 
 ## Hiring
 
-![Hiring](/figures/hiring.jpg)
+![Hiring](./figures/hiring.jpg)
 
 ### Recruitment
 
@@ -1386,7 +1386,7 @@ done to receive a higher raise in the future. Raises aren't given just for "show
 
 ## Operations
 
-![Operations](/figures/operations.jpg)
+![Operations](./figures/operations.jpg)
 
 Running a software-based business requires more than beautiful code or a popular product. Managing
 cash flow and taxes can feel unimportant or difficult but getting them right is as vital to our
@@ -1439,7 +1439,7 @@ candidate interviews, and company meetings.
 
 ## Community
 
-![Community](/figures/community.jpg)
+![Community](./figures/community.jpg)
 
 We've learned a ton from blog posts, tweets, and newsletters from others in the community.
 We encourage teammates to give back whenever they have something to contribute.
@@ -1468,7 +1468,7 @@ Lastly, move the card to "Live."
 
 ## Research
 
-![Research](/figures/research.jpg)
+![Research](./figures/research.jpg)
 
 Ongoing experiments are managed in our ["Research"](https://trello.com/b/0BdO1FTM/research)
 Trello board.
@@ -1516,7 +1516,7 @@ you think is reusable? Great! Here are some guidelines:
 
 ## Goodbye
 
-![Goodbye](/figures/goodbye.jpg)
+![Goodbye](./figures/goodbye.jpg)
 
 We are a group of people who enjoy crafting software for next-generation products.
 We hope the practices we've shared here will be helpful to you.
@@ -1524,7 +1524,7 @@ Thank you for reading.
 
 ## License
 
-![License](/figures/license.jpg)
+![License](./figures/license.jpg)
 
 The original idea comes from [Thoughtbot's playbook](https://playbook.thoughtbot.com), we took the
 great work they did and adapted it to our philosophy.
