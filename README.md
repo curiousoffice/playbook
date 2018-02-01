@@ -786,9 +786,7 @@ application. When executed for the first time, the test will fail. The developer
 code until the test passes.
 Once the test passes, the developer will commit the code into version control with a message such as:
 
-```text
-Author creates post
-```
+`Author creates post`
 
 The code is then run on the Continuous Integration server to make sure the acceptance test still
 passes in an environment that matches the production environment.
@@ -819,9 +817,7 @@ that gives us a hint on how to "fix the build."
 When we write the fix and commit to version control again, we'll get a "passing build" alert in
 Slack and via email. Click the alert and we see the passing build.
 
-```text
-Green is good.
-```
+`Green is good.`
 
 A solid test suite is an absolute requirement for a web application in our opinion. However, one
 major problem with test suites is that they get slow as they get large.
