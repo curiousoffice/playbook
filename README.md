@@ -29,7 +29,7 @@ We've learned from our experience that working with people that share the correc
 **Stay sharp**, a great product is the sum of perfectly well-thought-out
 details.
 
-**Be Honest**, never sacrifice honesty for politeness.
+**Be honest**, never sacrifice honesty for politeness.
 
 **Be a team player** helping pursuing other people’s goals as if they
 were your own.
@@ -70,8 +70,8 @@ Research and Innovation working group.
 ![Time](./figures/time.jpg)
 
 We work at a [sustainable pace](http://www.extremeprogramming.org/rules/overtime.html). We dedicate
-up to two days per month as “investment days”. We typically distribute investment days in the team
-in order to have at least one member dedicated to the project everyday. If a team member is absent
+up to two days per month as “investment days”. We typically distribute investment days throughout the team
+in a way that ensures at least one member is dedicated to the project everyday. If a team member is absent
 from client work because of illness or study holidays, we'll use investment days as extra client
 days to avoid slipping behind schedule. When taking time off during client work, we discuss how it
 will impact the schedule with other team members.
