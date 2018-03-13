@@ -1543,5 +1543,3 @@ The original idea comes from [Thoughtbot's playbook](https://playbook.thoughtbot
 great work they did and adapted it to our philosophy.
 
 [![License](https://licensebuttons.net/l/by-nc/3.0/88x31.png)](./LICENSE.md)
-
-Creative Commons Attribution-NonCommercial
