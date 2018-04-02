@@ -1,8 +1,8 @@
 # Playbook
 
-## Hello Sophilaber
+## Hello sophilaber
 
-![Hello Sophilaber](./figures/hello-sophilaber.jpg)
+![Hello sophilaber](./figures/hello-sophilaber.jpg)
 
 This is the team’s playbook, your playbook.
 
@@ -92,7 +92,7 @@ able to generate time investment reports within the tasks management tool.
 
 ### Activities
 
-When tracking time at Sophilabs we have to categorize the type of time investment we are doing by
+When tracking time at sophilabs we have to categorize the type of time investment we are doing by
 providing an Activity.
 They can be typed when creating the time entry in [Hours](https://hours.sophilabs.io), or by
 appending it as a hashtag in the tasks management system's time entry log, i.e.: "Deployed a new
@@ -1052,7 +1052,7 @@ Improve the quality of the code we write and help new team members adopt the bes
 
 #### Objectives
 
-Ensure that systems deployed by Sophilabs are high performing, scalable
+Ensure that systems deployed by sophilabs are high performing, scalable
 and always available; and that deployment processes are traceable,
 visible, reversible and reliable.
 
@@ -1091,7 +1091,7 @@ simplicity and visibility.
 
 #### Objectives
 
-Protect Sophilabs and its clients assets: operations integrity and intellectual
+Protect sophilabs and its clients assets: operations integrity and intellectual
 property by guaranteeing compliance with the highest possible security standards.
 
 - **Confidentiality**: Information, no matter its classification, is only seen or used by authorized
@@ -1105,7 +1105,7 @@ property by guaranteeing compliance with the highest possible security standards
 
 #### Objectives
 
-Ensure that Sophilabs’ Software Design best practices encourage simplicity, consistency, scalability
+Ensure that sophilabs’ Software Design best practices encourage simplicity, consistency, scalability
 & reusability.
 
 - **Simplicity** : Minimize the effort required to understand a project.
